@@ -29,6 +29,18 @@ export function DetailDrawer({ item, onClose, onCopy }: Props) {
               <span className="rounded-md bg-ink-50 px-1.5 py-0.5 text-[11px] text-ink-500">
                 {item.category}
               </span>
+              {(item.models ?? ['未注明']).map((m) => (
+                <span
+                  key={m}
+                  className={`rounded-md px-1.5 py-0.5 text-[11px] ${
+                    m === '未注明'
+                      ? 'bg-stone-100 text-stone-500'
+                      : 'bg-sky-50 text-sky-700'
+                  }`}
+                >
+                  {m}
+                </span>
+              ))}
               {!item.has_image && (
                 <span className="rounded-md bg-amber-50 px-1.5 py-0.5 text-[11px] text-amber-700">
                   待补图
@@ -79,6 +91,11 @@ export function DetailDrawer({ item, onClose, onCopy }: Props) {
                   {item.input}
                 </p>
               )}
+              <p>
+                <span className="text-ink-400">模型 · </span>
+                {(item.models ?? ['未注明']).join(' / ')}
+                {item.model_note ? `（${item.model_note}）` : ''}
+              </p>
             </div>
           )}
 

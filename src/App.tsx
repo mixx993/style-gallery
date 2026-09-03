@@ -5,11 +5,13 @@ import { Toast } from './Toast'
 import type { StylesData, StyleItem } from './types'
 
 const ALL = '全部'
+const ALL_MODELS = '全部模型'
 
 export default function App() {
   const [data, setData] = useState<StylesData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [category, setCategory] = useState(ALL)
+  const [model, setModel] = useState(ALL_MODELS)
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState<StyleItem | null>(null)
   const [toast, setToast] = useState<string | null>(null)
@@ -47,19 +49,42 @@ export default function App() {
     return map
   }, [data])
 
+  const modelCounts = useMemo(() => {
+    const map: Record<string, number> = { [ALL_MODELS]: data?.styles.length ?? 0 }
+    for (const s of data?.styles ?? []) {
+      const ms = s.models?.length ? s.models : ['未注明']
+      for (const m of ms) map[m] = (map[m] ?? 0) + 1
+    }
+    return map
+  }, [data])
+
+  const modelNav = useMemo(() => {
+    if (data?.models?.length) return data.models.map((m) => m.id)
+    return Object.keys(modelCounts).filter((k) => k !== ALL_MODELS)
+  }, [data, modelCounts])
+
   const filtered = useMemo(() => {
     if (!data) return []
     const q = query.trim().toLowerCase()
     return data.styles.filter((s) => {
       if (category !== ALL && s.category !== category) return false
+      const ms = s.models?.length ? s.models : ['未注明']
+      if (model !== ALL_MODELS && !ms.includes(model)) return false
       if (!q) return true
-      const hay = [s.name, s.category, s.suitable, s.prompt_zh, ...(s.tags ?? [])]
+      const hay = [
+        s.name,
+        s.category,
+        s.suitable,
+        s.prompt_zh,
+        ...(s.tags ?? []),
+        ...ms,
+      ]
         .filter(Boolean)
         .join('\n')
         .toLowerCase()
       return hay.includes(q)
     })
-  }, [data, category, query])
+  }, [data, category, model, query])
 
   const withImages = useMemo(
     () => (data?.styles.filter((s) => s.has_image).length ?? 0),
@@ -102,10 +127,14 @@ export default function App() {
     ...data.categories,
   ]
 
+  const titleBits = [
+    category === ALL ? '全部风格' : category,
+    model !== ALL_MODELS ? model : null,
+  ].filter(Boolean)
+
   return (
     <div className="min-h-full">
       <div className="mx-auto flex min-h-full max-w-[1400px]">
-        {/* Sidebar */}
         <aside className="sticky top-0 hidden h-screen w-56 shrink-0 flex-col border-r border-ink-100 bg-ink-50/80 px-4 py-8 md:flex lg:w-64 lg:px-5">
           <div className="mb-8 px-2">
             <h1 className="text-lg font-semibold tracking-tight text-ink-900">
@@ -119,31 +148,84 @@ export default function App() {
             </p>
           </div>
 
-          <nav className="scroll-thin flex-1 space-y-0.5 overflow-y-auto pr-1">
-            {navItems.map((c) => {
-              const active = category === c.id
-              return (
+          <nav className="scroll-thin flex-1 space-y-5 overflow-y-auto pr-1">
+            <div>
+              <p className="mb-1.5 px-3 text-[11px] font-medium uppercase tracking-wide text-ink-300">
+                风格分类
+              </p>
+              <div className="space-y-0.5">
+                {navItems.map((c) => {
+                  const active = category === c.id
+                  return (
+                    <button
+                      key={c.id}
+                      type="button"
+                      onClick={() => setCategory(c.id)}
+                      className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition ${
+                        active
+                          ? 'bg-white text-ink-900 shadow-sm ring-1 ring-ink-100'
+                          : 'text-ink-500 hover:bg-white/70 hover:text-ink-800'
+                      }`}
+                    >
+                      <span className="truncate">{c.id}</span>
+                      <span
+                        className={`ml-2 tabular-nums text-xs ${
+                          active ? 'text-ink-500' : 'text-ink-300'
+                        }`}
+                      >
+                        {counts[c.id] ?? 0}
+                      </span>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
+
+            <div>
+              <p className="mb-1.5 px-3 text-[11px] font-medium uppercase tracking-wide text-ink-300">
+                按模型
+              </p>
+              <div className="space-y-0.5">
                 <button
-                  key={c.id}
                   type="button"
-                  onClick={() => setCategory(c.id)}
+                  onClick={() => setModel(ALL_MODELS)}
                   className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition ${
-                    active
+                    model === ALL_MODELS
                       ? 'bg-white text-ink-900 shadow-sm ring-1 ring-ink-100'
                       : 'text-ink-500 hover:bg-white/70 hover:text-ink-800'
                   }`}
                 >
-                  <span className="truncate">{c.id}</span>
-                  <span
-                    className={`ml-2 tabular-nums text-xs ${
-                      active ? 'text-ink-500' : 'text-ink-300'
-                    }`}
-                  >
-                    {counts[c.id] ?? 0}
+                  <span>全部模型</span>
+                  <span className="ml-2 tabular-nums text-xs text-ink-300">
+                    {modelCounts[ALL_MODELS] ?? 0}
                   </span>
                 </button>
-              )
-            })}
+                {modelNav.map((m) => {
+                  const active = model === m
+                  return (
+                    <button
+                      key={m}
+                      type="button"
+                      onClick={() => setModel(m)}
+                      className={`flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition ${
+                        active
+                          ? 'bg-white text-ink-900 shadow-sm ring-1 ring-ink-100'
+                          : 'text-ink-500 hover:bg-white/70 hover:text-ink-800'
+                      }`}
+                    >
+                      <span className="truncate">{m}</span>
+                      <span
+                        className={`ml-2 tabular-nums text-xs ${
+                          active ? 'text-ink-500' : 'text-ink-300'
+                        }`}
+                      >
+                        {modelCounts[m] ?? 0}
+                      </span>
+                    </button>
+                  )
+                })}
+              </div>
+            </div>
           </nav>
 
           {data.usage && data.usage.length > 0 && (
@@ -160,13 +242,12 @@ export default function App() {
           )}
         </aside>
 
-        {/* Main */}
         <main className="min-w-0 flex-1 px-4 py-6 sm:px-6 lg:px-10 lg:py-8">
           <header className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <p className="text-sm text-ink-400 md:hidden">{data.title}</p>
               <h2 className="text-2xl font-semibold tracking-tight text-ink-900">
-                {category === ALL ? '全部风格' : category}
+                {titleBits.join(' · ')}
               </h2>
               <p className="mt-1 text-sm text-ink-400">
                 {filtered.length} 个结果
@@ -181,14 +262,13 @@ export default function App() {
                 id="search"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="搜索名称 / 提示词…"
+                placeholder="搜索名称 / 模型 / 提示词…"
                 className="w-full rounded-xl border border-ink-200 bg-white px-3.5 py-2.5 text-sm text-ink-800 outline-none placeholder:text-ink-300 focus:border-ink-400 focus:ring-2 focus:ring-ink-100"
               />
             </div>
           </header>
 
-          {/* Mobile category chips */}
-          <div className="mb-6 flex gap-2 overflow-x-auto pb-1 md:hidden">
+          <div className="mb-3 flex gap-2 overflow-x-auto pb-1 md:hidden">
             {navItems.map((c) => (
               <button
                 key={c.id}
@@ -201,6 +281,33 @@ export default function App() {
                 }`}
               >
                 {c.id} {counts[c.id] ?? 0}
+              </button>
+            ))}
+          </div>
+          <div className="mb-6 flex gap-2 overflow-x-auto pb-1 md:hidden">
+            <button
+              type="button"
+              onClick={() => setModel(ALL_MODELS)}
+              className={`shrink-0 rounded-full px-3 py-1.5 text-xs ${
+                model === ALL_MODELS
+                  ? 'bg-sky-700 text-white'
+                  : 'bg-white text-ink-500 ring-1 ring-ink-200'
+              }`}
+            >
+              全部模型
+            </button>
+            {modelNav.map((m) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => setModel(m)}
+                className={`shrink-0 rounded-full px-3 py-1.5 text-xs ${
+                  model === m
+                    ? 'bg-sky-700 text-white'
+                    : 'bg-white text-ink-500 ring-1 ring-ink-200'
+                }`}
+              >
+                {m} {modelCounts[m] ?? 0}
               </button>
             ))}
           </div>
@@ -223,7 +330,15 @@ export default function App() {
           )}
 
           <footer className="mt-16 border-t border-ink-100 pt-6 text-center text-xs text-ink-300">
-            本地预览 · 提示词整段复制使用
+            <a
+              className="underline-offset-2 hover:underline"
+              href="https://mixx993.github.io/style-gallery/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Pages
+            </a>
+            {' · '}提示词整段复制使用
           </footer>
         </main>
       </div>

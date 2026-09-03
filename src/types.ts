@@ -3,6 +3,11 @@ export type Category = {
   desc: string
 }
 
+export type ModelInfo = {
+  id: string
+  count: number
+}
+
 export type StyleItem = {
   id: string
   source: string
@@ -16,6 +21,9 @@ export type StyleItem = {
   has_image: boolean
   image: string
   url?: string | null
+  models?: string[]
+  model_note?: string
+  model_confidence?: string
 }
 
 export type StylesData = {
@@ -24,5 +32,6 @@ export type StylesData = {
   principle?: string
   usage?: string[]
   categories: Category[]
+  models?: ModelInfo[]
   styles: StyleItem[]
 }
