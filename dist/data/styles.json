@@ -1292,16 +1292,222 @@
       ],
       "model_note": "",
       "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-1",
+      "source": "x-public",
+      "name": "Y2K 三联照片拼贴（日系直闪）",
+      "category": "摄影与写实",
+      "tags": [
+        "Y2K",
+        "拼贴",
+        "直闪",
+        "日系",
+        "9:16"
+      ],
+      "suitable": "同一位成年女性做竖版 Y2K 三联拼贴，直闪数码相机感",
+      "input": "纯文字即可",
+      "prompt_zh": "制作一张超写实、高清、竖版 9:16 的 Y2K 风格照片拼贴，三个板块里都是同一位漂亮成年女性。可爱又迷人的日系美人，长而蓬松的深色丝滑长发，自然透亮的肌肤，柔和的狐系眼妆，长睫毛，亮泽粉唇，精致柔美的女性气质。\n\n顶部板块——极限特写自拍，直视镜头，一只眼睛睁开，另一只眼睛俏皮地眨眼，几缕发丝轻轻垂落，框住脸庞。\n\n中间板块——迷人的回眸姿势，身体转向一侧，同时回头看向镜头，蓬松长发自然飘动，轻柔地遮住部分脸庞。\n\n底部板块——贴近镜头的亲密特写，长发自然遮住一只眼睛，微微嘟嘴，梦幻又自信的表情。\n\n浅中性背景，真实的 2000 年代初 Y2K 数码相机美学，iPhone 直闪闪光灯，明亮的闪光高光，轻微自然的过曝，柔和阴影，复古数码颗粒，细微的动态模糊，随性不完美的构图。\n\n无文字，无水印，无畸变，无扭曲面部，无不对称眼睛，无重复特征，无面部变化，无模糊的面部细节。",
+      "prompt_en": "",
+      "url": "https://x.com/GongJuPie/status/2095389839390867501",
+      "has_image": true,
+      "image": "/images/x/2095389839390867501.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-2",
+      "source": "x-public",
+      "name": "风铃窗边 · 东方禅意极简封面",
+      "category": "海报与编辑",
+      "tags": [
+        "东方美学",
+        "禅意",
+        "极简海报",
+        "壁纸",
+        "9:16"
+      ],
+      "suitable": "换主体内容/场景意象/色彩几行，批量出同风格东方治愈封面",
+      "input": "纯文字即可",
+      "prompt_zh": "主题方向：东方禅意极简封面海报\n风格分支：女性审美轻盈型\n主体内容：一位女子站在窗边，抬手轻碰一枚风铃\n情绪母题：治愈、轻盈、微风感\n场景与意象：海盐蓝窗外色块、珊瑚粉花影、白色窗框、风铃、女子\n构图与空间：窗框位于画面中部形成简洁几何结构，人物位于下方偏侧，上方和窗外留出标题空间\n色彩控制：奶油白作为背景基底，海盐蓝用于窗外大色块，珊瑚粉用于花影点睛，风铃用极少量浅金；避免整图变粉蓝滤镜\n光线与质感：明亮室内柔光，清透干净，轻平面插画感\n画幅比例：9:16\n补充要求：整体要治愈、干净、轻盈，有小红书生活禅意封面感，不要灰雾",
+      "prompt_en": "",
+      "url": "https://x.com/liyue_ai/status/2095323390584430852",
+      "has_image": true,
+      "image": "/images/x/2095323390584430852.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-3",
+      "source": "x-public",
+      "name": "柔光蓝金纱丽肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "人像",
+        "柔光",
+        "南亚时装",
+        "肖像"
+      ],
+      "suitable": "暗底柔光下的蓝金纱丽/lehenga 优雅肖像",
+      "input": "纯文字即可",
+      "prompt_zh": "Elegant portrait of a woman in soft spotlight against a dark background, casting a clean shadow behind her. She wears a pastel blue lehenga with intricate gold embroidery and a sheer dupatta with pink and gold detailing. Floral accessories in her hair, long wavy black hair resting over her shoulders. Subtle jewelry: gold necklace, earrings, and bracelets adorned with small roses. Gentle smile, calm expression, warm light highlighting her face and outfit.",
+      "prompt_en": "",
+      "url": "https://x.com/TaliaAariz/status/2095643928724742477",
+      "has_image": true,
+      "image": "/images/x/2095643928724742477.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-4",
+      "source": "x-public",
+      "name": "树干巨型文字 · 运动广告摄影",
+      "category": "摄影与写实",
+      "tags": [
+        "超现实",
+        "品牌字样",
+        "森林",
+        "运动广告",
+        "2:3"
+      ],
+      "suitable": "把 NIKE/口号换成任意品牌字样，做树干雕刻巨字广告摄影",
+      "input": "纯文字；可改品牌与口号",
+      "prompt_zh": "A photorealistic redwood forest with a sporty atmosphere. In the trunk of a giant tree, letters the size of doors are carved: \"NIKE\" with its swoosh logo, and below in clean carved lines the slogan \"JUST DO IT\". A small woman in a yellow athletic jacket stands in the bowl of the N, running shoes and a water bottle resting on the ferns beside her. Shafts of cathedral light, ferns, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095605399932043726",
+      "has_image": true,
+      "image": "/images/x/2095605399932043726.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-5",
+      "source": "x-public",
+      "name": "蜂巢猫头鹰 · 自然超现实静物",
+      "category": "摄影与写实",
+      "tags": [
+        "猫头鹰",
+        "蜂巢",
+        "自然摄影",
+        "超现实",
+        "2:3"
+      ],
+      "suitable": "蜂巢质感动物/物体放进户外静物场景的超写实摄影",
+      "input": "纯文字即可",
+      "prompt_zh": "A photorealistic still. An owl perched on a weathered wooden table outdoors in nature beside a small timber cabin, its body made of intricately detailed hexagonal honeycomb cells — gold, translucent, a few cells still glistening — eyes dark amber. Soft daylight, a faint shaft of sun, moss at the table base, pines in the background. 100mm, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095591175277457552",
+      "has_image": true,
+      "image": "/images/x/2095591175277457552.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-6",
+      "source": "x-public",
+      "name": "灯笼组成的鹤 · 黄昏沼泽",
+      "category": "摄影与写实",
+      "tags": [
+        "鹤",
+        "灯笼",
+        "黄昏",
+        "倒影",
+        "2:3"
+      ],
+      "suitable": "用旧物拼装成鸟类形体的黄昏超写实场景",
+      "input": "纯文字即可",
+      "prompt_zh": "A photorealistic marsh at dusk. A great crane (the bird) standing in still water, its body assembled from old kerosene lanterns — some lit gold, some dark — the light doubling in the water. Reeds, a thin moon, 85mm, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095586653364527585",
+      "has_image": true,
+      "image": "/images/x/2095586653364527585.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-7",
+      "source": "x-public",
+      "name": "忘忧草植物学海报（1887 图版）",
+      "category": "海报与编辑",
+      "tags": [
+        "植物学海报",
+        "水彩",
+        "复古印刷",
+        "2:3"
+      ],
+      "suitable": "换成任意花卉名与图版编号，做复古植物学水彩海报",
+      "input": "纯文字；改花名与标题",
+      "prompt_zh": "A scientific botanical poster on cream paper. A single oversized forget-me-not painted in watercolor, roots and all, with tiny numbered labels on stem and petal. Title in italic serif at the top: \"FORGET-ME-NOT\". Subtitle: \"A FIELD PLATE\". Bottom: \"PLATE VII · 1887\". Pencil notes in the margin. Cream, indigo, green, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095583733264879803",
+      "has_image": true,
+      "image": "/images/x/2095583733264879803.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-8",
+      "source": "x-public",
+      "name": "极限运动等距立体模型（2×2）",
+      "category": "建筑与空间",
+      "tags": [
+        "等距",
+        "立体模型",
+        "极限运动",
+        "2x2",
+        "16:9"
+      ],
+      "suitable": "把极限运动主题换成任意 TOPIC/WORD，生成等距桌面立体模型四宫格",
+      "input": "纯文字；替换 [WORD]/[TOPIC]",
+      "prompt_zh": "2x2 grid, 16:9, do this for 4 extreme sports: <isometric_diorama_topology>        [ AI_INFER: ROOFING / AWNINGS ]       /                             /|      /   [ W ] [ O ] [ R ] [ D ]   / |  <-- Text forms the back wall.     /    (AI_INFER: Shelves/Props)/  |      Materials match [TOPIC].    +-----------------------------+   |    |                             |   |    |      [ AI_INFER: Mini ]     |   +    |      [ Character Pose ]     |  /    |                             | /    +-----------------------------+/    [ AI_INFER: Themed Floor Base ] </isometric_diorama_topology>  INSTRUCTION:  1. Render as a photorealistic, physical scale model on a desk. 2. The letters of [WORD] must be thick, architectural blocks. 3. Warm, cozy lighting glows from inside the structure.",
+      "prompt_en": "",
+      "url": "https://x.com/Gdgtify/status/2095576056077914552",
+      "has_image": true,
+      "image": "/images/x/2095576056077914552.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
     }
   ],
   "models": [
     {
       "id": "GPT Image 2",
-      "count": 33
+      "count": 41
     },
     {
       "id": "GPT Image",
       "count": 1
+    },
+    {
+      "id": "Meta Muse Image",
+      "count": 4
     },
     {
       "id": "未注明",
