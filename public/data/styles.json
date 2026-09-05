@@ -1494,12 +1494,92 @@
       ],
       "model_note": "",
       "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-1",
+      "source": "x-public",
+      "name": "藕雪入妆·古风妆台贵女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "古风",
+        "东方人像",
+        "柔雾妆",
+        "妆台写真",
+        "高贵感"
+      ],
+      "suitable": "适合生成柔雾古风贵女妆容写真、东方妆台人像和珠饰刺绣细节。",
+      "input": "纯文字即可",
+      "url": "https://x.com/liyue_ai/status/2095910114519863594",
+      "has_image": true,
+      "image": "/images/x/2095910114519863594.jpg",
+      "prompt_zh": "9:16 竖版，古风柔雾美妆特写，东方古典贵女妆台写真，人物坐在闺阁妆台前，身体正面轻微侧转，头部微微偏向镜头，一只手自然抬起轻触耳侧发丝，另一只手自然落在妆台附近，姿态安静柔和，神情温柔、甜润、精致，带富养大小姐般克制而高级的名媛气质。\n\n人物为视觉年龄约 20–28 岁、明确成年的年轻东方女性，温柔姐姐脸，柔和鹅蛋脸，额头自然饱满，面中丰润，轮廓流畅，下颌线细腻清楚。眉形舒展精致，眼睛为清亮修长杏眼，眼裂自然拉长，眼尾微微上扬，眼神温柔有神；鼻梁秀气流畅，鼻尖精致圆润；唇形柔软饱满，唇珠自然清楚，整体五官精致对称、年轻耐看，具有温柔女主感。\n\n妆容为 藕雪莓露柔雾妆。底妆清透细腻，肤色白净柔润，保留自然轻微肌理，不厚重、不油亮。眼妆使用浅莓粉、柔雾棕、淡玫瑰灰与细腻珍珠珠光渐层晕染，上眼睑以浅莓粉柔和铺色，眼尾使用柔棕轻微加深并自然拉长，眼中与卧蚕加入细碎珍珠光。睫毛纤长卷翘、根根分明。腮红为柔和圆润的莓粉色，重点分布在眼下与面中，存在感清晰但不浓艳。鼻梁、鼻尖和面中加入少量细腻柔光高光。唇妆为莓露感水润粉唇，带轻微玻璃光泽，唇峰与唇珠清晰，整体呈现温柔、细腻、甜润、富养的妆后气质。\n\n发型为黑色顺滑长发半挽结合圆润高位发髻，头顶自然蓬松，后部发量丰盈，长发顺滑垂落于肩后与胸前。发间搭配 藕粉贝母花钗、浅金枝叶发链、珍珠珠串、小型粉色玉石花片、细长金色流苏、透明珠滴，发饰层次精致丰富，但不遮挡脸部。耳饰为白玉、珍珠与浅金花枝组合的细长垂坠耳饰，整体材质细腻、轻盈、贵气。\n\n服装为 藕粉色交领上襦，外层加入轻薄半透明绢纱，衣襟、领缘、肩部与袖口带有大量细腻白色、浅粉与浅金花卉刺绣、珠绣和细密金线纹样；下装为雪白色绣花长裙，腰间以象牙白刺绣腰封固定；外搭浅莓灰与藕粉渐变柔纱披帛。人物上半身自然丰润，胸部饱满但服装覆盖得体，轮廓柔和，不低胸、不夸张暴露。服装整体精致、轻盈、华美，但不做影楼戏服感。\n\n场景为精致古风妆台，前景可见古铜色圆镜、打开的珍珠首饰盒、金色发簪、珍珠链与少量玉饰。背景包含淡粉纱帐、白梅枝、深木家具与暖白墙面，色彩以藕粉、雪白、暖木色、浅金和少量浅灰构成，服装与背景拉开层次，避免整张图统一偏粉。\n\n光线采用柔和暖白自然光与轻微侧前补光，人物双眼、眼影、腮红、唇妆、珠饰和刺绣细节清晰可见。皮肤呈柔润半哑光质感，高光集中在鼻梁、鼻尖、面中与唇峰，不形成全脸油光。背景浅景深柔和虚化，人物脸部与妆容始终为第一视觉中心。\n\n85mm 人像镜头，真实摄影质感，高完成度古风贵女美妆写真，细腻皮肤纹理，精致珠饰，高级刺绣面料，柔和浅景深，温柔、华美、名媛感、清透高级。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确标注 GPT Image 2。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-2",
+      "source": "x-public",
+      "name": "紫晶星辉·精灵巫女",
+      "category": "潮玩与角色",
+      "tags": [
+        "X",
+        "奇幻",
+        "精灵",
+        "魔法",
+        "紫色氛围",
+        "角色设计"
+      ],
+      "suitable": "适合奇幻角色概念图、紫色魔法氛围和精灵法师人像。",
+      "input": "纯文字即可",
+      "url": "https://x.com/Yeti_Images/status/2096029294870884463",
+      "has_image": true,
+      "image": "/images/x/2096029294870884463.jpg",
+      "prompt_zh": "",
+      "prompt_en": "A silver-haired elven sorceress with amethyst eyes and intricate glowing runes tattooed across her porcelain skin stands in ethereal twilight, wearing flowing robes of midnight silk embroidered with constellations that shift like living starlight, her expression a mysterious half-smile as she cradles a levitating orb of swirling nebula energy between her elegant fingers, while delicate wisps of violet arcane mist curl around her slender form in the soft bioluminescent glow of floating crystal motes.",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确标注 gpt-image-2。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-3",
+      "source": "x-public",
+      "name": "桃珊瑚霓虹·走廊随拍",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "潮流人像",
+        "青橙灯光",
+        "连贯角色",
+        "走廊",
+        "手机构图"
+      ],
+      "suitable": "适合统一角色外观、潮流街拍和青橙混合灯光的竖幅人像。",
+      "input": "纯文字即可",
+      "url": "https://x.com/emjay2788/status/2096045075977392370",
+      "has_image": true,
+      "image": "/images/x/2096045075977392370.jpg",
+      "prompt_zh": "",
+      "prompt_en": "TITLE\n\nCropped peach hoodie corridor lean, black bob, midriff, phone in hands\n\nPRIMARY GENERATION PROMPT\n\nPhotorealistic vertical medium shot, cropped from mid-thigh upward, of a young Japanese or Korean woman in her early 20s standing on the left side of the frame. Camera at roughly chest-to-eye height, slight three-quarter angle, looking slightly down toward her hands. She leans her left shoulder and back against a dark green vertical metal frame or doorway. She has a small refined face, light freckles across the nose and cheeks, dark almond eyes looking downward, straight brows, a small nose and softly parted lips. Hair is a chin-length straight black bob with clean bangs and a compact silhouette. She wears a cropped peach-coral pullover hoodie that ends well above the navel, exposing her midriff, with ribbed cuffs, a front pocket, hanging drawstrings and a small embroidered patch on the left chest; matching tight peach-coral athletic pants sit low on her hips. Several stacked beaded and fabric bracelets sit on her left wrist. Both hands hold a black smartphone at mid-torso height as she looks down at the screen. The setting is a modern indoor corridor with large glass walls, cool teal-cyan overhead lighting, and a warm orange neon sign glowing through the glass in the background. Floor is smooth and slightly reflective. Soft mixed lighting: cool fill from above and the side, warm orange rim and bounce from the neon. Shallow depth of field keeps her face, cropped hoodie and midriff sharp while the hallway recedes into soft blur. Colour grade is teal-and-peach with moderate contrast and natural skin texture.\n\nAVOID / NEGATIVE INSTRUCTIONS\n\nAvoid: long hair, ponytail, blonde or brown hair, Western facial features, extra fingers or distorted hands, plastic skin, full-length hoodie covering the midriff, changed hoodie or pants colour, missing bracelets, phone held differently, high-angle or full-body crop, bright daylight, outdoor street, cluttered background, text or logos other than the small chest patch, cartoon or illustration style, extra people.\n\nCONTROLLED VARIATIONS\n\nCamera or crop variation: Same pose and cropped hoodie, but tighter close-up from the chest up, camera slightly lower so the exposed midriff, hoodie hem and face fill more of the frame.\n\nLighting or time-of-day variation: Same corridor and pose, but warmer golden-hour light replacing the teal overheads, neon still visible but softer.\n\nPose, motion or expression variation: Same location and cropped hoodie, she looks up from the phone toward the camera with a calm, slightly tired expression while still leaning against the frame.\n\nEnvironment or art-direction variation: Same subject and cropped hoodie, relocated to a night-time train platform with similar mixed cool overhead and warm neon lighting.\n\nCONSISTENCY CONSTRAINTS\n\nYoung Japanese or Korean woman in her early 20s; chin-length straight black bob with bangs; cropped peach-coral hoodie exposing midriff and matching tight peach-coral pants; stacked wrist bracelets; black smartphone held in both hands; leaning pose against a vertical frame; teal-and-orange mixed lighting.\n\nASPECT RATIO\n\n2:3",
+      "models": [
+        "Flux",
+        "Imagine 2.0",
+        "GPT"
+      ],
+      "model_note": "原帖为同一提示词的 Flux、Flux + Photoshop、Imagine 2.0、GPT 对比，具体生成图与提示词未逐一绑定。",
+      "model_confidence": "confirmed"
     }
   ],
   "models": [
     {
       "id": "GPT Image 2",
-      "count": 41
+      "count": 43
     },
     {
       "id": "GPT Image",
@@ -1508,6 +1588,18 @@
     {
       "id": "Meta Muse Image",
       "count": 4
+    },
+    {
+      "id": "Flux",
+      "count": 1
+    },
+    {
+      "id": "Imagine 2.0",
+      "count": 1
+    },
+    {
+      "id": "GPT",
+      "count": 1
     },
     {
       "id": "未注明",
