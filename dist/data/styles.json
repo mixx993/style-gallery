@@ -1789,6 +1789,84 @@
       ],
       "model_note": "原帖上级帖明确写可用 GPT Image 2.0，回复提供完整提示词",
       "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-09-1",
+      "source": "x-public",
+      "name": "蝴蝶水彩混合肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "水彩",
+        "混合媒介",
+        "人物肖像",
+        "蝴蝶",
+        "艺术写真"
+      ],
+      "suitable": "适合把人物参考图转成兼具写实面部与透明水彩、蝴蝶细节的高质感艺术肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create a 2:3 vertical premium mixed-media watercolor portrait on off-white cold-pressed watercolor paper.\nUse the uploaded image only as the subject reference. Keep the subject’s natural features, overall appearance, and recognizable look intact, but do not let the image turn into a generic painted character.\nShow the subject in a bust-length three-quarter profile, facing slightly toward the viewer’s right, with the gaze directed softly off-camera. Keep the expression calm, warm, serene, and naturally pleasant, with a subtle gentle smile and bright relaxed eyes. The mood should feel elegant, fresh, dreamy, and refined — not sad, blank, tired, or overly serious.\nKeep the face highly realistic and softly photorealistic, not fully painted, not sketch-like, and not cartoonish. The face should be the main focal point. Use soft diffused natural-looking light, similar to indirect window light, to gently illuminate the forehead, nose bridge, cheeks, lips, and jawline, with delicate depth and soft shadows. Render realistic eyes with soft catchlights, defined brows, natural lips, smooth skin transitions, and fine hair strands.\nStyle the hair in an elegant loose low updo / low messy bun at the nape, with a few soft tendrils framing the face and neck. Intertwine subtle rustic botanical accents in the hair — tiny dried wildflowers in muted yellow, white, and blue tones — delicate, understated, and premium.\nAdd several detailed Monarch butterflies with vivid orange wings, black veins, black borders, and tiny white spots. Keep them crisp, refined, and slightly dimensional. Place multiple butterflies naturally around the portrait: some resting in the hair, one near the upper-right side, and others floating around the shoulders and lower frame. Their warm orange color should stand out beautifully against the cool watercolor tones.\nCreate a strong mixed-media double-exposure effect where parts of the portrait dissolve into watercolor blooms. This effect must be clearly visible across selected parts of the cheek, temple, jawline, neck, shoulder, and lower clothing area — not only in the background. The watercolor should feel translucent and layered over the realistic portrait, so the subject remains clearly realistic underneath.\nUse expressive watercolor washes in muted teal, seafoam green, dusty blue, soft gray, charcoal, and deep navy tones. Let the washes bloom naturally into the paper with wet-on-wet behavior, soft transparent bleeding, irregular edges, subtle blooms, and a few darker pooled edges where pigment appears to have dried. Allow the watercolor to expand organically into the negative space while keeping the face as the sharpest and most detailed focal area.\nDress the subject in a simple deep navy-blue top / blouse with a high rounded neckline and soft gathered or finely pleated texture around the shoulders and upper chest. The garment should look minimal, elegant, matte, and plain, with no collar, no buttons, no printed pattern, and no decorative embellishments. Keep the outfit close to the reference look. Let the lower portion of the top gradually dissolve into blue-gray watercolor splashes.\nPreserve the contrast between hyper-detailed realism and loose abstract watercolor forms. The final artwork should feel like a luxury fine-art portrait print that combines:\n\nphotorealistic portraiture\nabstract watercolor fusion\nsoft ethereal surrealism\ncrisp butterfly detailing\ncool watercolor tones contrasted with vivid orange butterflies\ntextured watercolor paper and handcrafted mixed-media realism\nOverall, the result should feel poetic, airy, elegant, and premium, with the viewer’s eye drawn first to the realistic face, then to the translucent watercolor overlays and butterflies surrounding the subject.",
+      "url": "https://x.com/HaniaAi12/status/2097493485775454716",
+      "has_image": true,
+      "image": "/images/x/2097493485775454716.jpg",
+      "models": [
+        "GPT Image 2.0"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-09-2",
+      "source": "x-public",
+      "name": "食物穿插字体海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "食品摄影",
+        "字体设计",
+        "品牌海报",
+        "编辑设计",
+        "餐饮营销"
+      ],
+      "suitable": "适合餐饮品牌、菜单和食品广告，生成食物与大字真实穿插、具有空间深度的竖版海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "[BRAND]: {brand name}\n[PRODUCT]: {food / dish}\n[HEADLINE]: {short bold word}\n[INTERACTION]: {tie a knot / interlock with type / weave over and under / pierce through type}\n[FOOD ELEMENT]: {pretzel rope / onion rings / bacon strips / skewer / other suitable food}\n[ACCENT COLOR]: {headline color}\n[DETAILS]: {ingredients / short copy / hours / address}\n\nCreate a 9:16 vertical food editorial poster combining highly realistic food photography with large, professionally designed typography.\n\nUse a warm cream or ivory background, subtle paper texture, clean editorial composition and minimal props.\n\nKeep [HEADLINE] large, flat, sharp and fully readable. The food must remain a real independent object and physically interact with the typography according to [INTERACTION].\n\nFor “tie a knot,” let one continuous edible strand move in front of and behind the letters, then form one clear physical knot with believable overlap, compression and contact shadows.\n\nFor “interlock with type,” use closed-loop foods such as rings. Let the food loops genuinely interlock with each other and with letter strokes, with opposite front and back relationships at different crossing points.\n\nFor “weave over and under,” use several continuous food strips. Alternate them clearly in front of and behind the typography, and allow one or two believable food-to-food crossings to create a real woven structure.\n\nFor “pierce through type,” use one rigid food element or skewer as a strong directional axis. Let it pass through letter counters and alternate between the front and back of the headline while remaining continuous from end to end.\n\nEvery interaction must have clear three-dimensional depth. Food in front should cast subtle contact shadows; food behind the letters must be genuinely hidden. Keep each food element’s thickness, texture, direction and structure continuous so the viewer can trace its full path.\n\nDo not turn food into letters, do not damage or distort the typography, and do not use fake holes, digital warp, generic 3D effects or decorative overlays.\n\nUse [ACCENT COLOR] with natural food colors and dark neutrals. Add only a few meaningful details such as [BRAND], product name, ingredients, one short line of copy, opening hours and address.\n\nThe final image should work as a stop-scroll poster at thumbnail size: one bold headline, one recognizable food structure and one immediately understandable physical interaction.\n\nKeep the typography intact, let the real food lock into its spatial structure.",
+      "url": "https://x.com/MrLarus/status/2097334947719586139",
+      "has_image": true,
+      "image": "/images/x/2097334947719586139.jpg",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-09-3",
+      "source": "x-public",
+      "name": "参考图风格精准迁移",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "参考图",
+        "风格迁移",
+        "摄影方案",
+        "人物生成",
+        "GPT Image"
+      ],
+      "suitable": "适合做同系列人物或视觉变体，在保留参考图布光、材质和构图节奏的同时更换角色与主题。",
+      "input": "文字或参考图",
+      "prompt_zh": "将附图作为摄影方案参考。保留它的曝光关系、光线方向、衣料质感和构图节奏；重新设计角色与主题配色。人物为成年人，不复制参考人物的脸。生成后对照原图检查：有没有擅自改变布光、加厚服装，或者把皮肤修得过度光滑？",
+      "prompt_en": "",
+      "url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "has_image": true,
+      "image": "/images/x/2097486896750338125.jpg",
+      "models": [
+        "GPT Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
     }
   ],
   "models": [
@@ -1817,8 +1895,16 @@
       "count": 1
     },
     {
+      "id": "GPT Image 2.0",
+      "count": 1
+    },
+    {
+      "id": "GPT Image 2.5",
+      "count": 1
+    },
+    {
       "id": "未注明",
-      "count": 32
+      "count": 33
     }
   ]
 }
