@@ -1867,16 +1867,178 @@
       ],
       "model_note": "",
       "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-1",
+      "source": "x-public",
+      "name": "秋日童趣分身",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "时尚杂志",
+        "真人插画",
+        "秋日氛围",
+        "日韩街头",
+        "双角色"
+      ],
+      "suitable": "适合制作真人与插画分身同框、兼具时尚质感和童趣的杂志式人像。",
+      "input": "文字或参考图",
+      "prompt_zh": "提示词：\n\n创作一张高度写实的 4:5 时尚杂志大片，画面右侧是一位年轻女性，左侧是一个儿童手绘风格的插画小女孩，作为她迷你的视觉分身。\n女性留着黑色偏深棕色的锁骨长度自然微卷发，带有轻薄自然的刘海，发丝蓬松柔软。她面带温柔自然的微笑，微微低头，目光看向身旁的插画女孩，整体气质安静、松弛、有亲和力。\n她身穿燕麦驼色短款麂皮夹克，略微宽松的版型，带有精致翻领、深棕色纽扣和自然的麂皮纹理；内搭雾霾蓝色圆领针织衫，领口露出一圈干净的白色衬衫领；下穿深巧克力棕色高腰 A 字中长裙，裙摆自然垂落至小腿下方。\n肩挎一只墨绿色小号复古皮革邮差包，皮革带有细腻自然的使用质感；脚穿奶油白色中筒袜和深棕色复古玛丽珍皮鞋。整体配色以燕麦驼、雾霾蓝、巧克力棕、奶油白和墨绿色组成，复古、克制又有秋日氛围。\n女性双手自然放松，一只手轻轻插入夹克口袋，身体略微朝向插画女孩，姿态自然，不刻意摆拍。\n插画小女孩的穿搭、颜色、发型、包包、鞋袜、姿态和情绪与女性完全一致，像女性缩小后的童年视觉分身。但女孩必须保持明显的儿童手绘插画质感：细腻而略带随性的铅笔与墨水线条、柔和透明的水彩上色、纸张般的纹理感、淡淡的粉色腮红、灵动的大眼睛和温柔微笑。不要把女孩处理成写实真人，也不要做成商业动漫角色。\n背景保持极简：做旧的暖浅灰色混凝土墙与略显粗糙的灰色水泥地面，没有家具、植物、装饰物或其他杂物。\n真人女性与插画女孩从头顶到鞋底完整入镜，两人之间保持自然距离，微微面向彼此并形成温柔的视觉互动。构图简洁平衡，四周保留充足留白，具有高级时尚杂志版面的呼吸感。\n使用柔和阴天自然光，光线均匀柔软，阴影细腻克制。真人部分强调真实皮肤纹理、自然发丝、麂皮、针织、棉质裙装和皮革材质的细节。\n50mm 全画幅相机，平视视角，f/4，自然人体比例，高分辨率，真实摄影质感。整体呈现高级、安静、简约的日韩街头时尚杂志美学，同时融入温暖、童趣的手绘插画元素。\n负面项：真人与插画女孩服装不一致、颜色不一致、发型不一致、人物身份改变、过度磨皮、塑料皮肤、脸部扭曲、手部畸形、多余手指、多余肢体、多余人物、插画女孩写实化、女性动漫化、女性卡通化、头顶被裁切、鞋子被裁切、裙摆被裁切、广角畸变、夸张人体比例、复杂背景、杂物、文字、水印、品牌 Logo。",
+      "prompt_en": "",
+      "url": "https://x.com/ChrisSlacker/status/2097857853675778456",
+      "has_image": true,
+      "image": "/images/x/2097857853675778456.jpg",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-10-2",
+      "source": "x-public",
+      "name": "橙黑龙纹少女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "动漫致敬",
+        "时尚人像",
+        "龙纹身",
+        "橙黑配色",
+        "烟雾"
+      ],
+      "suitable": "适合生成带动漫致敬感、纹身与烟雾细节突出的高对比时尚角色肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create an image from the following prompt :\nA young woman in her early 20s with long straight black hair and a bold white streak falling over one side, blunt bangs, sharp blue eyes lined in red, pale dewy skin. Intricate black dragon tattoos cover both arms and wrap across her midriff. She wears a tight black high-neck sleeveless crop top, an oversized white unbuttoned shirt slipping off her shoulders, and black cargo pants with large ornate gold dragon buckles at the hips. A sheathed katana sits at her side. She exhales a thick plume of white smoke drifting across the frame. Confident, slightly alluring pose, looking straight at the camera, hands near her waist. Solid vibrant orange-yellow background with a large black circular swirling emblem behind her covering 60% of background and has multiple outer rings. Dramatic rim lighting, cinematic color grade, ultra-detailed skin, fabric, metal, ink, and smoke. Shot on Canon EOS R5 85mm f/1.4, shallow depth of field, editorial fashion photography.",
+      "url": "https://x.com/tealdog2/status/2097858675516006538",
+      "has_image": true,
+      "image": "/images/x/2097858675516006538.jpg",
+      "models": [
+        "Grok Imagine V2",
+        "GPT Image 2",
+        "Krea2 Ultra V1"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-3",
+      "source": "x-public",
+      "name": "霓虹情侣肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "情侣肖像",
+        "身份保持",
+        "霓虹夜景",
+        "散景",
+        "纪实人像"
+      ],
+      "suitable": "适合用参考图保持面部身份，生成温暖浪漫、背景虚化的夜景情侣合照。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok\n② Add your image\n③ Paste the prompt\n④ Create the result\n\nUse the uploaded image as the only facial reference and preserve 100% facial identity, hairstyle, beard, skin tone, and natural skin texture.\nA medium shot of a young South Asian couple posing together, leaning against a silver metal railing at night. On the left, a man with a neatly groomed beard, dark hair, and a lean build wears a dark maroon button-up shirt and a wristwatch, resting his chin on his right hand. Beside him, a young woman with a slender build, soft facial features, and long dark hair, wears a beige floral-patterned traditional tunic, also resting her chin on her hands. Both are looking directly at the viewer with gentle smiles. They are centered in the frame against a blurred background of vibrant green foliage illuminated by colorful, bokeh-style neon lights in pink, blue, and yellow hues. The lighting is soft and warm, highlighting their faces and creating a romantic, inviting atmosphere. The composition is well-balanced, utilizing the railing as a foreground element to create depth. The style is that of a professional portrait, characterized by clear focus on the subjects and a creamy, out-of-focus background.",
+      "url": "https://x.com/DilshadAI1/status/2097857839675167184",
+      "has_image": true,
+      "image": "/images/x/2097857839675167184.jpg",
+      "models": [
+        "GPT Image 2",
+        "Nano Banana Pro",
+        "Gemini",
+        "Grok"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-4",
+      "source": "x-public",
+      "name": "双国微缩旅图",
+      "category": "建筑与空间",
+      "tags": [
+        "X",
+        "旅行海报",
+        "3D微缩",
+        "地理 diorama",
+        "巴基斯坦",
+        "菲律宾",
+        "奢华视觉"
+      ],
+      "suitable": "适合制作多地标融合、具有旅行海报排版和收藏级微缩立体感的目的地视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Premium sophisticated luxury travel-poster masterpiece combining Pakistan 🇵🇰 and the Philippines 🇵🇭 into one seamless original composition, 3:4 vertical format. Create a completely new high-end 3D miniature travel diorama inspired by the reference images, blending landscapes, architecture, culture and natural beauty into one connected world, not a split screen or simple collage.\nDESTINATION IDENTITY\nPakistan 🇵🇰 — From Mountains to the Sea — Feature snow-covered Himalayan and Karakoram peaks, Gilgit-Baltistan, Skardu, Hunza and Swat Valley with turquoise lakes, pine forests, rivers and mountain villages. Naturally transition toward Islamabad with Faisal Mosque, historic Lahore with Badshahi Mosque and Mughal architecture, then Peshawar, Quetta, Multan and finally the turquoise Arabian Sea with Gwadar and Karachi, coastal cliffs, boats and palm-lined waterfronts.\nPhilippines 🇵🇭 — Islands, Nature & Adventure — Feature turquoise lagoons, dramatic limestone cliffs, tropical forests, palm-covered islands, white beaches, colorful coastal villages, luxury resorts, historic churches, stone forts, yachts, traditional boats and crystal-clear ocean water.\nCOMPOSITION\nCreate one continuous miniature world showing a visual journey from Pakistan's snowy mountains and historic cities to its Arabian Sea coastline, naturally flowing into the tropical islands of the Philippines.\nUse an elevated cinematic perspective with strong foreground, middle-ground and background depth. Include miniature mountains, lakes, rivers, mosques, churches, forts, villages, roads, bridges, boats, yachts, palm trees and detailed vegetation.\nMake the entire scene look like an extraordinarily detailed premium collectible geographical model displayed on an elegant sculpted platform.\nTYPOGRAPHY\nUse elegant vintage-modern luxury travel typography with generous negative space.\nPAKISTAN • PHILIPPINES\nTWO NATIONS • ENDLESS BEAUTY\nMOUNTAINS • CULTURE • ISLANDS • ADVENTURE\n“From the Highest Peaks to Tropical Seas.”\nInclude accurate Pakistan 🇵🇰 and Philippines 🇵🇭 flags, refined serif lettering, subtle decorative lines and clean professional typography.\nART DIRECTION\nPremium international luxury travel campaign, hyper-realistic 3D miniature diorama, sophisticated architectural visualization, realistic geographical terrain, detailed cultural landmarks, cinematic travel photography, realistic mountains, tropical islands, crystal-clear water and premium collectible postcard aesthetic.\nBlend the majestic beauty of Pakistan with the tropical paradise of the Philippines into one harmonious artistic experience.\nCOLOR SYSTEM\nUse warm ivory, parchment cream, snowy white, Himalayan blue, turquoise, emerald green, sandstone, terracotta, tropical green and soft golden sunlight.\nKeep the colors naturally connected, transitioning from cool mountain tones into warm desert and vibrant tropical coastal colors.\nLIGHTING & ATMOSPHERE\nCinematic golden-hour lighting with warm sunlight across mountains, cities, islands and coastlines. Add subtle mountain mist, glowing windows, realistic water reflections, soft clouds and natural atmospheric depth.\nThe mood should feel majestic, peaceful, vibrant, adventurous and luxurious.\nQUALITY\nUltra-realistic, extremely detailed, premium architectural visualization, realistic miniature scale, authentic cultural architecture, detailed mountains and vegetation, realistic water reflections, cinematic HDR lighting, sophisticated depth of field, 8K-quality appearance, flawless composition and high-end travel-magazine aesthetic.\nNEGATIVE PROMPT\nNo split screen.\nNo separate posters.\nNo simple collage.\nNo hard division between countries.\nNo duplicated landmarks.\nNo distorted mosques, churches or buildings.\nNo unrealistic geography.\nNo incorrect flags.\nNo overcrowded composition.\nNo excessive text.\nNo misspelled words.\nNo harsh neon colors.\nNo cartoon style.\nNo watercolor or painterly style.\nNo flat 2D appearance.\nNo artificial-looking water.\nNo distorted boats or mountains.\nNo visual clutter.\nNo copied reference layout.\nNo watermark or logo.\nCreate a fresh, original, unified and luxurious travel-diorama composition celebrating Pakistan and the Philippines as two extraordinary worlds in one unforgettable journey.",
+      "url": "https://x.com/KrishnaBio1/status/2097853092880613845",
+      "has_image": true,
+      "image": "/images/x/2097853092880613845.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-5",
+      "source": "x-public",
+      "name": "星河荒漠侧影",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "双重曝光",
+        "天文人像",
+        "荒漠景观",
+        "艺术摄影",
+        "星空"
+      ],
+      "suitable": "适合制作人物侧脸与宏大星空、荒漠景观无缝融合的艺术感双重曝光海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Image Prompt:\n\nA cinematic double-exposure portrait of a rugged middle-aged astronomer shown in sharp side profile, facing right. He has windswept salt-and-pepper hair, a neatly textured beard, thoughtful eyes and a calm expression filled with curiosity.\n\nHis silhouette seamlessly contains an immense high-altitude desert beneath a brilliant night sky. A glowing Milky Way stretches diagonally across his head and face, surrounded by dense stars and several restrained meteor trails. On a tall sandstone ridge inside the silhouette, a an astronomer stands beside a telescope near a small silver observatory dome illuminated by warm amber light.\n\nThe lower half of the portrait opens into a majestic desert valley filled with monumental red-rock formations, a natural stone arch, distant mesas and a winding silver river reflecting the final light of sunset. The landscape transitions naturally from warm twilight near the horizon to a deep indigo star field above.\n\nHyper-detailed fine-art realism, seamless photographic collage, sophisticated editorial composition, realistic skin and hair texture, cinematic atmospheric depth, deep indigo, rust red, muted violet, amber and starlight-silver color palette. Clean warm ivory background, crisp silhouette edges with subtle fragments dissolving into stars, strong visual hierarchy, premium gallery-quality finish, vertical 4:5 composition. No text, logo, border, signature or watermark.",
+      "url": "https://x.com/nagarjuncreates/status/2097849620080808185",
+      "has_image": true,
+      "image": "/images/x/2097849620080808185.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-6",
+      "source": "x-public",
+      "name": "雨中古墓剧照",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "历史电影感",
+        "考古场景",
+        "写实摄影",
+        "维多利亚时代",
+        "雨雾氛围"
+      ],
+      "suitable": "适合生成历史冒险电影感、考古人物与遗迹细节并重的写实场景。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "An ultra-photorealistic cinematic scene set in 1850 inside a newly opened Celtic passage tomb beneath a rain-soaked British moor. A remarkably handsome, tall and powerfully built 30-year-old Victorian archaeologist carefully examines an intricate ancient bronze relic resting on a moss-covered stone altar. He has wavy light-brown hair, sea-green eyes, a square jaw, light stubble and a serious, intelligent expression.\n\nHe wears a historically accurate dark forest-green wool frock coat, ivory high-collared linen shirt, weathered brown waistcoat, charcoal trousers, muddy knee-high leather boots, a leather satchel and a practical expedition belt. He holds a glowing brass bullseye lantern low beside him while studying the relic.\n\nThe chamber contains carved Celtic knotwork, fragmented torcs, archaeological brushes, rolled survey maps, a brass compass, coiled rope and wooden field crates. Through a narrow stone entrance behind him, heavy rain falls across a misty moor while two distant expedition workers stand beside a canvas shelter.\n\nLow three-quarter camera angle, compelling off-centre composition, bronze relic prominent in the foreground, warm amber lantern light contrasting with cool blue-grey daylight, wet stone reflections, drifting dust, faint ground mist and realistic atmospheric depth. Authentic materials, natural skin texture, detailed period clothing, restrained colour palette of forest green, bronze, umber and slate. Prestigious historical adventure film still, 35mm cinematic photography, dramatic but physically believable lighting, photorealistic anatomy and hands, vertical 4:5 composition, no text, no logo, no watermark.",
+      "url": "https://x.com/nagarjuncreates/status/2097580788510540179",
+      "has_image": true,
+      "image": "/images/x/2097580788510540179.jpg",
+      "models": [
+        "GPT Image"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
     }
   ],
   "models": [
     {
       "id": "GPT Image 2",
-      "count": 48
+      "count": 52
     },
     {
       "id": "GPT Image",
-      "count": 1
+      "count": 2
     },
     {
       "id": "Meta Muse Image",
@@ -1903,8 +2065,28 @@
       "count": 1
     },
     {
+      "id": "Grok Imagine V2",
+      "count": 1
+    },
+    {
+      "id": "Krea2 Ultra V1",
+      "count": 1
+    },
+    {
+      "id": "Nano Banana Pro",
+      "count": 1
+    },
+    {
+      "id": "Gemini",
+      "count": 1
+    },
+    {
+      "id": "Grok",
+      "count": 1
+    },
+    {
       "id": "未注明",
-      "count": 33
+      "count": 34
     }
   ]
 }
