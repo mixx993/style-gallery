@@ -2029,6 +2029,114 @@
       ],
       "model_note": "",
       "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-1",
+      "source": "x-public",
+      "name": "柔性机甲海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "生物机甲",
+        "柔性超现实",
+        "粉彩",
+        "软CGI",
+        "海报构图",
+        "超现实尺度"
+      ],
+      "suitable": "适合把任意主体转成柔和梦幻、超现实尺度的未来机甲海报主视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "{机甲主题}，只参考主题核心识别信息，转译为柔性超现实机甲海报风。巨型漂浮机甲 / 机械生物，圆润有机的 biomorphic mech 轮廓，流线外壳，柔软曲面，半封闭机械结构，环状构件、翼状片体、鳍状延展，未来雕塑感。高明度低饱和粉彩配色，薄荷绿、雾蓝、奶白、柔粉、浅橙、冰蓝等根据主题自动适配。soft CGI，喷枪渐变，磨砂树脂、半透明塑料、轻雾玻璃、柔光金属材质。超现实尺度错置，巨大机甲悬浮于天空 / 花田 / 湖面 / 草地 / 白色展场上方，下方保留极小人物或地景作比例参照。海报式构图，大面积留白，独立艺术企划主视觉，少量克制英文排版。左上角 stylized V + cat logo，右下角手写签名 voxCAT，局部可有低调 VOXCAT 暗纹或铭牌。",
+      "prompt_en": "",
+      "url": "https://x.com/VoxcatAI/status/2098204872537735265",
+      "has_image": true,
+      "image": "/images/x/2098204872537735265.jpg",
+      "models": [
+        "Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-2",
+      "source": "x-public",
+      "name": "焦糖西装像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "写实人像",
+        "男士时装",
+        "极简棚拍",
+        "参考图",
+        "商业摄影",
+        "2:3竖构图"
+      ],
+      "suitable": "适合用参考图生成极简棚拍的写实男士时装全身肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Use the uploaded image as the composition, outfit, pose, and lighting reference. Create a photorealistic full-body studio portrait of an adult man in his mid-to-late 20s, standing confidently in a minimalist studio.\n\nGive him a clean short low-cut haircut with a neat taper fade and sharp natural hairline, a smooth clean-shaven face, natural masculine facial proportions, and a calm, confident expression while looking slightly away from the camera.\n\nDress him in a refined warm caramel-brown tailored suit consisting of a fitted single-breasted blazer and matching straight-cut trousers. Under the blazer, he wears a simple plain white crew-neck T-shirt, creating a clean smart-casual look. Add polished dark brown leather lace-up shoes with subtle black soles. No chain, necklace, earrings, or unnecessary accessories.\n\nRecreate the relaxed pose with both hands casually inside the trouser pockets, shoulders relaxed, body standing upright, and feet naturally spaced apart. Ensure the clothing fits realistically with natural fabric folds and accurate adult body proportions.\n\nUse a minimal light-gray studio background with a seamless gray floor. Lighting should be soft, diffused, and professional, producing natural skin tones, gentle shadows beneath the subject, subtle highlights on the suit fabric, and crisp facial detail.\n\nFull-body framing from head to shoes, centered composition, eye-level camera angle, editorial menswear photography, realistic skin texture, sharp focus, premium fashion campaign aesthetic, clean minimal styling, photorealistic, high detail, 4K quality, vertical 2:3 composition.",
+      "url": "https://x.com/abs_uiux/status/2098216202870964315",
+      "has_image": true,
+      "image": "/images/x/2098216202870964315.jpg",
+      "models": [
+        "GPT 2.5 image"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-3",
+      "source": "x-public",
+      "name": "文学混合封面",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "文学海报",
+        "微缩立体",
+        "石墨插画",
+        "复古书封",
+        "混合媒介",
+        "收藏级视觉"
+      ],
+      "suitable": "适合把任意主题转成复古书封、手工微缩场景、石墨插画与破页立体效果的收藏级主视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "2x2 grid, 16:9, do this for 4 systems of government: 2x2 grid, 16:9, do this for famous manga: <instructions> CONCEPT ANCHOR 1: \"Pastel storybook cutaway collectible diorama — spherical or capsule-like cross-sections, miniature rooms and habitats, matte toy materials, tiny props, plaque presentation, warm editorial lighting\"  :: CONCEPT ANCHOR 2: \"Vintage literary screenprint cover — cream paper field, limited duotone palette, tall condensed typography, silhouette profiles, embedded skylines and iconography, elegant poster frontality\"  :: CONCEPT ANCHOR 3: \"Graphite fantasy plate interrupted by dimensional page-burst drama — whisper-soft pencil rendering, atmospheric negative space, drifting dust and paper fragments, selective sculptural emergence from flat image space\"  INSTRUCTION: Find the exact visual center of these three concepts. Ignore the literal books, monsters, spaceships, authors, and riders. Capture only the style essence.  Render {$SUBJECT} as a deluxe literary-artifact hybrid image where the subject exists simultaneously as: 1. a finely crafted cutaway miniature world, 2. a classic screenprinted book-cover silhouette, 3. a soft graphite illustration with vast breathing room, 4. and a partially ruptured page-space where select elements burst forward into dimensional reality.  STYLE RULES: - Main composition should feel like a collector’s edition book-cover poster for {$SUBJECT}. - The outer silhouette or framing device should be iconic and poster-readable from far away. - Inside that silhouette, AI should infer a tiny layered micro-world built from handcrafted miniature diorama logic. - The micro-world should include inferred props, architecture, creatures, tools, furniture, terrain, machinery, ornaments, or symbolic story fragments drawn from {$SUBJECT}. - Most of the composition should retain elegant restraint: cream paper, negative space, clean typography zones, and selective pencil softness. - One or two focal elements should rupture the flat printed world and emerge forward with suspended debris, torn paper fibers, dust motes, broken margins, and dimensional energy. - Use tactile material contrast: matte miniature surfaces, flat ink print fields, graphite softness, and sharp burst-depth accents. - Typography should be inferred from {$SUBJECT}: title, subtitle, author-like credit, edition badge, or series plaque. - Layout should feel premium, collectible, literary, and gallery-worthy.  COLOR RULES: - Base field: warm cream, parchment, pale ivory. - Main print palette: infer one restrained duotone family from {$SUBJECT}. - Diorama interior: softened pastel variants of the same palette, with subtle toy-like warmth. - Graphite zones: smoky grays, silver pencil values, soft edge falloff. - Burst zones: one higher-contrast accent family inferred from the emotional charge of {$SUBJECT}.  OUTPUT: A premium hybrid literary key art for {$SUBJECT} that feels like a vintage cover, a handcrafted miniature museum piece, a graphite illustration, and a book-page eruption frozen in one elegant image.",
+      "url": "https://x.com/Gdgtify/status/2098193553470226903",
+      "has_image": true,
+      "image": "/images/x/2098193553470226903.jpg",
+      "models": [
+        "GPT Images 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-4",
+      "source": "x-public",
+      "name": "人物档案海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "人物海报",
+        "写实摄影",
+        "3D破框",
+        "信息设计",
+        "传记档案",
+        "时间轴"
+      ],
+      "suitable": "适合将人物及其成就做成写实、破框道具、信息切片和时间轴结合的传记海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "《人物3D立像档案》通用提示词： 请创作一张竖版 3:4「现代人物3D立像档案海报」。 主题人物：【人物姓名】 人物身份：【科学家 / 企业家 / 艺术家 / 作家 / 教育家 / 医学家等】 核心成就：【一句话概括他/她改变了什么】 代表道具：【最能代表这个人物的物品】 主色调：【根据人物领域选择，例如金黄稻田 / 科技蓝 / 戈壁灰 / 医学青绿等】 画面中央是一位高度写实的现实主义人物主视觉，人物要像真实站在镜头前，具有纪实摄影质感、电影级光影、真实皮肤纹理、真实服装材质和清晰面部细节。 人物一只手将【代表道具】朝镜头前伸，形成强烈近大远小、破框而出的 3D 视觉冲击。道具必须完整可见、清晰真实、有材质细节，不能被裁切，不能变形，不能糊掉。 四周加入 6-8 个轻质悬浮的信息切片，每个切片包含关键年份、事件标题、小图像和简短说明，用来呈现人物的重要经历、代表成就和时代影响。信息切片要半透明、轻盈、有细线连接，不要厚重卡片感，不要喧宾夺主。 左侧设置人物大标题【人物姓名】，搭配身份说明和一句简短精神概括。底部设置一条轻量时间轴，串联人物一生的重要节点，使用细线、小圆点和简洁年份，不要做成厚重底栏。 整体风格：现实主义人物摄影 + 电影海报 + 人物传记档案 + 现代信息设计。 重点：人物要真实，道具要冲出来，信息要轻，时间线要清楚。\n\n参数组：可以让gpt写\n\n人物姓名\n代表道具： \n核心成就： \n主色调： \n\n示例：\nSam Altman｜ChatGPT / OpenAI\n\n代表道具：一枚悬浮在掌心前方的“AI 神经核心”，由六重交织环形结构、发光节点与流动字符构成，可以借鉴 OpenAI 式几何语言，但避免直接把巨大 Logo 当成唯一主体。\n\n核心成就：推动生成式人工智能走向大众，让自然语言成为人与人工智能交互的重要入口。\n\n人物身份：科技企业家 / AI产业推动者\n\n3D动作：Sam Altman 身穿极简深色针织衫或西装，一只手向镜头伸出，掌心托起正在运转的 AI 神经核心。最前端的核心明显突破画框，内部可见文字、代码、图像、语音等多模态信息汇聚。\n\n信息切片可选：2015 OpenAI成立、2022 ChatGPT发布、2023 GPT-4、2024 多模态模型演进、AI Agents、人工智能基础设施。\n\n主色调：极简黑 / 冷银 / 微弱青白光\n\n视觉关键词：\n黑色无限空间、银色神经网络、白色数据粒子、极简实验室、AGI 概念、悬浮计算核心。\n精神概括：\n「让机器理解人类的语言。」",
+      "prompt_en": "",
+      "url": "https://x.com/XiaoKooeye/status/2098209841311560127",
+      "has_image": true,
+      "image": "/images/x/2098209841311560127.jpg",
+      "models": [
+        "Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
     }
   ],
   "models": [
@@ -2047,6 +2155,10 @@
     {
       "id": "Flux",
       "count": 1
+    },
+    {
+      "id": "Image 2.5",
+      "count": 2
     },
     {
       "id": "Imagine 2.0",
@@ -2082,6 +2194,14 @@
     },
     {
       "id": "Grok",
+      "count": 1
+    },
+    {
+      "id": "GPT 2.5 image",
+      "count": 1
+    },
+    {
+      "id": "GPT Images 2.5",
       "count": 1
     },
     {
