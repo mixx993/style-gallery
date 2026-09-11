@@ -1,0 +1,2212 @@
+{
+  "title": "风格提示词馆",
+  "subtitle": "固定风格库 · 可复制 · 对照效果图",
+  "principle": "固定风格能稳住：像什么、不像什么、什么不许改。",
+  "usage": [
+    "有参考图就先上传，再贴对应风格的整段提示词",
+    "把方括号 [ ] 里的内容换成主体",
+    "不要拆开用，整段一起贴"
+  ],
+  "categories": [
+    {
+      "id": "建筑与空间",
+      "desc": "沙盘、效果图、室内、地标"
+    },
+    {
+      "id": "海报与编辑",
+      "desc": "杂志、封面、拼贴、记忆卡、字体海报"
+    },
+    {
+      "id": "摄影与写实",
+      "desc": "CCD、胶片、人像、随手拍"
+    },
+    {
+      "id": "动画与插画",
+      "desc": "吉卜力、皮克斯、水墨、手绘"
+    },
+    {
+      "id": "潮玩与角色",
+      "desc": "手办、盲盒、立绘、卡牌"
+    },
+    {
+      "id": "产品与电商",
+      "desc": "白底棚拍、爆炸图、静物"
+    },
+    {
+      "id": "影视与氛围",
+      "desc": "赛博朋克、新海诚、电影感"
+    },
+    {
+      "id": "UI 与信息",
+      "desc": "App 截图、信息图、笔记"
+    },
+    {
+      "id": "方法与工具",
+      "desc": "反推、骨架、锁句、公式"
+    },
+    {
+      "id": "X 收集",
+      "desc": "尚未归类的 X 公开收集"
+    }
+  ],
+  "styles": [
+    {
+      "id": "gpt2-01",
+      "source": "gpt-image-2-handbook",
+      "name": "建筑沙盘 / Blender·C4D 微缩模型",
+      "category": "建筑与空间",
+      "tags": [],
+      "suitable": "实景建筑、街道、教堂、老房子 → 像手作比例模型。",
+      "input": "必须上传照片。",
+      "prompt_zh": "把这张照片精确重建成建筑三维微缩沙盘。\n\n严格保留参考图中的空间布局、比例、主体体量、立面材料、台阶、墙面、管道、街道物件、植被和标志性细节。\n\n将场景重建为干净的等距建筑模型，略微抬高的 3/4 视角，像放在方形台座上的实体比例模型。\n\n风格：高端建筑可视化、微型 maquette、柔和写实材质、几何简化但准确、轻微倒角、边缘清晰、克制细节，不要夸张风格化。\n\n材质尽量贴近原图，但略微柔化、降饱和：哑光砖、喷漆金属、混凝土、瓷砖、玻璃、植被。\n\n光线：左上方柔和棚拍日光，漫射阴影落在米白背景上，转角和接缝有环境光遮蔽，不要强烈明暗对比。\n\n背景：暖米白 / 象牙纸质感，极简编辑呈现。\n\n镜头：正交或接近正交的等距视角，俯角约 35–45 度，不要广角畸变。\n\n构图：只保留照片中的建筑及其紧邻元素。去掉无关背景楼、天空、行人、车辆、招牌、杂物和摄影噪点，除非它们构成场景身份。\n\n最终效果应像精心手工制作、在 Blender 或 Cinema 4D 里渲染的建筑比例模型，而不是电子游戏、卡通、体素或写实照片。\n\n对参考图保持高几何保真。保留真实场所的不对称和小瑕疵，不要把建筑做成通用模板。\n\n整个重建场景下方放一块方形底座板，底座下有柔和接触阴影。\n\n不要文字、标签、字体、边框。",
+      "prompt_en": "Transform this photo into a precise architectural 3D miniature diorama.\n\nPreserve the exact spatial layout, proportions, major architectural forms, facade materials, stairs, walls, pipes, street objects, vegetation, and distinctive landmarks from the reference image.\n\nReconstruct the scene as a clean isometric architectural model, viewed from a slightly elevated 3/4 angle, like a physical scale model placed on a square plinth.\n\nStyle: high-end architectural visualization, miniature maquette, soft realistic materials, simplified but accurate geometry, subtle bevels, crisp edges, restrained detail, no exaggerated stylization.\n\nMaterials should closely match the source photo but be slightly softened and desaturated: matte brick, painted metal, concrete, ceramic tile, glass, vegetation.\n\nLighting: soft studio daylight from upper left, diffuse shadows cast onto an off-white background, ambient occlusion in corners and joints, no dramatic contrast.\n\nBackground: warm off-white / ivory paper texture, minimal editorial presentation.\n\nCamera: orthographic or near-orthographic isometric view, approximately 35–45° downward angle, no wide-angle distortion.\n\nComposition: isolate only the architecture and immediate surrounding elements visible in the photo. Remove unrelated background buildings, sky, people, cars, signage, clutter, and photographic noise unless they are important to the identity of the scene.\n\nThe final result should feel like a carefully handcrafted architectural scale model rendered in Blender or Cinema 4D, not like a videogame, cartoon, voxel art, or photorealistic photograph.\n\nHigh geometric fidelity to the reference image. Preserve asymmetry and small imperfections from the real place rather than making the architecture generic.\n\nSquare base slab under the entire reconstructed scene, with soft contact shadow beneath it.\n\nNo text, no labels, no typography, no border.",
+      "has_image": true,
+      "image": "/images/gpt2-01.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-02",
+      "source": "gpt-image-2-handbook",
+      "name": "等距城市 / 地标沙盘",
+      "category": "建筑与空间",
+      "tags": [],
+      "suitable": "一座城、一个国家、一个地标，白底展台上的微缩世界。",
+      "input": "纯文字即可；有地图或航拍图更好。",
+      "prompt_zh": "超精细、摄影级等距微缩沙盘：[城市或地标]。\n整座场景坐在一块薄而平整的正方形台砖上，台砖放在纯米白无缝棚拍背景里，下方有柔和落影。\n台砖侧边露出薄薄一层深色泥土/木质切面，像专业建筑模型底座。\n高角度等距俯视约 45–50 度，前方一角朝向画面下方。\n\n台面铺满该地真实街道网格、本地建筑、可识别地标（位置和相对尺度要准）、广场、公园、河流或海岸（如有）。\n地标不要放大变形，不要发明不存在的建筑。\n\n风格：移轴微缩摄影，全画面合焦，不要虚化。\n上方柔和均匀日光，漫射阴影，PBR 材质，环境光遮蔽。\n禁止卡通、低多边形、玩具感、纪念品摆件感。\n\n构图：沙盘占画面下 2/3，上方留大面积米白。\n不要文字、不要边框。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/02.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-03",
+      "source": "gpt-image-2-handbook",
+      "name": "照片上半 / 纸上微缩模型下半",
+      "category": "海报与编辑",
+      "tags": [],
+      "suitable": "旅行照、人像、静物做成杂志对页。",
+      "input": "上传照片。竖版 3:4。",
+      "prompt_zh": "请将上传照片做成一张独立的高级设计海报，不要多图拼接。\n整体 3:4 竖版，上下两个区域高度严格 1:1，各占 50%。\n\n上半部分保留原始照片：主体结构、真实质感、自然光影和原有色彩只做轻微杂志调色。\n为适配画幅可自然扩展天空或地面，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的主体、轮廓、姿态与叙事关系，重构为极简等距插画，像陈列在纸面上的微缩立体模型或建筑沙盘。\n不要机械复刻照片细节，用概括体块、清晰边缘、简洁层级和微型场景关系重新表达，保留一眼可辨的身份，同时安静、克制、诗意。\n\n等距视角、微缩景观、纸面模型感：主体像被切割后安放在一小块纸面或微型基座上，周围大面积留白，用体量对比、边缘裁切、轻微投影和少量微小细节建立尺度感。\n\n可在留白处放一句细瘦、克制的现代编辑文字，沿基座或水平轴线排列。\n整体参考极简等距插画、微缩立体模型、纸上景观和高级编辑设计。",
+      "prompt_en": "把上传照片做成竖版 4:5 混合媒介记忆卡，严格上下 50/50。\n上半：原图完全不变，只加轻微胶片颗粒。\n下半：暖米白手造纸，可见纤维；只把主体重画成深色蜡笔速写，线条松、带孔版印刷颗粒；加一句手写短句点题。\n安静、怀旧、莫兰迪、留白充足。\n不要边框、贴纸、logo、卡通矢量，也不要改动上半原图。",
+      "has_image": true,
+      "image": "/images/gpt2-03.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-04",
+      "source": "gpt-image-2-handbook",
+      "name": "手办泡罩包装 / Action Figure",
+      "category": "潮玩与角色",
+      "tags": [],
+      "suitable": "真人、角色、品牌 IP 做成货架手办。",
+      "input": "上传人脸/角色图效果最好。",
+      "prompt_zh": "一个风格化可动人偶，密封在高级塑料泡罩包装里，正面棚拍。\n纸卡背板有光泽，顶部大号无衬线标题写着「[名字]」，下方小字标语「[一句话]」。\n人偶直立站在泡罩中央，姿态是 [姿态]，旁边模塑隔层里放着 [配件1] 和 [配件2]。\n人物五官和服饰必须能一眼认出参考对象，但比例改成收藏级手办：头略大、关节可见、油漆分件清晰。\n棚拍顶光，干净米白背景，地面有轻微倒影。\n不要动漫二维、不要照片级皮肤、不要额外文字。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/04.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-05",
+      "source": "gpt-image-2-handbook",
+      "name": "盲盒 / 泡泡玛特风",
+      "category": "潮玩与角色",
+      "tags": [],
+      "suitable": "IP、宠物、自己做成潮玩。",
+      "input": "",
+      "prompt_zh": "Pop Mart 风格盲盒搪胶 statuette：[主体]。\nQ 版比例，头大身短，釉面光滑，大而亮的眼睛带星点高光。\n配色：[主色] + [辅色]，服装是 [服装]。\n站在微型主题底座上：[底座]。\n白色棚拍背景，柔和顶光，产品摄影，可见细微塑胶接缝和喷漆边缘。\n不要真人皮肤、不要写实人偶、不要文字。",
+      "prompt_en": "",
+      "has_image": true,
+      "image": "/images/gpt2-05.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-06",
+      "source": "gpt-image-2-handbook",
+      "name": "吉卜力 / 宫崎骏手绘动画",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "自拍、风景、日常场景转动画静帧。",
+      "input": "有照片就上传。",
+      "prompt_zh": "把参考图转成吉卜力工作室动画静帧。\n保留人物身份、发型、服饰和场景空间关系，但改成手绘赛璐珞 + 水彩背景。\n柔和粉彩与暖大地色，空气透视，树叶和云有手绘笔触，光是漫射的午后阳光。\n五官简化、眼睛有神但不做成现代厚涂二次元。\n不要 3D、不要写实照片、不要过度锐化、不要文字。",
+      "prompt_en": "吉卜力风格：一个安静的日式小镇街道，木屋、暖黄窗灯、风铃、树影。\n一位[人物]骑车经过。柔焦、空气感、手绘背景、温暖治愈。",
+      "has_image": true,
+      "image": "/images/gpt2-06.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-07",
+      "source": "gpt-image-2-handbook",
+      "name": "皮克斯 / 3D 动画静帧",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "皮克斯风格 3D 动画静帧：[场景]。\n圆润体积、皮下散射皮肤、可见毛发或织物纤维、电影级全局光照。\n表情清晰可读，略带故事感。\n镜头 [景别]，浅景深，背景有柔和散景。\n不要写实真人、不要动漫线稿、不要文字。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/07.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-08",
+      "source": "gpt-image-2-handbook",
+      "name": "白底产品棚拍",
+      "category": "产品与电商",
+      "tags": [],
+      "suitable": "电商主图。可上传产品图做场景替换。",
+      "input": "",
+      "prompt_zh": "高端产品棚拍：[产品]，[角度，如 3/4 正面]。\n纯白或浅灰无缝背景，柔和顶光 + 一盏轮廓光，接触阴影干净。\n材质真实：正确反光、微划痕、标签文字清晰可读。\n构图居中，四周留白方便抠图。\n不要道具堆砌、不要生活场景、不要虚假倒影文字。",
+      "prompt_en": "[产品]放在[表面，如黑色大理石 / 亚麻布]上，周围只有[1–2 个道具]。\n自然侧光，暖色，商业静物摄影，微距质感。",
+      "has_image": false,
+      "image": "/images/08.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-09",
+      "source": "gpt-image-2-handbook",
+      "name": "爆炸视图 / 零件分解图",
+      "category": "产品与电商",
+      "tags": [],
+      "suitable": "电子产品、球鞋、机械。",
+      "input": "",
+      "prompt_zh": "[产品]的高精度爆炸视图。\n主体居中，零件沿中轴有序分离，每件保持正确相对位置和比例。\n浅灰技术背景，细指引线，零件名称用清晰无衬线小字标注。\n材质写实，棚拍光，工程图册气质。\n不要艺术化扭曲，不要漏标关键零件。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/09.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-10",
+      "source": "gpt-image-2-handbook",
+      "name": "等距小场景 / SaaS 插画风",
+      "category": "海报与编辑",
+      "tags": [],
+      "suitable": "封面、博客头图、产品介绍。",
+      "input": "",
+      "prompt_zh": "45 度俯视等距微型 3D 场景：[场景主题] 沙盘，放在木质展示台上。\n精致 PBR 材质，统一构图，极简美学。\n建筑里嵌着这些小道具：[道具1]、[道具2]、[道具3]。\n柔光箱照明，轻微环境光遮蔽。\n主色：[色1] 和 [色2] 的粉彩色板。\n正方形 1:1，主体居中，大量负空间。\n不要文字，除非我另行指定。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/10.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-11",
+      "source": "gpt-image-2-handbook",
+      "name": "游戏角色立绘 / 收藏级 3D 海报",
+      "category": "潮玩与角色",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "高级风格化 3D 角色海报：[角色名]，全身，正面居中。\n头略大、玩具感比例，表情简化但有神。\n穿着 [服装]，装备 [道具]，自然融入服装不要堆砌。\n受控配色：[主色] 背景 + 服装互补色 + 石墨色五金小高光。\n材质可触摸：织物、尼龙、哑光塑料、拉丝金属、橡胶、半透明护目镜。\n软电影棚灯，清晰剪影，干净地面阴影。\n左上角一个紧凑标题「[标题]」，字要小，让位给角色。\n竖版 4:5。不要写实皮肤，不要二维动漫。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/11.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-12",
+      "source": "gpt-image-2-handbook",
+      "name": "集换式卡牌 / 全息闪卡",
+      "category": "潮玩与角色",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "一张高级全息闪卡，竖版 3:4。\n中央：[角色] 动态姿势，电影光。\n边框：金色花纹，四角符文图标。\n顶栏大写衬线字：LEGENDARY\n底栏铭牌：「[角色名]」，三个小属性图标（力量 / 速度 / 魔力）带数字。\n全息箔面、轻微颗粒、棚拍背景。\n卡面文字必须清晰可读、拼写正确。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/12.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-13",
+      "source": "gpt-image-2-handbook",
+      "name": "信息图 / 知识海报",
+      "category": "海报与编辑",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "一张干净的平面信息图，标题精确写为：「[标题]」。\n白色或米白背景，统一图标风格，无衬线字体，留白充足。\n\n版式：\n- 顶部：标题 + 一句副标题「[副标题]」\n- 中部：横向 [N] 个步骤，每步一个图标 + 短标签\n  1. [步骤1]\n  2. [步骤2]\n  3. [步骤3]\n- 底部一行小字来源：「[来源]」\n\n不要装饰插画抢字，不要把标题改写，不要错别字。",
+      "prompt_en": "",
+      "has_image": true,
+      "image": "/images/gpt2-13.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-14",
+      "source": "gpt-image-2-handbook",
+      "name": "App / 网页 UI 截图",
+      "category": "UI 与信息",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "一张高保真手机 UI 截图，iPhone 比例，浅色模式。\nApp 名称：「[名称]」，界面是 [页面类型，如首页 / 设置 / 详情]。\n清晰导航栏、可读中文文案（按我写的原文排，不要改写）：\n- 标题：[标题]\n- 按钮：[按钮文案]\n圆角卡片、细分割线、系统级间距，像真实产品截图而不是概念插画。\n纯浅灰背景，手机外框可选。\n不要假数据乱码，不要把字写成 Lorem ipsum。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/14.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-15",
+      "source": "gpt-image-2-handbook",
+      "name": "杂志封面 / 大字海报",
+      "category": "海报与编辑",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "一张印刷级杂志封面，竖版 4:5。\n刊名精确为「[刊名]」，字要大、压在主视觉上但仍可读。\n封面人物/主体：[主体描述]。\n主标题精确为：「[主标题]」\n三条封面导读，字号小于主标题：\n- [导读1]\n- [导读2]\n- [导读3]\n左上角期号「[日期]」。\n摄影棚或街头编辑摄影，胶片颗粒轻微。\n所有文字必须拼写正确，不要额外乱加字。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/15.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-16",
+      "source": "gpt-image-2-handbook",
+      "name": "胶片 / 柯达人像",
+      "category": "摄影与写实",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "柯达 Portra 400 胶片人像：[人物]。\n[镜头，如 50mm / 85mm]，光圈 f/1.8，自然皮肤纹理和毛孔，不要磨皮。\n光线：[窗光 / 金色时刻侧逆光]。\n色彩：暖高光、青绿色阴影、轻微颗粒。\n表情自然，不要广告假笑。\n不要美颜滤镜、不要塑料皮肤、不要文字。",
+      "prompt_en": "编辑棚拍特写。画面整体黑白，只有 [某个物件，如橙色墨镜] 保留鲜艳原色。\n表情冷静，直视镜头。软正面光，可见皮肤纹理。",
+      "has_image": true,
+      "image": "/images/gpt2-16.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-17",
+      "source": "gpt-image-2-handbook",
+      "name": "纸艺 / 衍纸浮雕",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "高细节 3D 衍纸浮雕：[主题]。\n全部由卷曲、层叠的纸条构成，能看出纸的厚度、切口和层间阴影。\n干净浅灰棚拍背景，顶光在每层纸下投下真实落影。\n不要画成平面插画，不要照片级皮肤。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/17.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-18",
+      "source": "gpt-image-2-handbook",
+      "name": "粘土 / 黏土定格",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "定格动画粘土模型：[主体]。\n能看到指纹、工具刮痕和色块接缝。\n微缩布景，柔和棚灯，略带手工温度。\n不要光滑 3D 渲染，不要真人皮肤。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/18.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-19",
+      "source": "gpt-image-2-handbook",
+      "name": "乐高 / 积木场景",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "乐高积木场景：[场景]。\n所有物体由可见颗粒积木搭成，包括人物的圆点眼睛和爪形手。\n底座是灰色标准底板。棚拍，轻微积木高光。\n不要把积木做成平滑雕塑。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/19.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-20",
+      "source": "gpt-image-2-handbook",
+      "name": "像素画",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "16-bit 像素艺术：[主体]。\n清晰像素网格，有限调色板（12–16 色），1 像素描边。\n[景别]，透明或纯色背景，适合做游戏素材。\n不要抗锯齿模糊，不要写成 3D。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/20.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-21",
+      "source": "gpt-image-2-handbook",
+      "name": "水彩 / 水墨",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "透明水彩：[主体]。\n纸纹可见，颜料在边缘晕开，留白透气，淡铅笔底稿若隐若现。\n不要数码厚涂，不要描死的黑线。",
+      "prompt_en": "中国水墨：[主体]。\n焦浓淡湿，大面积留白，书法用笔，宣纸质感。\n可落一小方印章，不要现代字体标题。",
+      "has_image": false,
+      "image": "/images/21.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-22",
+      "source": "gpt-image-2-handbook",
+      "name": "线稿 / 建筑速写",
+      "category": "动画与插画",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "黑白线稿：[主体]。\n白底黑线，线宽有变化，强调外轮廓，少量排线表示体积。\n干净、清晰，像速写本一页。\n不要上色，不要阴影渲染，不要文字标注（除非我列出要标的尺寸）。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/22.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-23",
+      "source": "gpt-image-2-handbook",
+      "name": "赛博朋克夜景",
+      "category": "影视与氛围",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "赛博朋克电影静帧：[主体] 站在雨夜街道。\n霓虹品红与青色，湿沥青倒影，蒸汽，远景全息广告。\n变形宽银幕，轻微镜头眩光，高对比。\n不要卡通，不要白天。",
+      "prompt_en": "",
+      "has_image": true,
+      "image": "/images/gpt2-23.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-24",
+      "source": "gpt-image-2-handbook",
+      "name": "新海诚天空",
+      "category": "影视与氛围",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "新海诚风格动画背景：[场景]。\n极细的云层与耶稣光，夕阳把城市和铁路染成金橙与青紫。\n空气透视强，光斑和镜头眩光克制。\n人物若出现则小、背对或侧面，让位给天空。",
+      "prompt_en": "",
+      "has_image": true,
+      "image": "/images/gpt2-24.png",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-25",
+      "source": "gpt-image-2-handbook",
+      "name": "建筑效果图（不是沙盘，是写实渲染）",
+      "category": "建筑与空间",
+      "tags": [],
+      "suitable": "已有体量图、草图、素模截图。",
+      "input": "",
+      "prompt_zh": "把这张图做成写实建筑渲染。\n保持建筑体量、门窗洞口、栏杆和围墙形状完全不变。\n材质：[列出材质]。\n环境：[城市 / 郊野 / 海边]，时间：[黄金时刻 / 阴天 / 夜景]。\n室内若可见，要有暖光外溢，室外偏冷。\n画质像 3ds Max + V-Ray / Unreal Engine 5，准确阴影和玻璃反射。\n不要改平面，不要增加不存在的楼层，不要文字。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/25.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-26",
+      "source": "gpt-image-2-handbook",
+      "name": "室内装修效果图",
+      "category": "建筑与空间",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "把这张毛坯/平面图做成室内效果图。\n风格：[现代简约 / 日式 / 工业 / 法式]。\n固定不动的：墙体位置、窗洞、门洞。\n材质与家具：[列出]。\n镜头：人眼高度，自然透视，不要超广角畸变。\n白天窗光为主，辅一盏暖色落地灯。\n不要换户型，不要堆满无用装饰，不要文字。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/26.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-27",
+      "source": "gpt-image-2-handbook",
+      "name": "平面图转娃娃屋",
+      "category": "建筑与空间",
+      "tags": [],
+      "suitable": "",
+      "input": "",
+      "prompt_zh": "把这张平面图做成 3D 娃娃屋俯视。\n每个房间位置、门窗开口、墙段相对长度必须和平面图一致。\n去掉天花板，墙高大约到膝盖，保证所有房间可见。\n浅木地板，暖白墙，柔和日光，轻微接触阴影，素净背景。\n不要改动房间数量和相对关系。",
+      "prompt_en": "任务：[把参考图转成 / 生成] [风格名]。\n保真：[必须保留的结构、身份、文字、比例]。\n风格锁定：[材质 + 镜头 + 光线 + 背景 + 时代参考]。\n构图：[比例] [主体位置] [留白]。\n禁止：[最容易塌成的错误风格，至少写 3 个]。\n文字：[没有 / 或精确写出每一句，禁止改写]。",
+      "has_image": false,
+      "image": "/images/27.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "gpt2-skeleton",
+      "source": "gpt-image-2-handbook",
+      "name": "万能骨架（发明新风格）",
+      "category": "方法与工具",
+      "tags": [
+        "骨架"
+      ],
+      "suitable": "自己发明新风格时用",
+      "input": "文字",
+      "prompt_zh": "任务：[把参考图转成 / 生成] [风格名]。\n保真：[必须保留的结构、身份、文字、比例]。\n风格锁定：[材质 + 镜头 + 光线 + 背景 + 时代参考]。\n构图：[比例] [主体位置] [留白]。\n禁止：[最容易塌成的错误风格，至少写 3 个]。\n文字：[没有 / 或精确写出每一句，禁止改写]。",
+      "prompt_en": "",
+      "has_image": false,
+      "image": "/images/skeleton.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-prompts-1",
+      "source": "x-public",
+      "name": "混合媒介记忆卡（4:5 上下对分）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/nuannuan_share/status/2094355023073513501",
+      "has_image": true,
+      "image": "/images/x/2094355023073513501.jpg",
+      "prompt_zh": "把上传的照片转成一张竖版 4:5 混合媒介记忆卡，上下严格 50/50 对分。\n\n上半部分：原照片完全不动，主体、构图、光线、色彩和细节全部保留，只加一层细微的胶片颗粒。\n\n下半部分：暖白色手工纸，能看到明显纤维，上面有一块从照片取色的柔和不规则色斑。只把主体重画成极简深色蜡笔速写，线条松散、不追求完美，带一点 Risograph 印刷颗粒感。再写一句简短的手写英文短句，贴合照片的情绪。\n\n风格：安静、怀旧、莫兰迪色调、有触感、优雅、留白充足。\n\n避免：多余元素、杂乱、边框、贴纸、logo、光泽效果、卡通或矢量风，以及任何对原照片的改动。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-prompts-2",
+      "source": "x-public",
+      "name": "日间高亮 CCD 生活照（模块化写真模板）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094346189864874437",
+      "has_image": true,
+      "image": "/images/x/2094346189864874437.jpg",
+      "prompt_zh": "摄影风格：日间清亮高光CCD生活照风\n写真方向：都市高级生活写真\n场景方向：现代建筑观景电梯外平台 / 透明玻璃护栏 / 银白电梯结构 / 高层城市背景\n服装方向：水晶紫色修身方领针织短袖 + 冷白色高腰包臀短裙\n气质标签：清冷、精致、明亮、高级、克制\n五官方向：清冷电影淡颜\n身形方向：轻盈纤细\n线条强调：强\n镜头方向：大腿及上半身\n姿态动作：站在玻璃护栏附近，一只手拿小包，微笑着静看向镜头\n光线氛围：晴天高色温自然光 + 玻璃和银白结构形成中性高亮反射\n滤镜效果：高亮清晰冷白CCD色彩 + 干净肤色 + 明亮中间调 + 稳定黑位\n画幅比例：9:16\n补充要求：水晶紫必须清楚鲜亮而不是灰紫，背景城市适度虚化，整体避免商务广告感",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-3",
+      "source": "x-public",
+      "name": "东方禅意极简封面海报（新中式壁纸模板）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094268600379212237",
+      "has_image": true,
+      "image": "/images/x/2094268600379212237.jpg",
+      "prompt_zh": "主题方向：东方禅意极简封面海报\n风格分支：明亮新中式型\n主体内容：一位古风女子站在白墙竹影旁，手扶一扇半开的木门\n情绪母题：清醒、温暖、轻松东方感\n场景与意象：白墙、青竹影、橘子橙圆形日光、木门、女子\n构图与空间：人物位于下方偏右，白墙占据大面积背景，橘色圆形日光位于上方偏左，形成标题区和主视觉平衡\n色彩控制：暖白墙面作为高明度基底，青竹绿用于竹影和少量植物，橘子橙只用于圆形日光和局部暖色反光，木门用浅原木色；避免整图橙绿过满\n光线与质感：明亮午后日光，清晰投影，干净平面海报感\n画幅比例：9:16\n补充要求：整体要明快温暖，有小红书新中式封面感，不要厚重古风和灰调水墨",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-4",
+      "source": "x-public",
+      "name": "iPhone 夜间随手拍「无AI感」写实生活照",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094285124032667918",
+      "has_image": true,
+      "image": "/images/x/2094285124032667918.jpg",
+      "prompt_zh": "9:16 竖版，真实 iPhone 手机普通主摄夜间模式随手拍摄的生活感女性照片，一位视觉年龄约 20–26 岁的年轻成年东方女性，具有自然明确的东方女性特征，不过度欧美化，不显年龄偏大，没有未成年感。整体风格为凌晨独处情绪下的真实生活抓拍，场景位于夜晚厨房、打开的冰箱前，空间安静、私密、带轻微独处感和生活气息。背景可见真实公寓厨房细节：打开的冰箱，冰箱内部冷白灯光，门内摆放饮料和调味瓶，台面上有水杯、厨房毛巾、水槽、柜门、窗外隐约可见的城市夜景，整体像真实有人居住的厨房，而不是样板间或摄影棚。\n\n人物气质慵懒、安静、轻微迷糊、亲近、自然，有一点深夜起身拿水时的松弛感。五官方向为真实生活中长得很好看的年轻东方女性，柔和鹅蛋脸，清亮杏眼，眼神安静自然，鼻梁清秀流畅，唇形柔软克制，只有轻微淡妆，五官比例协调但保留轻微自然不对称，不要网红脸，不要商业模特脸。皮肤保留真实毛孔、轻微肤色不均、轻微面部纹理和少量自然油光，不磨皮，不塑料皮，不瓷娃娃感。\n\n发型为黑色长发随意挽成略微松散的丸子头，额前和脸侧有自然碎发，带一点刚起身时的凌乱感，真实生活化，不做精致造型。\n\n人物身形为丰腴自然曲线型，腰线自然清晰，腰胯转折真实，臀腿线条圆润流畅，肩颈线柔和，整体身体比例协调健康。线条强调较强，但必须通过贴身家居裙、自然站姿和冰箱冷光勾勒出来，不靠夸张扭腰、挺胸或刻意翘臀。\n\n服装为奶咖色贴身吊带家居",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-5",
+      "source": "x-public",
+      "name": "韩式平面插图 · 上下 1:1 多巴胺海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/didicvj7/status/2094328835001172398",
+      "has_image": true,
+      "image": "/images/x/2094328835001172398.jpg",
+      "prompt_zh": "请为我上传的每张照片制作一张独立的高端设计海报，不要多图拼贴，每张照片都要单独输出。整体采用3：4的垂直构图，上下部分高度严格为1：1，每个部分占据画面的50%。 上半部分保留了原始照片，保留了主结构、逼真的质感、自然光线与阴影以及原有色彩氛围，仅通过细微的高端摄影色彩调色，营造出艺术杂志、独立出版物或展览摄影的感觉。为了符合画面，你可以自然延伸环境背景，但不拉伸、扭曲或改变主体。 下半部分从照片中提取了最具辨识度的主体、轮廓、姿势和叙事关系，将它们重构成一幅轻松笨拙的韩式平面编辑插图。保留原图的整体布局、物体关系和核心动作，但去除逼真的光影、透视和材质细节，将主体简化为圆润、简洁、略带夸张的几何形状，搭配粗糙、抖动、部分破损的手绘黑色轮廓和纯色填充，保持图像即刻可识别且不过于写实。 构图保持一个清晰的视觉中心，其他元素作为辅助点缀，通过大小差异、错位、遮挡、细微裁剪和不完全对称性，营造出俏皮的节奏。背景采用大面积明亮的纯色和负空间来支撑主体，保留左右或部分完整的色块作为缓冲空间，避免杂乱场景，使图像更像精心设计的儿童图画书或独立编辑插图，而非卡通化的照片。 色彩调色板从上方照片中提取最鲜艳、最易识别的颜色，将其转化为高色度、高纯度、有限数量的平面色块；你可以使用鲜艳的蓝色、红色、黄色、绿色、白色及其他色彩关系，带有孩童般的张力，但不会机械地套用固定的配色方案。背景与主体形成鲜明的",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-6",
+      "source": "x-public",
+      "name": "等距城市地图浅浮雕旅行海报（沙盘感）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/lovimg_com/status/2094299615000760365",
+      "has_image": true,
+      "image": "/images/x/2094299615000760365.jpg",
+      "prompt_zh": "请将我上传的每一张旅行照片分别制作成一张独立的3:4竖版编辑海报，每张照片单独输出，不进行多图拼贴。\n\n上半部分保留原始照片，占画面约50%，准确保持照片中的主体身份、建筑结构、地形关系、观察角度、真实材质、自然光影和原有色彩氛围。仅进行轻微高级摄影调色与极薄胶片颗粒处理，不要把照片重新绘制成插画，不要移动、扭曲、替换或新增主体。\n\n下半部分从同一张照片中提取最具识别性的建筑、道路、水岸、屋顶、地标或交通物，重构为一块紧凑的等距城市地图浮雕。使用30度左右等距视角、分层建筑体块、清晰切口、可见侧面厚度、阶梯式地形、短接触阴影和哑光纸板或矿物石膏材质。它应该像一件放在米白色纸面上的浅浮雕城市模型，而不是平面地图、普通几何插画或光滑的3D城市模型。\n\n不要逐栋复制所有建筑，只保留2至4个最重要的地标和少量道路、水系或屋顶关系。主动改变下半部分的主体尺度、裁切方式和信息密度，使其明显区别于上方照片。模型可以缩小并偏向一侧，四周保留大面积连续的米白色留白，不要把下半部分填满。\n\n颜色从原照片中提取并压缩为5至8种低饱和自然色，保留当地建筑和水域的色彩特征。使用暖灰、砂岩色、灰蓝、褪色砖红、墨绿、炭灰和米白等关系色，避免塑料感、霓虹色和游戏地图风格。\n\n在下半部分留白区域加入少量可读的媒介化文字：\n主标题：“[1–3个英文单词标题]”\n字段：“[地点或主题] / RELIEF [编号]”\n观",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-7",
+      "source": "x-public",
+      "name": "极简旅行手帐绘本插画",
+      "category": "动画与插画",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/lovimg_com/status/2094308658113024368",
+      "has_image": true,
+      "image": "/images/x/2094308658113024368.jpg",
+      "prompt_zh": "请根据我上传的【原始照片】，将照片重新创作为一幅极简旅行手帐绘本插画\n\n重点不是把照片完整画出来，而是把照片内容大幅提炼、删减和概括，只留下这一刻最值得记住的视觉元素\n\n请保留原照片中最核心的内容：\n主体身份特征 / 主体的姿势、动作、朝向 / 主体之间的位置关系 / 最有辨识度的场景元素 / 原始照片的大致构图和故事感\n\n但请主动删掉大部分真实细节，不要完整重绘整张照片\n\n画面处理原则：将真实照片转化为——极简钢笔线稿 + 手帐速写 + 淡彩平涂 + 粗糙干刷色块 + 日系生活绘本感 + 大量留白的纸本插画。插画部分必须高度概括、简洁、克制，像旅行中在手帐上快速记录下来的一个小场景。\n\n主体处理：人物、动物或主体不要画得很大；请将主体明显缩小，放在画面中下部或中央偏下位置，让主体像一个小小的记忆片段；人物不要精细刻画五官，不要画成漂亮细致的人像插画；通过轮廓、动作、发型、服装和姿势保留辨识度即可；动物保留品种、毛色、姿态和轮廓，但仍然极简化。\n\n场景处理：场景只保留最有辨识度的1–3个元素（如树、山、草坡、海面、船、教堂、建筑轮廓、云、窗户、栏杆、石头、道路等）；只能用少量线条和少量色块概括，不要把复杂背景全部保留。\n\n线条风格：细、轻、自然、略带抖动感和手工感的黑色线条；线条不要太多、不要过密、不要工整、不要矢量感、不要漫画勾线感；轮廓可以断续、松弛、简洁。\n\n上色方式：色彩必",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-8",
+      "source": "x-public",
+      "name": "黑白铅笔炭笔烟雾肖像（身份锁定）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/lovimg_com/status/2094300199464390706",
+      "has_image": true,
+      "image": "/images/x/2094300199464390706.jpg",
+      "prompt_zh": "以上传的照片作为此人唯一的身份参考。\n\n将此人转化为一幅高级黑白艺术肖像：舒适地坐着，一边阅读一本摊开的书，一只手拿着小咖啡杯。\n\n保留身份特征：保持此人可辨认的面部结构、眼睛、眉毛、鼻子、嘴唇、下颌线、皮肤特征、发型、发质以及整体相似度，忠实于上传的参考照片。\n\n姿势：人物以放松、优雅的姿态坐着，自然低头看向摊开的书，正在阅读。一只手轻轻握着陶瓷咖啡杯，另一只手托着或扶着摊开的书。姿势应自然、安静、不做作。\n\n服装：在合适的情况下保留参考照片中人物的服装，呈现真实的织物质感和自然褶皱。整体穿搭保持精致、低调。\n\n艺术风格：将整个场景转化为精细的单色铅笔与炭笔素描，结合写实编辑肖像摄影风格。使用极其细腻的石墨铅笔线条、精致的交叉排线、写实的炭笔明暗、细腻的纸张纹理、微妙的墨迹笔触、手绘边缘和柔和的色调过渡。\n\n烟雾效果：人物周围环绕优美流动的炭笔烟雾、石墨粉尘、细腻的素描颗粒和墨迹线条。烟雾应自然地围绕人物的头发、肩膀、手臂、衣服、书本和下半身浮现，逐渐淡入白色背景。\n\n咖啡杯：陶瓷咖啡杯必须清晰可辨地出现在人物手中，完全用写实的铅笔和炭笔明暗呈现。\n书：摊开的书必须清晰可见且细节丰富，有写实的书页和微妙的类似手写感的页面纹理。不要在书页上添加可读的文字或标志。\n背景：干净的白色或暖白色纹理纸背景。极简构图，人物从周围烟雾般的素描艺术中浮现。\n颜色：严格黑白和柔和灰色单色。不要任何",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-9",
+      "source": "x-public",
+      "name": "四层风格拼贴海报（3:4 严格 1:1:1:1）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/lovimg_com/status/2094300088155980268",
+      "has_image": true,
+      "image": "/images/x/2094300088155980268.jpg",
+      "prompt_zh": "请在当前层将上传照片中的同一场景制作成高级设计海报，不多图拼接，每张照片单独输出。\n这里的“不多图拼接”是指：不要把不同上传照片混在同一张成品里；每一张上传照片都必须单独生成一张完整的四层风格海报。\n\n【整体画幅与四层结构】\n整体采用3:4竖版构图。画面从上到下严格四等分为四个横向区域，每个区域的高度必须精确占整体画面高度的25%，四层比例严格为1:1:1:1，不允许出现比例偏差。四层之间无缝衔接，不设置分隔线，不留白色缝隙，不使用边框。\n\n由于每层实际约为3:1的极扁横幅，主体需要在每层内部进行横向适配：保持主体主要位置与视觉重心稳定，优先横向展开，避免主体被纵向拉伸、压扁、贴边或裁掉关键部位。可在左右延展与原图一致的天空、墙面、地面、水面、纸张或环境留白，但不得使用模糊复制背景填充。\n\n【四层共同一致性】\n四层必须来自同一张上传照片、同一个瞬间。严格保持主体身份、主体数量、人物或动物面貌、姿态、动作方向、视线、发型、服装核心特征、建筑结构、地标身份、主要物体关系、观察角度、透视方向、左右位置、前后层级及叙事关系一致。风格层允许根据各自媒介删除次要背景、减少纹理、改变材质和细节密度，但不能把主体替换成另一个人物、另一座建筑、另一辆车、另一只动物或另一个场景。\n\n【第一层｜原始摄影】\n第一层忠实保留上传照片的真实摄影质感。保留主体身份、数量、构图关系、姿态、动作、真实材质、自然光影",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-10",
+      "source": "x-public",
+      "name": "高级时装编辑摄影（9:16 全身背身回眸）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/BaoZiDaDa010/status/2094230234879168892",
+      "has_image": true,
+      "image": "/images/x/2094230234879168892.jpg",
+      "prompt_zh": "9:16 竖版高级时尚摄影提示词\n\n一位成年东亚女性高级时尚模特，身材高挑修长，拥有优雅自然的模特比例。身姿挺拔但放松，肩颈线条流畅，腰部纤细，整体身体比例协调。\n\n人物拥有精致细腻的东亚女性五官，小巧精致的脸型，清晰流畅的下颌线，鼻梁自然挺拔，五官比例协调，肌肤细腻真实，保留自然毛孔、细小绒毛以及真实肤色变化。\n\n深棕灰色长发，自然柔顺并带有轻微微卷质感，发量丰富，发丝细腻清晰。顶部头发自然向后梳理并在后脑形成低位简洁发髻，同时保留少量自然碎发。佩戴精致简约的银色长款耳坠。\n\n人物采用优雅的三分之二背身站姿。身体背对摄影机，上半身自然挺直，头部向右侧轻轻转动，以侧脸与回眸的方式看向镜头。肩膀保持自然放松，一侧肩膀略微向后打开。双臂自然垂落并轻微弯曲，双手放置在身体两侧偏后位置，动作自然克制。身体重心自然落在一条腿上，另一条腿略微放松。整体姿态呈现优雅、冷静、克制的高级时装模特气质。\n\n人物穿着一件高级深红色修身长款时装礼服。礼服采用轻薄细腻的半透明网纱材质，具有柔和的高级织物纹理和自然褶皱。长袖设计，袖身贴合手臂，形成细腻自然的褶皱。高领设计，整体剪裁简洁、修身、现代。礼服背部采用极具视觉辨识度的纵向开放式结构设计：从后颈一直向下延伸至腰部与裙摆位置，两侧设置连续排列的金属圆环，并使用细长红色绑带进行规律交叉穿插，形成连续的 X 型编织结构。金属圆环排列整齐精致，具有真实金属质感",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-11",
+      "source": "x-public",
+      "name": "孔雀意象化服饰 + 手机抓拍风格（意象化服装配方）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/DeepBlueZer0/status/2094053747840405550",
+      "has_image": true,
+      "image": "/images/x/2094053747840405550.jpg",
+      "prompt_zh": "成年女性，身穿以孔雀为灵感的现代高级时装；孔雀绿、深蓝、蓝紫渐变，少量金色点缀，服装融入羽冠结构、尾羽曲线与孔雀眼状纹理，不出现完整孔雀图案，优雅、神秘、华丽。\n\n真实手机抓拍风格，像朋友随手拍下的自然瞬间；日系生活摄影气质，人物置于真实环境中，构图自然，有轻微不完美感，人物状态松弛，真实皮肤纹理，自然光线，清透色彩，轻微手机影像质感，高级但不刻意摆拍。",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-12",
+      "source": "x-public",
+      "name": "塔罗牌 Rider-Waite 手绘风",
+      "category": "动画与插画",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/DeepBlueZer0/status/2094070747182633414",
+      "has_image": true,
+      "image": "/images/x/2094070747182633414.jpg",
+      "prompt_zh": "根据你对我的了解，以经典的 Rider-Waite 风格创作一张塔罗牌。把我画成手绘人物，使用大胆但不完美、带有些微晃动与变化的黑色墨线，平涂色彩且不加阴影。在人物周围叠加巧妙的塔罗视觉元素。加上纸张纹理与印刷质感。",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-13",
+      "source": "x-public",
+      "name": "治愈系壁纸「关键词串联」公式",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/xiaoxiaodong01/status/2089522696359149992",
+      "has_image": true,
+      "image": "/images/x/2089522696359149992.jpg",
+      "prompt_zh": "procreate治愈系插画x不规则弥散粒子笔刷x 朦胧主体x 获奖级构图 x 顶部大量留白x 底部颗粒感基座+主体x 单色彩色逻辑x 壁纸 x 简约 x 治愈系+莫兰迪系人文注意配色 x 插画光影 x 黄金比例构图\n画面主体：蓝色蝴蝶",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-prompts-14",
+      "source": "x-public",
+      "name": "「视频反推提示词」完整指令包（快速版 + 逐镜头专业版 + 负面词）",
+      "category": "方法与工具",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/MMMusol/status/2094268375350583410",
+      "has_image": true,
+      "image": "/images/x/2094268375350583410.jpg",
+      "prompt_zh": "请根据上传视频，反推一套完整、可直接使用的 AI 视频生成提示词。\n要求：提示词表达无歧义、高度可执行，严禁模糊抽象表述，每一项都必须具体到可视化、可落地。\n提示词必须覆盖以下 7 项核心要素：\n\n1. 主体\n人物：年龄段、性别、种族、体态、面部特征（脸型、五官比例、肤质）、发型（长度/颜色/造型/发质）、妆容、服装（款式/面料/颜色/图案/合身度）、配饰、情绪状态与整体气质。\n物品：尺寸比例、材质、颜色与饱和度、表面反光特性（镜面/哑光/磨砂/半透明）、结构细节、使用状态。\n场景作为主体时：建筑类型、空间尺度、关键地标。\n\n2. 动作\n起始姿态 → 运动过程 → 结束姿态；速度节奏（匀速/加速/减速/骤停）与力度变化；手部动作、重心转移、身体朝向；微表情（眉/眼/嘴角）与时间节点；视线方向；多镜头时说明入镜与出镜方式。\n\n3. 场景\n室内：房间类型、建筑风格、空间布局、家具陈设、墙面材质与颜色。\n室外：地形地貌、植被、天际线、街道或自然环境特征。\n前/中/背景层次与纵深；时间、季节、天气；整体氛围关键词。\n\n4. 光影\n光线类型（自然/人工/混合；硬光/柔光/漫射）；光源方向（正面/侧/逆/顶/底/伦勃朗/蝴蝶光）；强度与柔硬度；面部明暗分割线、轮廓高光形状、投影范围与方向、眼神光形状；反射与折射；整体色温与变化趋势。\n\n5. 运镜\n景别（大远景→大特写）；焦段感受；构图方式（三",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-1",
+      "source": "x-public",
+      "name": "画面成诗 · 图像替词式视觉句子（Rebus 海报）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/xiaoxiaodong01/status/2094616515056419231",
+      "has_image": true,
+      "image": "/images/x/2094616515056419231.jpg",
+      "prompt_zh": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分不要完整复刻照片，也不要把照片简单缩小后重新画一遍，而是从原图中提取最有记忆点的主体、动作、局部轮廓、物件、植物、建筑片段、颜色关系与象征性细节，重新提炼为若干经过统一风格转换的视觉元素，并与文字共同组成一段图像替词式视觉句子（Rebus-style visual sentence）。这些图像不是装饰插图，而必须真正替代句子中的单词；一旦某个词被图像替代，文字中不得再次重复写出这个词。整句话必须依靠\"文字 + 图像\"共同才能被完整读懂。\n\n先根据照片本身的情绪、动作、关系、地点、记忆或隐喻，自由生成一句简短、有想象力、带有轻微诗意或编辑感的句子，再从句子中挑选若干最适合视觉化的名词、动作词、意象词或情绪词，用对应的图像元素直接替换。例如花、窗、鸟、树、杯子、海、风、灯、路、等待、经过、归来、清晨等，都可以由来自原图的视觉元素承担。图像必须占据单词原本的位置，形成真正连续的\"文字 → 图像词 → 文字 → 图像词 ",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-2",
+      "source": "x-public",
+      "name": "九宫格手绘 · 记忆清单壁纸（VOL.101）",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/xiaoxiaodong01/status/2094409213183410255",
+      "has_image": true,
+      "image": "/images/x/2094409213183410255.jpg",
+      "prompt_zh": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术杂志、独立出版物与展览图像质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的主体、局部元素、动作线索、物件细节与叙事关系，重构为一套 3×3 模块化图标网格 + 手绘稚拙涂鸦插画 + 蜡笔/彩铅颗粒质感 + 手写文字 的视觉系统。不要完整描摹原图，也不要做写实插画，而是将复杂信息压缩为 9 个最值得被记住的视觉单元：可以是主体本身、局部特征、随身物件、植物、食物、交通方式、姿态、情绪符号或场景中的小记忆点。每个单元都应来自上方同一画面的语义延伸，使人一眼感到它们属于同一张照片的\"记忆清单\"。\n\n构图采用隐性的 3×3 松散网格。九宫格只作为底层秩序，不必画得过于工整；每个图标的位置、大小、角度和落点都可轻微偏移，形成 loose grid / organic grid 感。顶部可加入一个简短手写标题，并配少量轻松的小波浪线、星点或符号；底部可加入一句极小的手写 caption，使整体像一页私人手帐、视觉日记或 collection sheet。留白必须充足。\n\n画风",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-3",
+      "source": "x-public",
+      "name": "早安问候 · 多国家庭场景 10 图（美学磁场）",
+      "category": "X 收集",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/xiaoxiaodong01/status/2094581093597168121",
+      "has_image": true,
+      "image": "/images/x/2094581093597168121.jpg",
+      "prompt_zh": "@创建图片\n围绕任意主题对象生成一张清爽克制的仪式邀约视觉：画面以大面积明亮干净的留白作为主场，中央放置一块边缘利落的近景影像区，主题对象只呈现最有情绪的局部与动作关系，让观者先读到亲密、承诺或纪念性的瞬间，再读到信息。主标题使用松弛而有速度感的手写笔触，字形明显放大，横跨影像区上缘并与画面轻微重叠，形成文字压到图像上的第一视觉记忆；标题不必整齐排版，要有真实书写的起伏、连笔、粗细变化和透明叠压感。两侧可放极少量细小信息字，垂直贴近空白边界，作为秩序感和呼吸感的平衡；底部信息用更稳的细字或小号手写体排列，中央以一条极细短线制造停顿。色彩从主题自身的材质、情绪和仪式语境中提取，保留高明度洁净底色、清晰深浅结构、少量冷静强调色与大面积空白的关系，使整体明亮轻快、清透安静；强调色只承担标题与关键信息的情绪角色，主体影像承担真实质感和明暗对比，避免浑浊、陈旧或过度装饰。整体完成度应像一张设计过的私密邀请，重点是图像局部与大字手写标题的叠压张力、稀疏信息节奏、干净空气感和留白中的仪式感。\n\n——————\n主题：早安+问候+GOOD MORNING+城市+金句+天气+2026-09-01\n\n一共10个国家经典温馨家庭场景 展示\n10个图片\n\n每个图片都有截然不同的色相逻辑\n每个国家都是对应国家的文字逻辑\n\n日系韩系小清新配色",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-4",
+      "source": "x-public",
+      "name": "古风人像 · 黛色流金（孔雀黛金流光妆）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094432086656786681",
+      "has_image": true,
+      "image": "/images/x/2094432086656786681.jpg",
+      "prompt_zh": "9:16 竖版，古风华彩美妆人像，东方古典高门贵女胸像近景，人物正面轻微侧身，身体自然端坐，头部轻轻偏向镜头，神情自信从容，嘴角带克制浅笑，整体气质华美、鲜明、矜贵、张扬但高级。\n\n人物为视觉年龄约 20–28 岁、明确成年的年轻东方女性，明艳贵女脸，柔和鹅蛋脸，额头自然饱满，面中立体丰盈，下颌线流畅，五官精致对称。眉形舒展清晰，眼型修长明亮，眼尾轻微上扬，眼神自信有神；鼻梁秀气流畅，鼻尖精致；唇形柔软饱满，唇珠自然明显，整体近景耐看、有女主感、有记忆点，不网红、不幼态。\n\n妆容为孔雀黛金流光妆。底妆清透细腻，肤色白净通透，保留自然细腻皮肤纹理。眼妆以孔雀蓝绿、黛青、柔棕为主，加入少量香槟金与细腻金色珠光，蓝绿色集中在眼尾和上眼睑外侧，控制面积，不做大面积舞台式彩妆；眼中与卧蚕点缀细腻香槟金闪光，眼线自然拉长，睫毛纤长分明。腮红使用暖玫瑰豆沙色，轻柔分布在面中，平衡蓝绿色眼妆。鼻梁、鼻尖与面中带少量细致高光。唇妆为暖玫瑰豆沙水润唇。\n\n发型为乌黑长发高挽成丰盈高髻，发髻圆润华丽，头顶自然蓬松。发间搭配孔雀羽意象金簪、蓝绿宝石花钗、青金石与翡翠色小珠、珍珠珠链、浅金枝叶、细长流苏，局部保留一支真实孔雀羽作为点睛，但不过度夸张。耳饰为珍珠、孔雀蓝绿宝石与金色细链组成的长款流苏耳坠。\n\n服装为孔雀蓝明制上袄，外层使用深孔雀蓝织锦与暗金孔雀羽纹、花枝纹刺绣，衣襟和领缘加入精致金线与蓝绿色宝",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-5",
+      "source": "x-public",
+      "name": "Architectural Specimen Card（建筑标本卡 / 博物馆档案风）",
+      "category": "建筑与空间",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/Naiknelofar788/status/2094626691234816034",
+      "has_image": true,
+      "image": "/images/x/2094626691234816034.jpg",
+      "prompt_zh": "Use the uploaded photo as the primary reference. Create a sophisticated 4:3 landscape architectural specimen card inspired by museum archives, architectural surveys, and vintage scientific documentation.\n\nKeep the original location recognizable, but transform the presentation into a curated architectural study rather than a normal travel poster.\n\n* Place the main landmark as a large monochrome architectural cutout or finely detailed ink drawing.\n* Add a smaller original-color photographic fragment showing one distinctive detail of the location.\n* Include a simplified topographic contour map be",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-6",
+      "source": "x-public",
+      "name": "Alt-Rock Editorial 直闪人像",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/iamsofiaijaz/status/2094628107798126679",
+      "has_image": true,
+      "image": "/images/x/2094628107798126679.jpg",
+      "prompt_zh": "A stylish alternative rock aesthetic photoshoot of a young woman sitting on the floor indoors holding a red electric guitar, dramatic candid pose with her head tilted back and tongue playfully out toward the guitar neck, edgy playful attitude, black hair with subtle colored streaks, wearing oversized luxury streetwear and patterned designer pants, lots of rings and jewelry on her fingers, studio flash photography, direct on-camera flash, high contrast lighting, sharp focus, realistic skin texture, shallow depth of field, modern editorial music photography, clean background, fashion + rock vibe",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-01-7",
+      "source": "x-public",
+      "name": "Quiet-Luxury 欧式窗边金色时刻人像（保真参考图）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/mehvishs25/status/2094616744627515850",
+      "has_image": true,
+      "image": "/images/x/2094616744627515850.jpg",
+      "prompt_zh": "Create an ultra-realistic luxury lifestyle editorial portrait of the same adult woman from the uploaded reference image, preserving her recognizable identity and appearance with maximum fidelity. Keep her facial structure, proportions, eye color, hair color and texture, skin tone, freckles, and other distinctive features consistent with the reference. Do not alter, age, de-age, or sexualize her appearance.\n\nShe stands beside a tall vintage window inside a bright, elegant European apartment during warm golden hour. Her long, glossy dark brunette hair falls naturally over her shoulders in soft w",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-02-1",
+      "source": "x-public",
+      "name": "山姆会员店 CCD 生活写真（gpt-image-2 英文长模板）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/BaoZiDaDa010/status/2094780621201764392",
+      "has_image": true,
+      "image": "/images/x/2094780621201764392.jpg",
+      "prompt_zh": "9:16 vertical full-body fashion lifestyle photography, photorealistic real human photography, candid snapshot, premium urban daily-life aesthetic, Sam's Club-style warehouse membership supermarket interior, subtle CCD digital-camera retro texture, Instagram lifestyle photography.\n\nA beautiful clearly adult East Asian woman in her mid-20s, slender and elegant figure, petite head, delicate small face, refined facial features, long straight black hair reaching near her waist, natural wispy bangs, fair translucent cool-toned porcelain skin, realistic skin texture, fine individual hair strands, nat",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-02-2",
+      "source": "x-public",
+      "name": "日间清亮高光 CCD 生活照（中文参数式模板）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094742674402410620",
+      "has_image": true,
+      "image": "/images/x/2094742674402410620.jpg",
+      "prompt_zh": "摄影风格：日间清亮高光CCD生活照风\n写真方向：都市轻松生活写真\n场景方向：现代公共休息区 / 一排白色自动售货机 / 浅灰墙面 / 小型绿植区\n服装方向：青苹果绿色修身吊带针织上衣 + 奶油白低腰牛仔短裙\n气质标签：清纯、轻松、明亮、自然、俏皮\n五官方向：清透邻家脸\n身形方向：轻盈纤细\n线条强调：中偏强\n镜头方向：半身到大腿\n姿态动作：一只手拿刚买的瓶装饮料，看向镜头微笑\n光线氛围：晴天明亮环境光 + 白色售货机大面积柔和反射补光\n滤镜效果：高亮清晰绿白CCD色彩 + 白净高光 + 清晰中间调 + 轻颗粒\n画幅比例：9:16\n补充要求：不要夜晚便利店感，不使用霓虹灯；整体必须是白天、明亮、干净、现代的城市生活场景。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-02-3",
+      "source": "x-public",
+      "name": "1200mm 超长焦月出鸟居（GPT Image 2 high）",
+      "category": "X 收集",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/BorderleSint/status/2094952694880309759",
+      "has_image": true,
+      "image": "/images/x/2094952694880309759.jpg",
+      "prompt_zh": "Extreme telephoto view, 1200mm compression, an enormous full moon rising directly behind a weathered vermilion torii gate standing in shallow sea water. The moon disc fills most of the frame, craters crisp across its pale gold surface, dwarfing the gate completely. The torii reads as a small dark silhouette against it, seaweed clinging to its base, gentle ripples catching the moonlight. A single heron stands still in the water at the left third. Deep indigo sky, soft coastal haze softening the lower edge of the moon. Composition spread evenly across the full width. Tranquil, monumental, long l",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-02-4",
+      "source": "x-public",
+      "name": "曼哈顿黄昏公寓 · 冷暖混光人像",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/Arttellers43107/status/2094946504545018078",
+      "has_image": true,
+      "image": "/images/x/2094946504545018078.jpg",
+      "prompt_zh": "elegant East Asian woman in her late 20s with porcelain skin and soft black hair in a loose updo, sitting on a low mid-century sofa in a dimly lit Manhattan apartment at dusk. Sheer ivory silk slip dress, one shoulder strap slipping, holding a crystal glass of amber liquid. Warm tungsten lamp light mixed with cool blue window light from the city skyline, soft shadows across her collarbones, intimate eye-level shot, ultra-detailed fabric texture and skin, photorealistic, 8k",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-02-5",
+      "source": "x-public",
+      "name": "保脸复刻 · 金色时刻公园长椅人像（图生图）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/DilshadAI1/status/2094960092244484396",
+      "has_image": false,
+      "image": "/images/x/x-2026-09-02-5.jpg",
+      "prompt_zh": "Use the uploaded image as the only facial reference and preserve 100% facial identity, hairstyle, beard, skin tone, and natural skin texture.\nA high-quality portrait photograph capturing the young man from image_2.png, maintaining his exact likeness and hairstyle. He is seated in the same relaxed pose on the ornate black wrought-iron bench, wearing the identical dark brown shalwar kameez. His accessories, including the gold wristwatch on his left wrist and the black bracelet and ring on his right hand, are clearly visible. The background is a lush, sun-dappled park setting, with the same clust",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-1",
+      "source": "x-public",
+      "name": "纸上成真 · 戏韵妆造稿（GPT Image 2）",
+      "category": "动画与插画",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/PixelAigc/status/2095147475325812820",
+      "has_image": false,
+      "image": "/images/x/x-2026-09-03-1.jpg",
+      "prompt_zh": "生成一张《纸上成真 · 戏韵妆造稿》风格图片，9:16 竖版。\n\n主题为【南戏西厢记】。画面是一张米白色戏曲妆造设定稿纸夹在木质画板上，置于温暖木色工作台。一位写实成年中国女性和一位中国男性从纸上自然立起，形成“纸上成真”的视觉效果。\n\n两位人物为半身偏多构图，脸部清晰、比例较大，直视镜头，有自然高光与互动感。整体写实，皮肤自然有纹理，不要动漫脸、硅胶感或过度磨皮。妆面带戏曲神韵，但偏高定写真风，不要厚重舞台脸或脸谱化。\n\n服饰为东方戏曲高定设计，强调“重与轻”：头饰、珠翠、刺绣、或宫装结构偏精致厚重；水袖、披帛、纱层偏轻盈飘逸。整体不过度包裹，保留人物张力。\n\n人物上半身明显高于纸面，有真实体积与投影。一只手轻撑纸面，另一只手自然触碰头饰或水袖等元素，姿态自然。\n\n画面过渡：人物主体为完整写实；水袖、披帛、靠旗等可带少量淡彩手绘质感；仅在水袖末端、披帛尾端、裙边一角及右下角保留未完成铅笔线稿。\n\n右下角有一只真实手持铅笔继续绘制。纸面文字与标注均为铅笔手写草稿风（如头饰结构、水袖走势、刺绣说明等），不要印刷体。\n\n桌面可加入色卡、珠翠、花簪、布样、铅笔、针管笔、茶杯等元素。整体风格写实、清晰、高级，具有东方戏曲审美与“纸上成真”的视觉效果。\n\n避免卡通感、塑料感、廉价戏服、人物过小或构图不当、手部畸形、画面低清晰度等问题。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-03-2",
+      "source": "x-public",
+      "name": "东方禅意极简插画壁纸「花影扶疏」",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2094997464428560857",
+      "has_image": true,
+      "image": "/images/x/2094997464428560857.jpg",
+      "prompt_zh": "主题方向：东方禅意极简插画\n风格分支：女性审美清透型\n主体内容：一位古风女子从白墙花影下经过，姿态轻盈\n情绪母题：明净、春夏感、轻盈流动\n场景与意象：白墙、晴空蓝门洞、芍药粉花影、女子、少量叶片\n构图与空间：门洞作为中部视觉框景，人物位于下方偏中，白墙和蓝色门洞周围保留大面积留白\n色彩控制：纯净暖白作为墙面基底，晴空蓝用于门洞和局部天空，芍药粉用于花影点睛，叶片用清亮绿色；避免背景整体变粉或变蓝\n光线与质感：清透日光，边缘清晰，画面低灰度，现代东方插画封面质感\n画幅比例：9:16\n补充要求：整体要清透、明亮、少女感但不幼态，适合高颜值封面，不要灰滤镜，留白处有少量题词",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-3",
+      "source": "x-public",
+      "name": "日间高亮 CCD 生活照 · 都市滨水",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2095070662767567091",
+      "has_image": true,
+      "image": "/images/x/2095070662767567091.jpg",
+      "prompt_zh": "9:16 竖版，真实摄影质感，日间清亮高光CCD生活照风，都市滨水时尚写真。\n\n画面主体是一位年轻成年东方女性，视觉年龄约22–28岁，五官精致自然、清透耐看，属于精致自然淡颜，不网红脸、不幼态化。脸型流畅柔和，清亮杏眼，鼻型秀气自然，唇形柔软，淡粉裸妆，皮肤白净通透但保留自然质感。黑色长发自然披散，发丝具有轻微海风感，整体气质精致、明亮、自信、松弛、时尚。\n\n人物身形轻盈纤细，肩颈纤细，腰腹平坦，腿部修长，整体骨架偏薄，但上围明显更加饱满自然。胸部具有真实重量感和自然圆润轮廓，不做僵硬球形，不夸张隆起；胸线清楚，胸腰比例明显，侧胸和正面轮廓自然过渡，整体保持真实女性身体比例。\n\n服装为覆盆子粉色U领修身短袖针织上衣，颜色鲜亮、清爽、显白，不偏暗、不偏酒红。上衣采用柔软细针织面料，具有自然弹性和贴身包裹感，U形领口略低但保持日常时尚尺度，自然表现锁骨、胸线和上围轮廓；衣身沿胸部、腰部自然贴合，不出现不合理褶皱或塑料感。\n\n下装为冷白色低腰修身短裤，剪裁简洁利落，腰头位于自然低腰位置，适度露出腰腹，贴合腰胯和臀部，但仍保持正常夏日日常穿搭感。整体配色形成覆盆子粉 + 冷白 + 蓝色水面的明亮夏日关系。\n\n场景位于现代城市小型船艇展示码头，背景有白色船体、银灰色浮桥、金属栏杆、蓝色水面与开阔天空，远处保留少量现代城市滨水建筑。整体不是豪华游艇广告，而是普通城市滨水区域的夏日日常生活写真",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-4",
+      "source": "x-public",
+      "name": "iPhone 随手拍 · 午后居家发呆（16:9）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/liyue_ai/status/2095065314027327844",
+      "has_image": true,
+      "image": "/images/x/2095065314027327844.jpg",
+      "prompt_zh": "16:9 横版，真实 iPhone 手机普通主摄随手拍摄的生活感女性照片，一位视觉年龄约 20–26 岁的年轻成年东方女性，具有自然明确的东方女性特征，不过度欧美化，不显年龄偏大，没有未成年感。整体风格为午后发呆情绪下的真实生活抓拍，场景位于小户型餐桌与开放式厨房连接空间，空间真实、有人居住的痕迹明显，背景可见木质餐桌、普通餐椅、开放式厨房、橱柜、冰箱、窗边绿植、收纳架、纸巾盒、杯子、花瓶、小型生活用品等，环境不追求样板间整洁，而是干净、自然、有真实居家气息。\n\n人物气质温柔、松弛、若有所思、安静、亲近，像一个普通午后独自在家时短暂放空。五官方向为真实生活中长得很好看的年轻东方女性，柔和鹅蛋脸或轻微瓜子脸，面部轮廓流畅自然，清亮杏眼，眼神安静柔和，鼻梁清秀流畅，鼻尖自然，唇形柔软克制，仅有轻微淡妆，五官比例协调但保留轻微自然不对称，不要网红脸，不要商业模特脸，不要过度精修。\n\n人物皮肤为白皙偏冷白的自然肤色，但仍保持真实生活状态，不做瓷白滤镜，不漂白。皮肤保留毛孔、轻微肤色不均、轻微面部纹理、少量自然油光和真实身体皮肤质感；脸部、肩颈、手臂、腰腹和腿部的肤色保持统一自然，明亮但不过曝，不要塑料皮，不要磨皮，不要瓷娃娃感。\n\n发型为黑色或深棕色长发随意挽起，低松盘发或自然夹起，脸侧和耳边保留少量碎发，整体有居家状态，不做精致造型。\n\n人物身形为丰腴自然曲线型，胸部饱满自然，腰线清晰但",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-5",
+      "source": "x-public",
+      "name": "文字海报锁句 · 连续木纹贯穿字母",
+      "category": "海报与编辑",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/GlennHasABeard/status/2095191531422470646",
+      "has_image": true,
+      "image": "/images/x/2095191531422470646.jpg",
+      "prompt_zh": "continuous wood grain that flows unbroken from the G through the N as if all five letters were cut from one plank\n\nThe only text in the image is the word GRAIN and the single small line below it, spelled exactly as written.",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-6",
+      "source": "x-public",
+      "name": "起承転結 · 4 张独立连续镜头（COMMON LOCK）",
+      "category": "方法与工具",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/splash_GL/status/2095278093833322678",
+      "has_image": true,
+      "image": "/images/x/2095278093833322678.jpg",
+      "prompt_zh": "[出力]\n[9:16]の比率で、4つの独立したフォトポートレート画像を作成。\nコラージュ、コンタクトシート、画面分割、あるいは結合されたキャンバスではなく、完全に独立した4つの画像ファイルを生成してください。各画像は、同一の成人女性2名、同一の服装、アクセサリー、車両、ロケーション、照明の傾向、および写真スタイルを使用します。\n\n・共通設定（COMMON LOCK）\n{ストーリー}\n真夏の晴れた午後、アメリカ西海岸郊外の小規模なセルフサービス型カーウォッシュ施設。明らかに成人した20代前半のグラマーな豊胸体型の日本人女性2名が、週末限定のカーウォッシュイベントで洗車パフォーマンスを担当している。午前中から数台を洗ってきたため、ホースは実際の作業位置まで引き出され、青いバケツには洗浄液と少量の泡が残り、スポンジとマイクロファイバークロスも濡れた状態で使われている。\n今回は洗車される車両の車内、助手席または運転席付近にいる撮影者の視点から4枚を連続させる。フロントガラス越しに2人が近づいてくる「起」、フロントガラスへ泡を広げる「承」、左右から同時に水ですすぐことで視界が大きく変化する「転」、最後にガラス面をクロスで拭き上げて車内から2人の姿が再び明瞭に見える「結」までを描く。\n主題は人物そのものではなく、濡れたフロントガラス越しに変化する視界、泡、水滴、水流、強い西海岸の日差し、車内の",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-2026-09-03-7",
+      "source": "x-public",
+      "name": "男士黄金时刻电影感肖像（图生图 4:5）",
+      "category": "摄影与写实",
+      "tags": [
+        "X"
+      ],
+      "suitable": "",
+      "input": "",
+      "url": "https://x.com/abs_uiux/status/2095238668130914408",
+      "has_image": true,
+      "image": "/images/x/2095238668130914408.jpg",
+      "prompt_zh": "Use the uploaded image as the composition, pose, lighting, and photography reference.\n\nCreate an ultra-realistic cinematic portrait of an adult man, approximately 25–35 years old, framed from the waist/chest upward. Position him centrally, facing the camera with his body slightly relaxed and his forearms naturally resting across his lower torso. Give him a calm, composed, quietly confident expression with direct, natural eye contact.\n\nGive him a clean, professionally groomed low-cut haircut, neatly shaped with subtle volume on top and softly tapered sides. Keep him clean-shaven with realistic ",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-likes-reverse",
+      "source": "x-likes",
+      "name": "图片反推提示词（7类）",
+      "category": "方法与工具",
+      "tags": [
+        "反推",
+        "点赞"
+      ],
+      "suitable": "上传参考图后按类复制反推",
+      "input": "参考图",
+      "url": "https://x.com/MMMusol/status/2093584457412517905",
+      "has_image": true,
+      "image": "/images/x/2093584457412517905.jpg",
+      "prompt_zh": "见库内全文：通用/字体Logo/风景/摄影/插画/3D/IP潮玩 共7类反推句",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unknown"
+    },
+    {
+      "id": "x-likes-cornell",
+      "source": "x-likes",
+      "name": "GPT-Image 康奈尔笔记信息图",
+      "category": "UI 与信息",
+      "tags": [
+        "信息图",
+        "点赞"
+      ],
+      "suitable": "把【主题】换成学习内容",
+      "input": "文字主题",
+      "url": "https://x.com/knowledgefxg/status/2081354526003712415",
+      "has_image": true,
+      "image": "/images/x/2081354526003712415.jpg",
+      "prompt_zh": "请设计一张高质量的信息图（Infographic），采用「康奈尔笔记（Cornell Notes）」版式，用于学习【主题】。\n\n整体要求：\n\n风格：\n- A4竖版\n- 高清（4K）\n- 扁平化设计（Flat Design）\n- 清爽、干净、现代\n- 白色背景\n- 马卡龙配色（蓝、绿、橙）\n- 适合打印和电子阅读\n- 中文字体清晰\n- 留有充足留白\n- 类似优秀学习资料、Notion、GoodNotes风格\n\n整体布局：\n\n顶部：\n包含\n- 标题（康奈尔笔记）\n- 日期\n- 科目\n- 课题\n\n左侧约25%宽度：\n标题：\n线索栏（提问）\n\n放置8~12个与主题相关的问题，每个问题采用编号排列。\n\n右侧约75%宽度：\n标题：\n笔记栏（记录）\n\n按照知识点进行模块化排版。\n\n每个知识点包括：\n\n① 小标题\n② 简洁解释\n③ 项目符号\n④ 流程图\n⑤ 箭头关系\n⑥ 表格\n⑦ 示意图\n⑧ 图标\n\n要求图文结合，不要只有文字。\n\n底部：\n总结栏（回顾）\n\n使用2~5句话总结整页内容。\n\n右下角增加：\n\n一句话记忆\n\n用一句最容易记住的话总结整个知识点。\n\n内容要求：\n\n围绕【主题】进行知识整理。\n\n要求：\n\n- 内容准确\n- 层次清晰\n- 重点突出\n- 易于复习\n- 像一本高质量教材\n\n视觉元素：\n\n适当加入：\n\n📘书本\n💡灯泡\n📝笔记\n📊流程图\n🌐网络图\n📦模块框\n➡箭头\n✅勾选\n⭐重点\n🎯目",
+      "prompt_en": "",
+      "models": [
+        "GPT Image"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-1",
+      "source": "x-public",
+      "name": "Y2K 三联照片拼贴（日系直闪）",
+      "category": "摄影与写实",
+      "tags": [
+        "Y2K",
+        "拼贴",
+        "直闪",
+        "日系",
+        "9:16"
+      ],
+      "suitable": "同一位成年女性做竖版 Y2K 三联拼贴，直闪数码相机感",
+      "input": "纯文字即可",
+      "prompt_zh": "制作一张超写实、高清、竖版 9:16 的 Y2K 风格照片拼贴，三个板块里都是同一位漂亮成年女性。可爱又迷人的日系美人，长而蓬松的深色丝滑长发，自然透亮的肌肤，柔和的狐系眼妆，长睫毛，亮泽粉唇，精致柔美的女性气质。\n\n顶部板块——极限特写自拍，直视镜头，一只眼睛睁开，另一只眼睛俏皮地眨眼，几缕发丝轻轻垂落，框住脸庞。\n\n中间板块——迷人的回眸姿势，身体转向一侧，同时回头看向镜头，蓬松长发自然飘动，轻柔地遮住部分脸庞。\n\n底部板块——贴近镜头的亲密特写，长发自然遮住一只眼睛，微微嘟嘴，梦幻又自信的表情。\n\n浅中性背景，真实的 2000 年代初 Y2K 数码相机美学，iPhone 直闪闪光灯，明亮的闪光高光，轻微自然的过曝，柔和阴影，复古数码颗粒，细微的动态模糊，随性不完美的构图。\n\n无文字，无水印，无畸变，无扭曲面部，无不对称眼睛，无重复特征，无面部变化，无模糊的面部细节。",
+      "prompt_en": "",
+      "url": "https://x.com/GongJuPie/status/2095389839390867501",
+      "has_image": true,
+      "image": "/images/x/2095389839390867501.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-2",
+      "source": "x-public",
+      "name": "风铃窗边 · 东方禅意极简封面",
+      "category": "海报与编辑",
+      "tags": [
+        "东方美学",
+        "禅意",
+        "极简海报",
+        "壁纸",
+        "9:16"
+      ],
+      "suitable": "换主体内容/场景意象/色彩几行，批量出同风格东方治愈封面",
+      "input": "纯文字即可",
+      "prompt_zh": "主题方向：东方禅意极简封面海报\n风格分支：女性审美轻盈型\n主体内容：一位女子站在窗边，抬手轻碰一枚风铃\n情绪母题：治愈、轻盈、微风感\n场景与意象：海盐蓝窗外色块、珊瑚粉花影、白色窗框、风铃、女子\n构图与空间：窗框位于画面中部形成简洁几何结构，人物位于下方偏侧，上方和窗外留出标题空间\n色彩控制：奶油白作为背景基底，海盐蓝用于窗外大色块，珊瑚粉用于花影点睛，风铃用极少量浅金；避免整图变粉蓝滤镜\n光线与质感：明亮室内柔光，清透干净，轻平面插画感\n画幅比例：9:16\n补充要求：整体要治愈、干净、轻盈，有小红书生活禅意封面感，不要灰雾",
+      "prompt_en": "",
+      "url": "https://x.com/liyue_ai/status/2095323390584430852",
+      "has_image": true,
+      "image": "/images/x/2095323390584430852.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-3",
+      "source": "x-public",
+      "name": "柔光蓝金纱丽肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "人像",
+        "柔光",
+        "南亚时装",
+        "肖像"
+      ],
+      "suitable": "暗底柔光下的蓝金纱丽/lehenga 优雅肖像",
+      "input": "纯文字即可",
+      "prompt_zh": "Elegant portrait of a woman in soft spotlight against a dark background, casting a clean shadow behind her. She wears a pastel blue lehenga with intricate gold embroidery and a sheer dupatta with pink and gold detailing. Floral accessories in her hair, long wavy black hair resting over her shoulders. Subtle jewelry: gold necklace, earrings, and bracelets adorned with small roses. Gentle smile, calm expression, warm light highlighting her face and outfit.",
+      "prompt_en": "",
+      "url": "https://x.com/TaliaAariz/status/2095643928724742477",
+      "has_image": true,
+      "image": "/images/x/2095643928724742477.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-4",
+      "source": "x-public",
+      "name": "树干巨型文字 · 运动广告摄影",
+      "category": "摄影与写实",
+      "tags": [
+        "超现实",
+        "品牌字样",
+        "森林",
+        "运动广告",
+        "2:3"
+      ],
+      "suitable": "把 NIKE/口号换成任意品牌字样，做树干雕刻巨字广告摄影",
+      "input": "纯文字；可改品牌与口号",
+      "prompt_zh": "A photorealistic redwood forest with a sporty atmosphere. In the trunk of a giant tree, letters the size of doors are carved: \"NIKE\" with its swoosh logo, and below in clean carved lines the slogan \"JUST DO IT\". A small woman in a yellow athletic jacket stands in the bowl of the N, running shoes and a water bottle resting on the ferns beside her. Shafts of cathedral light, ferns, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095605399932043726",
+      "has_image": true,
+      "image": "/images/x/2095605399932043726.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-5",
+      "source": "x-public",
+      "name": "蜂巢猫头鹰 · 自然超现实静物",
+      "category": "摄影与写实",
+      "tags": [
+        "猫头鹰",
+        "蜂巢",
+        "自然摄影",
+        "超现实",
+        "2:3"
+      ],
+      "suitable": "蜂巢质感动物/物体放进户外静物场景的超写实摄影",
+      "input": "纯文字即可",
+      "prompt_zh": "A photorealistic still. An owl perched on a weathered wooden table outdoors in nature beside a small timber cabin, its body made of intricately detailed hexagonal honeycomb cells — gold, translucent, a few cells still glistening — eyes dark amber. Soft daylight, a faint shaft of sun, moss at the table base, pines in the background. 100mm, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095591175277457552",
+      "has_image": true,
+      "image": "/images/x/2095591175277457552.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-6",
+      "source": "x-public",
+      "name": "灯笼组成的鹤 · 黄昏沼泽",
+      "category": "摄影与写实",
+      "tags": [
+        "鹤",
+        "灯笼",
+        "黄昏",
+        "倒影",
+        "2:3"
+      ],
+      "suitable": "用旧物拼装成鸟类形体的黄昏超写实场景",
+      "input": "纯文字即可",
+      "prompt_zh": "A photorealistic marsh at dusk. A great crane (the bird) standing in still water, its body assembled from old kerosene lanterns — some lit gold, some dark — the light doubling in the water. Reeds, a thin moon, 85mm, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095586653364527585",
+      "has_image": true,
+      "image": "/images/x/2095586653364527585.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-7",
+      "source": "x-public",
+      "name": "忘忧草植物学海报（1887 图版）",
+      "category": "海报与编辑",
+      "tags": [
+        "植物学海报",
+        "水彩",
+        "复古印刷",
+        "2:3"
+      ],
+      "suitable": "换成任意花卉名与图版编号，做复古植物学水彩海报",
+      "input": "纯文字；改花名与标题",
+      "prompt_zh": "A scientific botanical poster on cream paper. A single oversized forget-me-not painted in watercolor, roots and all, with tiny numbered labels on stem and petal. Title in italic serif at the top: \"FORGET-ME-NOT\". Subtitle: \"A FIELD PLATE\". Bottom: \"PLATE VII · 1887\". Pencil notes in the margin. Cream, indigo, green, 2:3 aspect ratio.",
+      "prompt_en": "",
+      "url": "https://x.com/TraffAlex/status/2095583733264879803",
+      "has_image": true,
+      "image": "/images/x/2095583733264879803.jpg",
+      "models": [
+        "GPT Image 2",
+        "Meta Muse Image"
+      ],
+      "model_note": "原帖为 GPT Image 2 与 Meta Muse Image 对比",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-04-8",
+      "source": "x-public",
+      "name": "极限运动等距立体模型（2×2）",
+      "category": "建筑与空间",
+      "tags": [
+        "等距",
+        "立体模型",
+        "极限运动",
+        "2x2",
+        "16:9"
+      ],
+      "suitable": "把极限运动主题换成任意 TOPIC/WORD，生成等距桌面立体模型四宫格",
+      "input": "纯文字；替换 [WORD]/[TOPIC]",
+      "prompt_zh": "2x2 grid, 16:9, do this for 4 extreme sports: <isometric_diorama_topology>        [ AI_INFER: ROOFING / AWNINGS ]       /                             /|      /   [ W ] [ O ] [ R ] [ D ]   / |  <-- Text forms the back wall.     /    (AI_INFER: Shelves/Props)/  |      Materials match [TOPIC].    +-----------------------------+   |    |                             |   |    |      [ AI_INFER: Mini ]     |   +    |      [ Character Pose ]     |  /    |                             | /    +-----------------------------+/    [ AI_INFER: Themed Floor Base ] </isometric_diorama_topology>  INSTRUCTION:  1. Render as a photorealistic, physical scale model on a desk. 2. The letters of [WORD] must be thick, architectural blocks. 3. Warm, cozy lighting glows from inside the structure.",
+      "prompt_en": "",
+      "url": "https://x.com/Gdgtify/status/2095576056077914552",
+      "has_image": true,
+      "image": "/images/x/2095576056077914552.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-1",
+      "source": "x-public",
+      "name": "藕雪入妆·古风妆台贵女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "古风",
+        "东方人像",
+        "柔雾妆",
+        "妆台写真",
+        "高贵感"
+      ],
+      "suitable": "适合生成柔雾古风贵女妆容写真、东方妆台人像和珠饰刺绣细节。",
+      "input": "纯文字即可",
+      "url": "https://x.com/liyue_ai/status/2095910114519863594",
+      "has_image": true,
+      "image": "/images/x/2095910114519863594.jpg",
+      "prompt_zh": "9:16 竖版，古风柔雾美妆特写，东方古典贵女妆台写真，人物坐在闺阁妆台前，身体正面轻微侧转，头部微微偏向镜头，一只手自然抬起轻触耳侧发丝，另一只手自然落在妆台附近，姿态安静柔和，神情温柔、甜润、精致，带富养大小姐般克制而高级的名媛气质。\n\n人物为视觉年龄约 20–28 岁、明确成年的年轻东方女性，温柔姐姐脸，柔和鹅蛋脸，额头自然饱满，面中丰润，轮廓流畅，下颌线细腻清楚。眉形舒展精致，眼睛为清亮修长杏眼，眼裂自然拉长，眼尾微微上扬，眼神温柔有神；鼻梁秀气流畅，鼻尖精致圆润；唇形柔软饱满，唇珠自然清楚，整体五官精致对称、年轻耐看，具有温柔女主感。\n\n妆容为 藕雪莓露柔雾妆。底妆清透细腻，肤色白净柔润，保留自然轻微肌理，不厚重、不油亮。眼妆使用浅莓粉、柔雾棕、淡玫瑰灰与细腻珍珠珠光渐层晕染，上眼睑以浅莓粉柔和铺色，眼尾使用柔棕轻微加深并自然拉长，眼中与卧蚕加入细碎珍珠光。睫毛纤长卷翘、根根分明。腮红为柔和圆润的莓粉色，重点分布在眼下与面中，存在感清晰但不浓艳。鼻梁、鼻尖和面中加入少量细腻柔光高光。唇妆为莓露感水润粉唇，带轻微玻璃光泽，唇峰与唇珠清晰，整体呈现温柔、细腻、甜润、富养的妆后气质。\n\n发型为黑色顺滑长发半挽结合圆润高位发髻，头顶自然蓬松，后部发量丰盈，长发顺滑垂落于肩后与胸前。发间搭配 藕粉贝母花钗、浅金枝叶发链、珍珠珠串、小型粉色玉石花片、细长金色流苏、透明珠滴，发饰层次精致丰富，但不遮挡脸部。耳饰为白玉、珍珠与浅金花枝组合的细长垂坠耳饰，整体材质细腻、轻盈、贵气。\n\n服装为 藕粉色交领上襦，外层加入轻薄半透明绢纱，衣襟、领缘、肩部与袖口带有大量细腻白色、浅粉与浅金花卉刺绣、珠绣和细密金线纹样；下装为雪白色绣花长裙，腰间以象牙白刺绣腰封固定；外搭浅莓灰与藕粉渐变柔纱披帛。人物上半身自然丰润，胸部饱满但服装覆盖得体，轮廓柔和，不低胸、不夸张暴露。服装整体精致、轻盈、华美，但不做影楼戏服感。\n\n场景为精致古风妆台，前景可见古铜色圆镜、打开的珍珠首饰盒、金色发簪、珍珠链与少量玉饰。背景包含淡粉纱帐、白梅枝、深木家具与暖白墙面，色彩以藕粉、雪白、暖木色、浅金和少量浅灰构成，服装与背景拉开层次，避免整张图统一偏粉。\n\n光线采用柔和暖白自然光与轻微侧前补光，人物双眼、眼影、腮红、唇妆、珠饰和刺绣细节清晰可见。皮肤呈柔润半哑光质感，高光集中在鼻梁、鼻尖、面中与唇峰，不形成全脸油光。背景浅景深柔和虚化，人物脸部与妆容始终为第一视觉中心。\n\n85mm 人像镜头，真实摄影质感，高完成度古风贵女美妆写真，细腻皮肤纹理，精致珠饰，高级刺绣面料，柔和浅景深，温柔、华美、名媛感、清透高级。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确标注 GPT Image 2。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-2",
+      "source": "x-public",
+      "name": "紫晶星辉·精灵巫女",
+      "category": "潮玩与角色",
+      "tags": [
+        "X",
+        "奇幻",
+        "精灵",
+        "魔法",
+        "紫色氛围",
+        "角色设计"
+      ],
+      "suitable": "适合奇幻角色概念图、紫色魔法氛围和精灵法师人像。",
+      "input": "纯文字即可",
+      "url": "https://x.com/Yeti_Images/status/2096029294870884463",
+      "has_image": true,
+      "image": "/images/x/2096029294870884463.jpg",
+      "prompt_zh": "",
+      "prompt_en": "A silver-haired elven sorceress with amethyst eyes and intricate glowing runes tattooed across her porcelain skin stands in ethereal twilight, wearing flowing robes of midnight silk embroidered with constellations that shift like living starlight, her expression a mysterious half-smile as she cradles a levitating orb of swirling nebula energy between her elegant fingers, while delicate wisps of violet arcane mist curl around her slender form in the soft bioluminescent glow of floating crystal motes.",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确标注 gpt-image-2。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-05-3",
+      "source": "x-public",
+      "name": "桃珊瑚霓虹·走廊随拍",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "潮流人像",
+        "青橙灯光",
+        "连贯角色",
+        "走廊",
+        "手机构图"
+      ],
+      "suitable": "适合统一角色外观、潮流街拍和青橙混合灯光的竖幅人像。",
+      "input": "纯文字即可",
+      "url": "https://x.com/emjay2788/status/2096045075977392370",
+      "has_image": true,
+      "image": "/images/x/2096045075977392370.jpg",
+      "prompt_zh": "",
+      "prompt_en": "TITLE\n\nCropped peach hoodie corridor lean, black bob, midriff, phone in hands\n\nPRIMARY GENERATION PROMPT\n\nPhotorealistic vertical medium shot, cropped from mid-thigh upward, of a young Japanese or Korean woman in her early 20s standing on the left side of the frame. Camera at roughly chest-to-eye height, slight three-quarter angle, looking slightly down toward her hands. She leans her left shoulder and back against a dark green vertical metal frame or doorway. She has a small refined face, light freckles across the nose and cheeks, dark almond eyes looking downward, straight brows, a small nose and softly parted lips. Hair is a chin-length straight black bob with clean bangs and a compact silhouette. She wears a cropped peach-coral pullover hoodie that ends well above the navel, exposing her midriff, with ribbed cuffs, a front pocket, hanging drawstrings and a small embroidered patch on the left chest; matching tight peach-coral athletic pants sit low on her hips. Several stacked beaded and fabric bracelets sit on her left wrist. Both hands hold a black smartphone at mid-torso height as she looks down at the screen. The setting is a modern indoor corridor with large glass walls, cool teal-cyan overhead lighting, and a warm orange neon sign glowing through the glass in the background. Floor is smooth and slightly reflective. Soft mixed lighting: cool fill from above and the side, warm orange rim and bounce from the neon. Shallow depth of field keeps her face, cropped hoodie and midriff sharp while the hallway recedes into soft blur. Colour grade is teal-and-peach with moderate contrast and natural skin texture.\n\nAVOID / NEGATIVE INSTRUCTIONS\n\nAvoid: long hair, ponytail, blonde or brown hair, Western facial features, extra fingers or distorted hands, plastic skin, full-length hoodie covering the midriff, changed hoodie or pants colour, missing bracelets, phone held differently, high-angle or full-body crop, bright daylight, outdoor street, cluttered background, text or logos other than the small chest patch, cartoon or illustration style, extra people.\n\nCONTROLLED VARIATIONS\n\nCamera or crop variation: Same pose and cropped hoodie, but tighter close-up from the chest up, camera slightly lower so the exposed midriff, hoodie hem and face fill more of the frame.\n\nLighting or time-of-day variation: Same corridor and pose, but warmer golden-hour light replacing the teal overheads, neon still visible but softer.\n\nPose, motion or expression variation: Same location and cropped hoodie, she looks up from the phone toward the camera with a calm, slightly tired expression while still leaning against the frame.\n\nEnvironment or art-direction variation: Same subject and cropped hoodie, relocated to a night-time train platform with similar mixed cool overhead and warm neon lighting.\n\nCONSISTENCY CONSTRAINTS\n\nYoung Japanese or Korean woman in her early 20s; chin-length straight black bob with bangs; cropped peach-coral hoodie exposing midriff and matching tight peach-coral pants; stacked wrist bracelets; black smartphone held in both hands; leaning pose against a vertical frame; teal-and-orange mixed lighting.\n\nASPECT RATIO\n\n2:3",
+      "models": [
+        "Flux",
+        "Imagine 2.0",
+        "GPT"
+      ],
+      "model_note": "原帖为同一提示词的 Flux、Flux + Photoshop、Imagine 2.0、GPT 对比，具体生成图与提示词未逐一绑定。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-06-1",
+      "source": "x-public",
+      "name": "轴测微缩海报",
+      "category": "建筑与空间",
+      "tags": [
+        "X",
+        "轴测3D",
+        "微缩场景",
+        "编辑式海报",
+        "摄影转设计",
+        "大留白",
+        "中文提示词"
+      ],
+      "suitable": "适合把照片上半部保真、下半部重构为留白充足的轴测3D微缩场景海报。",
+      "input": "需上传参考图",
+      "url": "https://x.com/xiaoxiaodong01/status/2096404971428438090",
+      "has_image": true,
+      "image": "/images/x/2096404971428438090.jpg",
+      "prompt_zh": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用 3:4 竖版构图，上下两个区域高度严格 1:1，各占画面 50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微调整使其更贴近摄影质感。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分只提取照片中最具识别性的主体、轮廓、结构、姿态与叙事关系，不要完整复制照片，不要保留所有对象，不要逐物转绘；主动删去大部分无关背景与细节，只保留最能代表原始主题的核心信息，并重新做美术判断。哪怕原图构图差、背景乱、主体小，也要通过删减、重组、裁切、尺度变化和留白，把它重新导演成一张成立的作品。\n\n下半部分的美学逻辑重构为 **Stylized Isometric 3D Architectural Diorama / Orthographic Axonometric 3D Render**。采用正交相机 + 四分之三俯视轴测视角，大约 30°–40° 俯视、45°左右水平旋转，同时看到正面、侧面和顶部，呈现模型、沙盘、微缩世界般的空间感。不要做成真实摄影透视，也不要做成纯平面立面图。\n\n将主体重构为一个风格化 3D 微缩场景：以主体为核心，只保留少量必要的环境线索，如地形、道路、水体、平台、植物、建筑或器物，使其组成一个完整且高度概括的小世界。整体是 stylized 3D，不是 low-poly，也不是写实 CG；强调调整几何、适度圆角、简化材质、玩具化比例、干净体块、细腻层次与柔和光照，含有精致细节，但不能复杂拥挤。\n\n构图保持小尺度主体 + 超大量有意识的留白。微缩场景不必居中，可根据主体方向、比例和视觉重心自由安排，可偏心、贴边或局部裁切。留白不是空背景，而是画面的一部分，要与主体共同形成呼吸感、空间感和高级秩序。宁可少，不要满。\n\n配色从上方照片中提取 2–4 种最有生命力、最有记忆点的颜色重新调制，适度提亮、提纯、去灰，形成更明快、干净、治愈的综合色系。整体保持鲜活但不刺眼，温暖但不甜腻，可自然转化为天空蓝、湖水青、草木绿、奶油黄、杏橙、珊瑚粉等清爽色系；避免灰脏、暗沉、陈旧、荧光色和廉价塑料感。\n\n文字只作极少量编辑性介入，不限制语种。可根据主体、地点、动作、情绪或隐喻，自由生成少量标题、短句或注记，安静地落在留白区域，与画面形成精致的图文关系。\n\n整体呈现风格化轴测 3D 微缩场景、清晰空间关系、精致模型感、鲜活配色、超大量艺术留白与编辑式排版共同构成的高级视觉效果。避免完整复制原图、复杂堆积、写实透视、低质 low-poly、廉价游戏感、塑料感、画面填满和模板化效果。",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖标题写 GPT2（未写全称），需自测。",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-06-2",
+      "source": "x-public",
+      "name": "霜枝茶月贵女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "古风人像",
+        "清冷妆容",
+        "冬日庭院",
+        "电影感肖像",
+        "东方女性",
+        "9:16竖版"
+      ],
+      "suitable": "适合生成清冷冬日旧庭中的东方古典女性电影感近景肖像。",
+      "input": "纯文字即可",
+      "url": "https://x.com/liyue_ai/status/2096269909076623535",
+      "has_image": true,
+      "image": "/images/x/2096269909076623535.jpg",
+      "prompt_zh": "9:16 竖版，古风电影感美妆头像，东方古典女性肩颈以上近景，冬日旧庭场景，人物立于深木廊下，身体轻微侧身倚靠廊柱，侧脸微转回望镜头，眼神安静清冷，神情克制含蓄，带旧时没落世家小姐般的疏离感与故事感。整体气质清冷、安静、从容、带旧时代余韵，画面具有电影感与淡淡的冬日情绪。\n\n人物为一位视觉年龄20-28岁、明确成年的年轻东方女性，东方电影脸，面部醇白自然，柔和偏窄鹅蛋脸，额头自然饱满，骨相清透，面中柔润但不凹陷，下颌线流畅，眉眼淡静，眼型细长清亮，眼尾自然收长，眼神安静而有戏；鼻梁秀气流畅，鼻尖精致圆润；唇形克制柔润，唇珠自然清楚，整体长相美耐看，不网红、不动态。\n\n妆容为霜枝茶月清冷妆。底妆清透冷白，肤色干净通透但保留自然血色与轻微真实皮肤纹理，不灰不脏。眼妆使用冷茶灰、浅梅粉、霜棕灰和少量低饱和银白晕染层叠，上眼皮薄铺雾色，眼尾以淡灰色拉长，卧蚕和眼中加入极细碎的低饱和珠光，整体克制优雅。眼下与眼角带极轻柔的冷粉胭红，存在感淡雅但可见。唇妆为清冷豆沙冰润，颜色低饱和，质感柔润带轻微玻璃感。整体妆后气质呈现旧时贵女的清冷、克制与疏离。\n\n发型为乌发低挽发髻，发髻圆润自然，头顶蓬松适中，脸侧留少量细碎碎发。发间佩戴霜白梅枝簪、旧银细流苏、灰白玉耳坠、少量银白花片与透明小珠滴，材质清冷精致，具有旧银、白玉、灰白珍珠的细腻质感，不夸张、不廉价。耳饰为旧银细链与灰白玉滴垂耳坠。\n\n服装为烟青灰交领长衫，搭配茶白色百褶长裙与旧月白披帛，衣料为细腻柔软的古典绢罗与织纹面料，领缘、肩部与袖口带低调精工刺绣。外层加入白色毛领或浅雪白绒披肩，增强冬日氛围与贵气层次。整体色彩以烟青灰、月白、茶白、浅银灰为主，画面冷调高级，但不能发灰发脏。\n\n场景为冬日旧庭/枯枝/深木廊下/微冷天光。背景可见深木廊柱、旧式灯笼、远处积雪庭院、栏杆与模糊的旧宅结构；前景与侧景可加入带霜的白梅或枯枝，形成空间层次。空气中可有轻微雪意与雾气，环境安静空旷，具有旧宅与冬日的寂静感。\n\n光线采用微冷自然天光，从庭院外侧斜向照入人物脸部，形成柔和冷白主光，同时保留少量暖木环境反射，让肤色不至于惨白。面部有轻微逆光，确保双眼、眼妆、唇妆与皮肤细节清晰可见。背景浅景深和虚化，人物面部精准对焦，整体为高完成度、真实摄影质感、电影级古风美妆肖像。",
+      "prompt_en": "",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确标注 GPT Image 2。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-06-3",
+      "source": "x-public",
+      "name": "粉色冰饮玻璃广告",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "商业摄影",
+        "饮品广告",
+        "玻璃质感",
+        "粉色系",
+        "微距摄影",
+        "超写实"
+      ],
+      "suitable": "适合制作透明玻璃杯、粉色果饮与冰块的高端商业饮品摄影。",
+      "input": "纯文字即可",
+      "url": "https://x.com/DuaFatimaAi/status/2096391880644891001",
+      "has_image": true,
+      "image": "/images/x/2096391880644891001.jpg",
+      "prompt_zh": "",
+      "prompt_en": "A photorealistic close-up of a tall, crystal-clear cylindrical glass filled with a vibrant translucent pink fruit drink and several large irregular ice cubes. Tiny bubbles and delicate foam gather naturally across the surface, with condensation and small droplets visible on the ice and glass. Soft diffused daylight illuminates the drink, creating beautiful pink reflections and realistic refractions through the ice. Minimal clean white background with a softly blurred product/package backdrop, shallow depth of field, elegant beverage photography, macro details, natural highlights, realistic glass distortion, crisp focus, premium commercial photography, vertical composition, 8K, ultra-realistic",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确写明 Gpt image 2 via chat gpt。",
+      "model_confidence": "confirmed"
+    },
+    {
+      "id": "x-2026-09-06-4",
+      "source": "x-public",
+      "name": "淡彩拼贴留白海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "淡彩平涂",
+        "手绘线稿",
+        "编辑拼贴",
+        "海报设计",
+        "大留白",
+        "照片重构"
+      ],
+      "suitable": "适合把照片转为上下分区、淡彩手绘与编辑拼贴结合的高留白设计海报。",
+      "input": "需上传参考图",
+      "url": "https://x.com/xiaoxiaodong01/status/2096274580558217295",
+      "has_image": true,
+      "image": "/images/x/2096274580558217295.jpg",
+      "prompt_zh": "请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色。为适配画幅，可自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分不要照着照片转绘，而是先判断原图真正值得保留的一个核心主题、一个视觉锚点和一种情绪关系，其余信息大胆删除。即使原照片构图普通、杂乱或像废片，也要重新设计主体尺度、位置、裁切、方向和元素关系，把原始素材重新构成一张独立成立的艺术画面。只保留最能代表原物的轮廓、势、姿态和视觉记忆点，使人一眼感受到与上方照片的联系，但下半部分拥有比原图更好的构图和美术表达。\n\n画风采用细线手绘 + 淡彩平涂 + 纸张肌理 + 轻拼贴。主体以少量简洁轮廓勾勒，内部只留极少线条；颜色用轻薄、平静的大片块，不能画写实细节。可加入一块极浅的主题基色色块托住主体，并允许主体穿出、越过或切断色块边缘，形成自然的 editorial collage 关系。\n\n构图强调小尺度主体 + 大面积有意识留白。主体可偏心、贴边、悬置、局部裁切或改变原照片中的位置，不追求完整呈现。留白面积明显大于绘制面积，并作为真正的图形参与构图，与主体形成正负形、距离、方向、聚散和不对称平衡。宁可删掉环境，也不要填满版面；让空白负责空气、空间、停顿和情绪。\n\n配色从上方照片中提取2-4种最有生命力、最有辨识度的颜色重新调制为高明度、清透、柔和的粉彩体系，如薄荷绿、嫩叶绿、浅紫、奶油黄、柔蓝、杏色等，根据原图自然变化。背景保持极浅、近白的纸色，主体与基色色块必须清晰可见，不灰、不脏、不糊。\n\n周围只允许极少量从原图情绪或主题中衍生出的符号化元素，用一两笔即可表达，不复制真实实物，也不为了填空而添加。文字同样极少，不限制语种，可从主体、动作、情绪、记忆或隐喻中自由生成少量词句，以细短、自然、略带手写感的字体进入留白，与主体共同构成版面。\n\n整体重点不是“把照片画出来”，而是提炼原图灵魂后重新导演画面：少元素、强主题、小主体、大留白、轻线条、浅色块、聪明重构。避免逐物转绘、完整背景、细节堆积、主体过大、画面填满、写实描摹、光滑矢量和模板化排版。",
+      "prompt_en": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖标题写 GPT2（未写全称），需自测。",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-07-1",
+      "source": "x-public",
+      "name": "烛影海棠贵女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "古风人像",
+        "东方美学",
+        "宫灯暖阁",
+        "贵女写真",
+        "海棠红",
+        "古典电影感"
+      ],
+      "suitable": "适合生成古风夜色中的东方贵女肖像、宫灯妆台写真或古典电影感人物海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "9:16竖版，古风夜色美妆写真，东方古典贵女人像，胸像近景，正面视角，人物端坐妆台前，眼神温柔含情，神情含蓄柔和。视觉年龄20-28岁的成年东方女性，鹅蛋脸，五官精致对称，清亮眼睛，柔软饱满唇形。底妆通透细腻，眼妆以细红、赤茶、暖棕和少量暖金细闪晕染，海棠红唇妆，古典电影感。黑发松挽高髻，佩戴海棠红珠钗、浅金发链、红色宝石、珍珠和多层流苏，珍珠流苏耳坠。穿海棠红对襟上襦，金线花卉刺绣，乌金暗纹长裙，象牙白轻纱披帛，完整得体覆盖。场景为宫灯暖阁、珠帘、铜镜妆台、烛影摇曳，妆台摆放首饰盒和烛台，背景夜色楼阁虚化。暖白偏金烛光和宫灯柔光，面部独立补光，确保妆容、珠饰、刺绣和皮肤细节清晰；温暖通透不过暗。85mm人像镜头，真实摄影质感，人物眼睛精准对焦，高完成度古风贵女美妆写真，华美柔艳温润。",
+      "prompt_en": "",
+      "url": "https://x.com/liyue_ai/status/2096631729410986083",
+      "has_image": true,
+      "image": "/images/x/2096631729410986083.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖明确写作GPT Image 2生成古风人像",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-08-1",
+      "source": "x-public",
+      "name": "暖调松饼过程拼图",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "美食摄影",
+        "2x2拼图",
+        "烘焙过程",
+        "暖调厨房",
+        "写实"
+      ],
+      "suitable": "适合美食步骤图、烘焙教程、菜单视觉和食谱内容配图",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create an ultra-realistic food photography collage in a 2×2 grid, showing the complete process of making fluffy American pancakes, matching the reference composition.\n\nTop-left: A wooden kitchen table with a large white ceramic bowl filled with smooth pancake batter, surrounded by neatly arranged ingredients: a small bowl containing one raw egg, a cup of white flour, a small dish with butter, a glass jar of milk, a small bowl of baking powder, a cracked eggshell, and a metal whisk. Warm natural kitchen lighting, realistic textures, clean overhead composition.\n\nTop-right: Close-up of a black non-stick frying pan on a stovetop. A hand wearing a beige oven glove holds a ladle and pours thick pale pancake batter into the center of the hot pan. Visible steam and tiny butter droplets around the pan. Warm wooden kitchen background, realistic cooking action.\n\nBottom-left: Two thick fluffy pancakes cooking in the same black skillet. One pancake is golden brown and partially cooked, while the other is being flipped with a spatula. Subtle steam rising from the pan, realistic bubbles and crispy edges, warm natural lighting.\n\nBottom-right: Final serving of several thick, fluffy, golden-brown American pancakes stacked beautifully on a plate, showing soft airy layers and perfectly browned surfaces. Appetizing close-up food photography, warm tones, realistic texture and subtle highlights.\n\nStyle: photorealistic, premium food photography, natural warm kitchen lighting, realistic ingredients, shallow depth of field where appropriate, detailed textures, authentic cooking atmosphere, clean 2×2 split composition, consistent cookware and ingredients across all panels, high detail, 8K, no text, no labels, no watermark.",
+      "url": "https://x.com/DuaFatimaAi/status/2097120308381819110",
+      "has_image": true,
+      "image": "/images/x/2097120308381819110.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖标注Gpt image 2 via chat gpt",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-08-2",
+      "source": "x-public",
+      "name": "浓色马克笔人物画",
+      "category": "动画与插画",
+      "tags": [
+        "X",
+        "马克笔人物画",
+        "浓色块",
+        "手工笔触",
+        "Matisse启发",
+        "手写旁注",
+        "人物照片重绘"
+      ],
+      "suitable": "适合把人物照片转成有当代艺术感、强色块和手写幽默旁注的马克笔肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "浓色马克笔人物画｜把一个真实的人，画成一件有趣的作品\n\n创作任务\n\n以用户上传的照片为唯一人物参考，创作一幅具有当代艺术感的马克笔人物画。\n\n保留照片中人物的身份、神态、姿势和辨识度，但彻底重新组织颜色、笔触和画面空间。不是给照片套上绘画滤镜，而是像一位有观察力、有幽默感的画家，看过这个人之后，用几支颜色浓郁的宽头马克笔，把这个瞬间重新画出来。\n\n画面应当大胆、浓厚、松弛，有鲜明的手工痕迹。第一眼被大色块吸引，第二眼认出照片中的人，第三眼发现旁边那句有点好笑的手写文字。\n\n一、艺术方向\n\n色彩与形状组织参考 Henri Matisse（亨利·马蒂斯）剪纸作品中鲜明的纯色关系、简化的人物轮廓，以及色块与留白之间的节奏。把这些启发转译为马克笔绘画，而不是制作剪纸拼贴。(泰特艺术馆)\n\n文字与幽默参考 David Shrigley（大卫·史瑞格里）作品中简练的绘画、手写短句，以及对日常生活荒诞之处的观察。只借鉴这种图文之间的幽默关系；本次创作应更温暖，不沿用黑暗、尖刻的语气，也不复制他的具体作品或句子。(NGV)\n\n统一成一种明确的视觉语言：浓色、宽笔、简化造型、真实神态、少量手写旁注。\n\n不要机械混合多种画风。人物不是某位艺术家的固定角色，必须仍然是照片里的那个人。\n\n二、先认出这个人，再简化这个人\n\n绘画前，先识别照片中最有辨识度的几个特征：脸部轮廓、发型与发际线、眼睛之间的关系、鼻子与嘴的位置、头部角度、肩膀方向、姿势，以及有记忆点的服装或配饰。\n\n围绕这些特征组织画面，而不是平均描绘所有细节。\n\n保留人物原本的年龄感、肤色深浅关系、性别呈现与身体特征。保留明显的痣、雀斑、眼镜、胡须，以及帮助辨认身份的少量面部线条。\n\n严格保留原始表情与动作逻辑：闭眼不能改成睁眼，闭嘴不能改成露齿微笑，侧脸不能改成正脸，背影不能擅自补出面孔。头发朝哪个方向散开，身体朝哪里倾斜，都应延续原图。\n\n可以简化解剖细节，但不能通过美化、瘦脸、放大双眼、缩小鼻子，把人物重塑成另一张脸。\n\n幽默主要来自文字和观察，不靠把人物画丑。\n\n三、媒介：浓厚的不透明颜料马克笔\n\n将绘画媒介设定为不透明颜料马克笔，偏丙烯马克笔质感，以宽扁笔头铺色，以中等笔头建立形状，最后用少量细笔完成必要细节和文字。\n\n大色块应饱满、扎实、具有覆盖感，但不要出现油画颜料般的立体堆积。\n\n让人能看见笔是怎样经过纸面的：宽笔横扫留下的条带，转弯时略生硬的折角，重复覆盖的接缝，收笔处不完全齐整的边缘，以及少量笔尖跳过纸纹形成的细小缺口。\n\n大部分色面保持完整，只在局部露出这些痕迹。不要用遍布全图的颗粒噪点代替真实笔触。\n\n先画色块，再补少量线条。不要先用均匀黑线勾出全部轮廓，再像填色本一样填满。\n\n允许局部覆盖、轻微错位和不完全闭合的边界。保留画过的过程，不把每一笔修得完美。\n\n四、用大色块建立人物\n\n把头发、脸、颈部、上衣、手臂和必要配饰，概括成少数几块有重量的形状。形状之间的关系比细碎纹理更重要。\n\n脸部主要由一个基础肤色色面、两三处结构性色块和少量五官笔画构成。取消毛孔、照片微纹理、细碎反光和复杂明暗渐变，但保留支撑身份辨识的面部结构。\n\n眼睛用少量短笔和深色色点完成，眼神方向必须准确。不要统一画成大圆眼，不添加夸张的高光和睫毛。\n\n眉毛用有粗细变化的短笔画出，保留原本的走向和距离。\n\n鼻子可以主要由一块暖色与一两笔暗色提示，不进行精密的立体塑形。\n\n嘴部保留原始开合状态、嘴角方向与情绪。只有原图确实露出牙齿时才画牙齿，并将其概括为简单形状。\n\n头发先画整体轮廓，再添加少量能说明方向的笔画。深色头发可使用深褐、墨蓝或近黑的色块；浅色、灰白色头发保留其辨识度，不一律改成棕发。重要的碎发可以像突然划出的细线，松动人物边缘。\n\n衣服保留款式、领口、层次和关键色彩关系。褶皱只留下解释姿势所必需的几笔。\n\n手势是照片重点时，必须保留动作；手不是重点时，可以减少细节，但不能随意改变位置。\n\n五、色彩：浓重，不沉闷；鲜明，不嘈杂\n\n放弃原提示词中统一的浅粉彩、奶油肤色和淡蓝背景设定。\n\n根据照片里的服装、肤色和情绪，选择一组有限而有力度的配色。通常使用四至六种主要颜色，以一种主导色建立整体气氛，一种对照色制造张力，再用少量强调色点亮画面。\n\n候选色包括钴蓝、群青、朱红、番茄红、赭黄、深草绿、孔雀绿、茄紫、酒红和暖象牙白。每张画只选择适合它的几种，不要把所有颜色同时放进去。\n\n让大面积颜色真正参与构图，而不是只把背景涂得鲜艳、人物仍然保留照片式写实。\n\n肤色允许艺术化转译，可使用赭石、陶土、杏桃或暖棕等色面，并在局部引入与背景呼应的冷色。保留原人物肤色的深浅特征，不统一漂白，也不要把脸切成杂乱的彩虹碎片。\n\n用相邻色块的冷暖与明度差建立体积，不依赖柔焦渐变、喷枪阴影或电影光效。\n\n六、构图与背景\n\n根据原图提取主要人物，删除无关路人、杂物和复杂环境。若是没有明显主次的合影，保留核心人物之间的关系，不任意删掉其中一人。\n\n默认延续原图的横竖方向与关键动作。可以适度裁切、放大和调整主体位置，但不要把有意义的全身动作一律裁成头像。\n\n采用松弛而准确的构图。人物可以略微偏向一侧，为文字留出自然的位置；不要为了对称而机械居中。\n\n背景以一整块主色或两块大的颜色区域构成，可以保留少量暖白纸面。用色块边缘、人物轮廓与空白之间的关系创造空间，不还原完整的摄影环境。\n\n只有当某个物件直接构成照片的趣味或人物特征时，才保留它，例如手中的杯子、被风吹起的帽子、怀里的宠物。把它同样画成简洁色块。\n\n不要无意义地添加植物、星星、爱心、贴纸或几何装饰。画面需要的是取舍，不是堆满设计元素。\n\n七、手写文字：像画家看着这个人，忍不住写了一句\n\n先理解照片中真实可见的动作、表情、衣物或物件，再创作与之对应的幽默短句。\n\n文字应当让人觉得：“这句话是看过这张照片才想到的。”\n\n采用轻微反差、一本正经的玩笑、拟人化的小抱怨，或日常生活中的微小荒诞。不要直接说明照片里有什么，也不要使用励志鸡汤和与画面无关的流行口号。\n\n英文为主，可酌情加入一句更短的中文；不必逐句双语翻译。主句控制在三至八个英文单词，另可添加一个一至三个单词的小旁注。除日期外，文字最多形成两组。\n\n以下仅示范幽默机制，不是固定文案，不要全部写入画面：\n\n头发明显凌乱时，可以写：\n“MY HAIR HAS OTHER PLANS.”\n人物认真拿着一小杯饮料时，可以写：\n“SMALL CUP. BIG RESPONSIBILITIES.”\n\n人物明显望向远处、呈放空姿态时，可以写：\n“CURRENTLY BETWEEN THOUGHTS.”\n必须根据实际照片重新判断和创作。没有对应的画面线索就不要使用这些句子，也不要为配合句子给人物添加道具。\n\n幽默针对情境，不贬损人物外貌或身份。照片气氛庄重时，让文字更轻、更含蓄，不强行制造笑点。\n文字必须像手写：笔画有压力变化，字母略有大小差异，基线轻微起伏，间距自然不均匀，但拼写正确、清晰可读。\n\n使用深色笔写在浅色区域，或用暖白色颜料笔写在深色区域。文字与人物共享同一种手工质感，不像后期叠加的电脑字体。\n\n可以有一条短短的手绘下划线，或一根确有指向作用的小箭头。不要变成满页涂鸦。\n\n八、时间戳落款\n\n完成绘画与旁注后，在画面右下角或下方留白处，以更小、更轻的手写字落下实际创作日期。\n\n日期采用 YYYY.MM.DD 格式；能够确认具体时间时，可采用 YYYY.MM.DD · HH:mm 格式。\n\n使用生成作品时可核实的日期与时间，优先遵循用户指定的时区。无法确认时分时，只写日期，不编造精确时间。不要把生成日期冒充照片拍摄日期，也不要把格式占位符直接画进作品。\n\n落款像画家画完后随手留下的一笔，与主文案拉开层级。不添加虚构的艺术家签名、品牌标志或水印。\n\n九、最终控制\n\n避免写实照片质感、半写实 AI 油画、柔软喷枪渐变、透明水彩晕染、粉彩糖果色、塑料皮肤、动漫大眼、三维卡通、矢量轮廓、满画面黑色描边，以及过度精细的头发和织物纹理。\n\n也避免另一种极端：不要把“艺术感”理解成随意破坏五官，把“手工感”理解成脏乱，把“幽默”理解成堆砌段子。\n\n最终画面应当像一幅可以挂在小型画廊里的马克笔人物作品：远看，色块鲜明而有秩序；近看，笔触有停顿、有覆盖、有人的手感；再看，人物仍然是照片里的那个人，而旁边的一句小字，让整个瞬间突然有了性格。\n\n少画一些无关细节，把颜色画得更有分量，把人画得更像他自己。",
+      "prompt_en": "",
+      "url": "https://x.com/hx831126/status/2097067631149002848",
+      "has_image": true,
+      "image": "/images/x/2097067631149002848.jpg",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-08-3",
+      "source": "x-public",
+      "name": "博物馆级石墨肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "石墨素描",
+        "铅笔肖像",
+        "传统绘画",
+        "超写实",
+        "白纸质感",
+        "人物参考图"
+      ],
+      "suitable": "适合将人物参考图转成白纸上的超写实传统石墨素描，并保留原构图和身份细节。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Using the uploaded reference image, recreate the image as an extremely realistic traditional graphite pencil sketch on clean white drawing paper.\n\nPreserve the subject’s exact facial structure, facial proportions, expression, hairstyle, pose, clothing design, jewelry, framing, and overall composition from the reference image. Do not redesign or change the subject.\n\nSTYLE:\nA highly detailed hand-drawn pencil portrait, realistic graphite artwork, professional portrait sketch, delicate fine-line pencil work, subtle cross-hatching, soft graphite shading, natural pencil strokes, realistic skin texture created entirely with graphite, detailed eyes, eyebrows, nose, lips, hair strands, clothing embroidery and jewelry.\n\nThe result must look like an authentic artist-made pencil drawing on white paper, NOT a digital painting and NOT a cartoon.\n\nKeep the background clean, plain white, and minimal. Use light-to-medium graphite tones with darker graphite only where necessary for depth and definition. Maintain beautiful smooth tonal transitions and realistic three-dimensional facial shading.\n\nIMPORTANT:\nDo not add colors.\nDo not add a painted effect.\nDo not make it anime, cartoon, vector art, 3D, or digital illustration.\nDo not change the facial features or expression.\nDo not alter the hairstyle, clothing, jewelry, pose, or camera framing.\nPreserve all recognizable details from the reference.\n\nFINAL LOOK:\nUltra-realistic professional graphite pencil portrait, finely rendered by hand, elegant soft pencil strokes, realistic proportions, highly detailed facial features, intricate hair strands and clothing details, clean white paper, subtle natural graphite texture, museum-quality traditional pencil drawing.\n\nCreate the image as a progressive pencil-drawing stage, matching the exact level of completion shown in the reference: from very light construction lines to refined facial details, darker hair, deeper shadows, and finally a fully rendered realistic graphite portrait.",
+      "url": "https://x.com/HaniaAi12/status/2097126338926960765",
+      "has_image": true,
+      "image": "/images/x/2097126338926960765.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "原帖上级帖明确写可用 GPT Image 2.0，回复提供完整提示词",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-09-1",
+      "source": "x-public",
+      "name": "蝴蝶水彩混合肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "水彩",
+        "混合媒介",
+        "人物肖像",
+        "蝴蝶",
+        "艺术写真"
+      ],
+      "suitable": "适合把人物参考图转成兼具写实面部与透明水彩、蝴蝶细节的高质感艺术肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create a 2:3 vertical premium mixed-media watercolor portrait on off-white cold-pressed watercolor paper.\nUse the uploaded image only as the subject reference. Keep the subject’s natural features, overall appearance, and recognizable look intact, but do not let the image turn into a generic painted character.\nShow the subject in a bust-length three-quarter profile, facing slightly toward the viewer’s right, with the gaze directed softly off-camera. Keep the expression calm, warm, serene, and naturally pleasant, with a subtle gentle smile and bright relaxed eyes. The mood should feel elegant, fresh, dreamy, and refined — not sad, blank, tired, or overly serious.\nKeep the face highly realistic and softly photorealistic, not fully painted, not sketch-like, and not cartoonish. The face should be the main focal point. Use soft diffused natural-looking light, similar to indirect window light, to gently illuminate the forehead, nose bridge, cheeks, lips, and jawline, with delicate depth and soft shadows. Render realistic eyes with soft catchlights, defined brows, natural lips, smooth skin transitions, and fine hair strands.\nStyle the hair in an elegant loose low updo / low messy bun at the nape, with a few soft tendrils framing the face and neck. Intertwine subtle rustic botanical accents in the hair — tiny dried wildflowers in muted yellow, white, and blue tones — delicate, understated, and premium.\nAdd several detailed Monarch butterflies with vivid orange wings, black veins, black borders, and tiny white spots. Keep them crisp, refined, and slightly dimensional. Place multiple butterflies naturally around the portrait: some resting in the hair, one near the upper-right side, and others floating around the shoulders and lower frame. Their warm orange color should stand out beautifully against the cool watercolor tones.\nCreate a strong mixed-media double-exposure effect where parts of the portrait dissolve into watercolor blooms. This effect must be clearly visible across selected parts of the cheek, temple, jawline, neck, shoulder, and lower clothing area — not only in the background. The watercolor should feel translucent and layered over the realistic portrait, so the subject remains clearly realistic underneath.\nUse expressive watercolor washes in muted teal, seafoam green, dusty blue, soft gray, charcoal, and deep navy tones. Let the washes bloom naturally into the paper with wet-on-wet behavior, soft transparent bleeding, irregular edges, subtle blooms, and a few darker pooled edges where pigment appears to have dried. Allow the watercolor to expand organically into the negative space while keeping the face as the sharpest and most detailed focal area.\nDress the subject in a simple deep navy-blue top / blouse with a high rounded neckline and soft gathered or finely pleated texture around the shoulders and upper chest. The garment should look minimal, elegant, matte, and plain, with no collar, no buttons, no printed pattern, and no decorative embellishments. Keep the outfit close to the reference look. Let the lower portion of the top gradually dissolve into blue-gray watercolor splashes.\nPreserve the contrast between hyper-detailed realism and loose abstract watercolor forms. The final artwork should feel like a luxury fine-art portrait print that combines:\n\nphotorealistic portraiture\nabstract watercolor fusion\nsoft ethereal surrealism\ncrisp butterfly detailing\ncool watercolor tones contrasted with vivid orange butterflies\ntextured watercolor paper and handcrafted mixed-media realism\nOverall, the result should feel poetic, airy, elegant, and premium, with the viewer’s eye drawn first to the realistic face, then to the translucent watercolor overlays and butterflies surrounding the subject.",
+      "url": "https://x.com/HaniaAi12/status/2097493485775454716",
+      "has_image": true,
+      "image": "/images/x/2097493485775454716.jpg",
+      "models": [
+        "GPT Image 2.0"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-09-2",
+      "source": "x-public",
+      "name": "食物穿插字体海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "食品摄影",
+        "字体设计",
+        "品牌海报",
+        "编辑设计",
+        "餐饮营销"
+      ],
+      "suitable": "适合餐饮品牌、菜单和食品广告，生成食物与大字真实穿插、具有空间深度的竖版海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "[BRAND]: {brand name}\n[PRODUCT]: {food / dish}\n[HEADLINE]: {short bold word}\n[INTERACTION]: {tie a knot / interlock with type / weave over and under / pierce through type}\n[FOOD ELEMENT]: {pretzel rope / onion rings / bacon strips / skewer / other suitable food}\n[ACCENT COLOR]: {headline color}\n[DETAILS]: {ingredients / short copy / hours / address}\n\nCreate a 9:16 vertical food editorial poster combining highly realistic food photography with large, professionally designed typography.\n\nUse a warm cream or ivory background, subtle paper texture, clean editorial composition and minimal props.\n\nKeep [HEADLINE] large, flat, sharp and fully readable. The food must remain a real independent object and physically interact with the typography according to [INTERACTION].\n\nFor “tie a knot,” let one continuous edible strand move in front of and behind the letters, then form one clear physical knot with believable overlap, compression and contact shadows.\n\nFor “interlock with type,” use closed-loop foods such as rings. Let the food loops genuinely interlock with each other and with letter strokes, with opposite front and back relationships at different crossing points.\n\nFor “weave over and under,” use several continuous food strips. Alternate them clearly in front of and behind the typography, and allow one or two believable food-to-food crossings to create a real woven structure.\n\nFor “pierce through type,” use one rigid food element or skewer as a strong directional axis. Let it pass through letter counters and alternate between the front and back of the headline while remaining continuous from end to end.\n\nEvery interaction must have clear three-dimensional depth. Food in front should cast subtle contact shadows; food behind the letters must be genuinely hidden. Keep each food element’s thickness, texture, direction and structure continuous so the viewer can trace its full path.\n\nDo not turn food into letters, do not damage or distort the typography, and do not use fake holes, digital warp, generic 3D effects or decorative overlays.\n\nUse [ACCENT COLOR] with natural food colors and dark neutrals. Add only a few meaningful details such as [BRAND], product name, ingredients, one short line of copy, opening hours and address.\n\nThe final image should work as a stop-scroll poster at thumbnail size: one bold headline, one recognizable food structure and one immediately understandable physical interaction.\n\nKeep the typography intact, let the real food lock into its spatial structure.",
+      "url": "https://x.com/MrLarus/status/2097334947719586139",
+      "has_image": true,
+      "image": "/images/x/2097334947719586139.jpg",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-09-3",
+      "source": "x-public",
+      "name": "参考图风格精准迁移",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "参考图",
+        "风格迁移",
+        "摄影方案",
+        "人物生成",
+        "GPT Image"
+      ],
+      "suitable": "适合做同系列人物或视觉变体，在保留参考图布光、材质和构图节奏的同时更换角色与主题。",
+      "input": "文字或参考图",
+      "prompt_zh": "将附图作为摄影方案参考。保留它的曝光关系、光线方向、衣料质感和构图节奏；重新设计角色与主题配色。人物为成年人，不复制参考人物的脸。生成后对照原图检查：有没有擅自改变布光、加厚服装，或者把皮肤修得过度光滑？",
+      "prompt_en": "",
+      "url": "https://x.com/nanyuan0412/status/2097486896750338125",
+      "has_image": true,
+      "image": "/images/x/2097486896750338125.jpg",
+      "models": [
+        "GPT Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-1",
+      "source": "x-public",
+      "name": "秋日童趣分身",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "时尚杂志",
+        "真人插画",
+        "秋日氛围",
+        "日韩街头",
+        "双角色"
+      ],
+      "suitable": "适合制作真人与插画分身同框、兼具时尚质感和童趣的杂志式人像。",
+      "input": "文字或参考图",
+      "prompt_zh": "提示词：\n\n创作一张高度写实的 4:5 时尚杂志大片，画面右侧是一位年轻女性，左侧是一个儿童手绘风格的插画小女孩，作为她迷你的视觉分身。\n女性留着黑色偏深棕色的锁骨长度自然微卷发，带有轻薄自然的刘海，发丝蓬松柔软。她面带温柔自然的微笑，微微低头，目光看向身旁的插画女孩，整体气质安静、松弛、有亲和力。\n她身穿燕麦驼色短款麂皮夹克，略微宽松的版型，带有精致翻领、深棕色纽扣和自然的麂皮纹理；内搭雾霾蓝色圆领针织衫，领口露出一圈干净的白色衬衫领；下穿深巧克力棕色高腰 A 字中长裙，裙摆自然垂落至小腿下方。\n肩挎一只墨绿色小号复古皮革邮差包，皮革带有细腻自然的使用质感；脚穿奶油白色中筒袜和深棕色复古玛丽珍皮鞋。整体配色以燕麦驼、雾霾蓝、巧克力棕、奶油白和墨绿色组成，复古、克制又有秋日氛围。\n女性双手自然放松，一只手轻轻插入夹克口袋，身体略微朝向插画女孩，姿态自然，不刻意摆拍。\n插画小女孩的穿搭、颜色、发型、包包、鞋袜、姿态和情绪与女性完全一致，像女性缩小后的童年视觉分身。但女孩必须保持明显的儿童手绘插画质感：细腻而略带随性的铅笔与墨水线条、柔和透明的水彩上色、纸张般的纹理感、淡淡的粉色腮红、灵动的大眼睛和温柔微笑。不要把女孩处理成写实真人，也不要做成商业动漫角色。\n背景保持极简：做旧的暖浅灰色混凝土墙与略显粗糙的灰色水泥地面，没有家具、植物、装饰物或其他杂物。\n真人女性与插画女孩从头顶到鞋底完整入镜，两人之间保持自然距离，微微面向彼此并形成温柔的视觉互动。构图简洁平衡，四周保留充足留白，具有高级时尚杂志版面的呼吸感。\n使用柔和阴天自然光，光线均匀柔软，阴影细腻克制。真人部分强调真实皮肤纹理、自然发丝、麂皮、针织、棉质裙装和皮革材质的细节。\n50mm 全画幅相机，平视视角，f/4，自然人体比例，高分辨率，真实摄影质感。整体呈现高级、安静、简约的日韩街头时尚杂志美学，同时融入温暖、童趣的手绘插画元素。\n负面项：真人与插画女孩服装不一致、颜色不一致、发型不一致、人物身份改变、过度磨皮、塑料皮肤、脸部扭曲、手部畸形、多余手指、多余肢体、多余人物、插画女孩写实化、女性动漫化、女性卡通化、头顶被裁切、鞋子被裁切、裙摆被裁切、广角畸变、夸张人体比例、复杂背景、杂物、文字、水印、品牌 Logo。",
+      "prompt_en": "",
+      "url": "https://x.com/ChrisSlacker/status/2097857853675778456",
+      "has_image": true,
+      "image": "/images/x/2097857853675778456.jpg",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-10-2",
+      "source": "x-public",
+      "name": "橙黑龙纹少女",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "动漫致敬",
+        "时尚人像",
+        "龙纹身",
+        "橙黑配色",
+        "烟雾"
+      ],
+      "suitable": "适合生成带动漫致敬感、纹身与烟雾细节突出的高对比时尚角色肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create an image from the following prompt :\nA young woman in her early 20s with long straight black hair and a bold white streak falling over one side, blunt bangs, sharp blue eyes lined in red, pale dewy skin. Intricate black dragon tattoos cover both arms and wrap across her midriff. She wears a tight black high-neck sleeveless crop top, an oversized white unbuttoned shirt slipping off her shoulders, and black cargo pants with large ornate gold dragon buckles at the hips. A sheathed katana sits at her side. She exhales a thick plume of white smoke drifting across the frame. Confident, slightly alluring pose, looking straight at the camera, hands near her waist. Solid vibrant orange-yellow background with a large black circular swirling emblem behind her covering 60% of background and has multiple outer rings. Dramatic rim lighting, cinematic color grade, ultra-detailed skin, fabric, metal, ink, and smoke. Shot on Canon EOS R5 85mm f/1.4, shallow depth of field, editorial fashion photography.",
+      "url": "https://x.com/tealdog2/status/2097858675516006538",
+      "has_image": true,
+      "image": "/images/x/2097858675516006538.jpg",
+      "models": [
+        "Grok Imagine V2",
+        "GPT Image 2",
+        "Krea2 Ultra V1"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-3",
+      "source": "x-public",
+      "name": "霓虹情侣肖像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "情侣肖像",
+        "身份保持",
+        "霓虹夜景",
+        "散景",
+        "纪实人像"
+      ],
+      "suitable": "适合用参考图保持面部身份，生成温暖浪漫、背景虚化的夜景情侣合照。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok\n② Add your image\n③ Paste the prompt\n④ Create the result\n\nUse the uploaded image as the only facial reference and preserve 100% facial identity, hairstyle, beard, skin tone, and natural skin texture.\nA medium shot of a young South Asian couple posing together, leaning against a silver metal railing at night. On the left, a man with a neatly groomed beard, dark hair, and a lean build wears a dark maroon button-up shirt and a wristwatch, resting his chin on his right hand. Beside him, a young woman with a slender build, soft facial features, and long dark hair, wears a beige floral-patterned traditional tunic, also resting her chin on her hands. Both are looking directly at the viewer with gentle smiles. They are centered in the frame against a blurred background of vibrant green foliage illuminated by colorful, bokeh-style neon lights in pink, blue, and yellow hues. The lighting is soft and warm, highlighting their faces and creating a romantic, inviting atmosphere. The composition is well-balanced, utilizing the railing as a foreground element to create depth. The style is that of a professional portrait, characterized by clear focus on the subjects and a creamy, out-of-focus background.",
+      "url": "https://x.com/DilshadAI1/status/2097857839675167184",
+      "has_image": true,
+      "image": "/images/x/2097857839675167184.jpg",
+      "models": [
+        "GPT Image 2",
+        "Nano Banana Pro",
+        "Gemini",
+        "Grok"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-4",
+      "source": "x-public",
+      "name": "双国微缩旅图",
+      "category": "建筑与空间",
+      "tags": [
+        "X",
+        "旅行海报",
+        "3D微缩",
+        "地理 diorama",
+        "巴基斯坦",
+        "菲律宾",
+        "奢华视觉"
+      ],
+      "suitable": "适合制作多地标融合、具有旅行海报排版和收藏级微缩立体感的目的地视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Premium sophisticated luxury travel-poster masterpiece combining Pakistan 🇵🇰 and the Philippines 🇵🇭 into one seamless original composition, 3:4 vertical format. Create a completely new high-end 3D miniature travel diorama inspired by the reference images, blending landscapes, architecture, culture and natural beauty into one connected world, not a split screen or simple collage.\nDESTINATION IDENTITY\nPakistan 🇵🇰 — From Mountains to the Sea — Feature snow-covered Himalayan and Karakoram peaks, Gilgit-Baltistan, Skardu, Hunza and Swat Valley with turquoise lakes, pine forests, rivers and mountain villages. Naturally transition toward Islamabad with Faisal Mosque, historic Lahore with Badshahi Mosque and Mughal architecture, then Peshawar, Quetta, Multan and finally the turquoise Arabian Sea with Gwadar and Karachi, coastal cliffs, boats and palm-lined waterfronts.\nPhilippines 🇵🇭 — Islands, Nature & Adventure — Feature turquoise lagoons, dramatic limestone cliffs, tropical forests, palm-covered islands, white beaches, colorful coastal villages, luxury resorts, historic churches, stone forts, yachts, traditional boats and crystal-clear ocean water.\nCOMPOSITION\nCreate one continuous miniature world showing a visual journey from Pakistan's snowy mountains and historic cities to its Arabian Sea coastline, naturally flowing into the tropical islands of the Philippines.\nUse an elevated cinematic perspective with strong foreground, middle-ground and background depth. Include miniature mountains, lakes, rivers, mosques, churches, forts, villages, roads, bridges, boats, yachts, palm trees and detailed vegetation.\nMake the entire scene look like an extraordinarily detailed premium collectible geographical model displayed on an elegant sculpted platform.\nTYPOGRAPHY\nUse elegant vintage-modern luxury travel typography with generous negative space.\nPAKISTAN • PHILIPPINES\nTWO NATIONS • ENDLESS BEAUTY\nMOUNTAINS • CULTURE • ISLANDS • ADVENTURE\n“From the Highest Peaks to Tropical Seas.”\nInclude accurate Pakistan 🇵🇰 and Philippines 🇵🇭 flags, refined serif lettering, subtle decorative lines and clean professional typography.\nART DIRECTION\nPremium international luxury travel campaign, hyper-realistic 3D miniature diorama, sophisticated architectural visualization, realistic geographical terrain, detailed cultural landmarks, cinematic travel photography, realistic mountains, tropical islands, crystal-clear water and premium collectible postcard aesthetic.\nBlend the majestic beauty of Pakistan with the tropical paradise of the Philippines into one harmonious artistic experience.\nCOLOR SYSTEM\nUse warm ivory, parchment cream, snowy white, Himalayan blue, turquoise, emerald green, sandstone, terracotta, tropical green and soft golden sunlight.\nKeep the colors naturally connected, transitioning from cool mountain tones into warm desert and vibrant tropical coastal colors.\nLIGHTING & ATMOSPHERE\nCinematic golden-hour lighting with warm sunlight across mountains, cities, islands and coastlines. Add subtle mountain mist, glowing windows, realistic water reflections, soft clouds and natural atmospheric depth.\nThe mood should feel majestic, peaceful, vibrant, adventurous and luxurious.\nQUALITY\nUltra-realistic, extremely detailed, premium architectural visualization, realistic miniature scale, authentic cultural architecture, detailed mountains and vegetation, realistic water reflections, cinematic HDR lighting, sophisticated depth of field, 8K-quality appearance, flawless composition and high-end travel-magazine aesthetic.\nNEGATIVE PROMPT\nNo split screen.\nNo separate posters.\nNo simple collage.\nNo hard division between countries.\nNo duplicated landmarks.\nNo distorted mosques, churches or buildings.\nNo unrealistic geography.\nNo incorrect flags.\nNo overcrowded composition.\nNo excessive text.\nNo misspelled words.\nNo harsh neon colors.\nNo cartoon style.\nNo watercolor or painterly style.\nNo flat 2D appearance.\nNo artificial-looking water.\nNo distorted boats or mountains.\nNo visual clutter.\nNo copied reference layout.\nNo watermark or logo.\nCreate a fresh, original, unified and luxurious travel-diorama composition celebrating Pakistan and the Philippines as two extraordinary worlds in one unforgettable journey.",
+      "url": "https://x.com/KrishnaBio1/status/2097853092880613845",
+      "has_image": true,
+      "image": "/images/x/2097853092880613845.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-5",
+      "source": "x-public",
+      "name": "星河荒漠侧影",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "双重曝光",
+        "天文人像",
+        "荒漠景观",
+        "艺术摄影",
+        "星空"
+      ],
+      "suitable": "适合制作人物侧脸与宏大星空、荒漠景观无缝融合的艺术感双重曝光海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Image Prompt:\n\nA cinematic double-exposure portrait of a rugged middle-aged astronomer shown in sharp side profile, facing right. He has windswept salt-and-pepper hair, a neatly textured beard, thoughtful eyes and a calm expression filled with curiosity.\n\nHis silhouette seamlessly contains an immense high-altitude desert beneath a brilliant night sky. A glowing Milky Way stretches diagonally across his head and face, surrounded by dense stars and several restrained meteor trails. On a tall sandstone ridge inside the silhouette, a an astronomer stands beside a telescope near a small silver observatory dome illuminated by warm amber light.\n\nThe lower half of the portrait opens into a majestic desert valley filled with monumental red-rock formations, a natural stone arch, distant mesas and a winding silver river reflecting the final light of sunset. The landscape transitions naturally from warm twilight near the horizon to a deep indigo star field above.\n\nHyper-detailed fine-art realism, seamless photographic collage, sophisticated editorial composition, realistic skin and hair texture, cinematic atmospheric depth, deep indigo, rust red, muted violet, amber and starlight-silver color palette. Clean warm ivory background, crisp silhouette edges with subtle fragments dissolving into stars, strong visual hierarchy, premium gallery-quality finish, vertical 4:5 composition. No text, logo, border, signature or watermark.",
+      "url": "https://x.com/nagarjuncreates/status/2097849620080808185",
+      "has_image": true,
+      "image": "/images/x/2097849620080808185.jpg",
+      "models": [
+        "GPT Image 2"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-10-6",
+      "source": "x-public",
+      "name": "雨中古墓剧照",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "历史电影感",
+        "考古场景",
+        "写实摄影",
+        "维多利亚时代",
+        "雨雾氛围"
+      ],
+      "suitable": "适合生成历史冒险电影感、考古人物与遗迹细节并重的写实场景。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "An ultra-photorealistic cinematic scene set in 1850 inside a newly opened Celtic passage tomb beneath a rain-soaked British moor. A remarkably handsome, tall and powerfully built 30-year-old Victorian archaeologist carefully examines an intricate ancient bronze relic resting on a moss-covered stone altar. He has wavy light-brown hair, sea-green eyes, a square jaw, light stubble and a serious, intelligent expression.\n\nHe wears a historically accurate dark forest-green wool frock coat, ivory high-collared linen shirt, weathered brown waistcoat, charcoal trousers, muddy knee-high leather boots, a leather satchel and a practical expedition belt. He holds a glowing brass bullseye lantern low beside him while studying the relic.\n\nThe chamber contains carved Celtic knotwork, fragmented torcs, archaeological brushes, rolled survey maps, a brass compass, coiled rope and wooden field crates. Through a narrow stone entrance behind him, heavy rain falls across a misty moor while two distant expedition workers stand beside a canvas shelter.\n\nLow three-quarter camera angle, compelling off-centre composition, bronze relic prominent in the foreground, warm amber lantern light contrasting with cool blue-grey daylight, wet stone reflections, drifting dust, faint ground mist and realistic atmospheric depth. Authentic materials, natural skin texture, detailed period clothing, restrained colour palette of forest green, bronze, umber and slate. Prestigious historical adventure film still, 35mm cinematic photography, dramatic but physically believable lighting, photorealistic anatomy and hands, vertical 4:5 composition, no text, no logo, no watermark.",
+      "url": "https://x.com/nagarjuncreates/status/2097580788510540179",
+      "has_image": true,
+      "image": "/images/x/2097580788510540179.jpg",
+      "models": [
+        "GPT Image"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-1",
+      "source": "x-public",
+      "name": "柔性机甲海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "生物机甲",
+        "柔性超现实",
+        "粉彩",
+        "软CGI",
+        "海报构图",
+        "超现实尺度"
+      ],
+      "suitable": "适合把任意主体转成柔和梦幻、超现实尺度的未来机甲海报主视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "{机甲主题}，只参考主题核心识别信息，转译为柔性超现实机甲海报风。巨型漂浮机甲 / 机械生物，圆润有机的 biomorphic mech 轮廓，流线外壳，柔软曲面，半封闭机械结构，环状构件、翼状片体、鳍状延展，未来雕塑感。高明度低饱和粉彩配色，薄荷绿、雾蓝、奶白、柔粉、浅橙、冰蓝等根据主题自动适配。soft CGI，喷枪渐变，磨砂树脂、半透明塑料、轻雾玻璃、柔光金属材质。超现实尺度错置，巨大机甲悬浮于天空 / 花田 / 湖面 / 草地 / 白色展场上方，下方保留极小人物或地景作比例参照。海报式构图，大面积留白，独立艺术企划主视觉，少量克制英文排版。左上角 stylized V + cat logo，右下角手写签名 voxCAT，局部可有低调 VOXCAT 暗纹或铭牌。",
+      "prompt_en": "",
+      "url": "https://x.com/VoxcatAI/status/2098204872537735265",
+      "has_image": true,
+      "image": "/images/x/2098204872537735265.jpg",
+      "models": [
+        "Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-2",
+      "source": "x-public",
+      "name": "焦糖西装像",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "写实人像",
+        "男士时装",
+        "极简棚拍",
+        "参考图",
+        "商业摄影",
+        "2:3竖构图"
+      ],
+      "suitable": "适合用参考图生成极简棚拍的写实男士时装全身肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Use the uploaded image as the composition, outfit, pose, and lighting reference. Create a photorealistic full-body studio portrait of an adult man in his mid-to-late 20s, standing confidently in a minimalist studio.\n\nGive him a clean short low-cut haircut with a neat taper fade and sharp natural hairline, a smooth clean-shaven face, natural masculine facial proportions, and a calm, confident expression while looking slightly away from the camera.\n\nDress him in a refined warm caramel-brown tailored suit consisting of a fitted single-breasted blazer and matching straight-cut trousers. Under the blazer, he wears a simple plain white crew-neck T-shirt, creating a clean smart-casual look. Add polished dark brown leather lace-up shoes with subtle black soles. No chain, necklace, earrings, or unnecessary accessories.\n\nRecreate the relaxed pose with both hands casually inside the trouser pockets, shoulders relaxed, body standing upright, and feet naturally spaced apart. Ensure the clothing fits realistically with natural fabric folds and accurate adult body proportions.\n\nUse a minimal light-gray studio background with a seamless gray floor. Lighting should be soft, diffused, and professional, producing natural skin tones, gentle shadows beneath the subject, subtle highlights on the suit fabric, and crisp facial detail.\n\nFull-body framing from head to shoes, centered composition, eye-level camera angle, editorial menswear photography, realistic skin texture, sharp focus, premium fashion campaign aesthetic, clean minimal styling, photorealistic, high detail, 4K quality, vertical 2:3 composition.",
+      "url": "https://x.com/abs_uiux/status/2098216202870964315",
+      "has_image": true,
+      "image": "/images/x/2098216202870964315.jpg",
+      "models": [
+        "GPT 2.5 image"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-3",
+      "source": "x-public",
+      "name": "文学混合封面",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "文学海报",
+        "微缩立体",
+        "石墨插画",
+        "复古书封",
+        "混合媒介",
+        "收藏级视觉"
+      ],
+      "suitable": "适合把任意主题转成复古书封、手工微缩场景、石墨插画与破页立体效果的收藏级主视觉。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "2x2 grid, 16:9, do this for 4 systems of government: 2x2 grid, 16:9, do this for famous manga: <instructions> CONCEPT ANCHOR 1: \"Pastel storybook cutaway collectible diorama — spherical or capsule-like cross-sections, miniature rooms and habitats, matte toy materials, tiny props, plaque presentation, warm editorial lighting\"  :: CONCEPT ANCHOR 2: \"Vintage literary screenprint cover — cream paper field, limited duotone palette, tall condensed typography, silhouette profiles, embedded skylines and iconography, elegant poster frontality\"  :: CONCEPT ANCHOR 3: \"Graphite fantasy plate interrupted by dimensional page-burst drama — whisper-soft pencil rendering, atmospheric negative space, drifting dust and paper fragments, selective sculptural emergence from flat image space\"  INSTRUCTION: Find the exact visual center of these three concepts. Ignore the literal books, monsters, spaceships, authors, and riders. Capture only the style essence.  Render {$SUBJECT} as a deluxe literary-artifact hybrid image where the subject exists simultaneously as: 1. a finely crafted cutaway miniature world, 2. a classic screenprinted book-cover silhouette, 3. a soft graphite illustration with vast breathing room, 4. and a partially ruptured page-space where select elements burst forward into dimensional reality.  STYLE RULES: - Main composition should feel like a collector’s edition book-cover poster for {$SUBJECT}. - The outer silhouette or framing device should be iconic and poster-readable from far away. - Inside that silhouette, AI should infer a tiny layered micro-world built from handcrafted miniature diorama logic. - The micro-world should include inferred props, architecture, creatures, tools, furniture, terrain, machinery, ornaments, or symbolic story fragments drawn from {$SUBJECT}. - Most of the composition should retain elegant restraint: cream paper, negative space, clean typography zones, and selective pencil softness. - One or two focal elements should rupture the flat printed world and emerge forward with suspended debris, torn paper fibers, dust motes, broken margins, and dimensional energy. - Use tactile material contrast: matte miniature surfaces, flat ink print fields, graphite softness, and sharp burst-depth accents. - Typography should be inferred from {$SUBJECT}: title, subtitle, author-like credit, edition badge, or series plaque. - Layout should feel premium, collectible, literary, and gallery-worthy.  COLOR RULES: - Base field: warm cream, parchment, pale ivory. - Main print palette: infer one restrained duotone family from {$SUBJECT}. - Diorama interior: softened pastel variants of the same palette, with subtle toy-like warmth. - Graphite zones: smoky grays, silver pencil values, soft edge falloff. - Burst zones: one higher-contrast accent family inferred from the emotional charge of {$SUBJECT}.  OUTPUT: A premium hybrid literary key art for {$SUBJECT} that feels like a vintage cover, a handcrafted miniature museum piece, a graphite illustration, and a book-page eruption frozen in one elegant image.",
+      "url": "https://x.com/Gdgtify/status/2098193553470226903",
+      "has_image": true,
+      "image": "/images/x/2098193553470226903.jpg",
+      "models": [
+        "GPT Images 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-11-4",
+      "source": "x-public",
+      "name": "人物档案海报",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "人物海报",
+        "写实摄影",
+        "3D破框",
+        "信息设计",
+        "传记档案",
+        "时间轴"
+      ],
+      "suitable": "适合将人物及其成就做成写实、破框道具、信息切片和时间轴结合的传记海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "《人物3D立像档案》通用提示词： 请创作一张竖版 3:4「现代人物3D立像档案海报」。 主题人物：【人物姓名】 人物身份：【科学家 / 企业家 / 艺术家 / 作家 / 教育家 / 医学家等】 核心成就：【一句话概括他/她改变了什么】 代表道具：【最能代表这个人物的物品】 主色调：【根据人物领域选择，例如金黄稻田 / 科技蓝 / 戈壁灰 / 医学青绿等】 画面中央是一位高度写实的现实主义人物主视觉，人物要像真实站在镜头前，具有纪实摄影质感、电影级光影、真实皮肤纹理、真实服装材质和清晰面部细节。 人物一只手将【代表道具】朝镜头前伸，形成强烈近大远小、破框而出的 3D 视觉冲击。道具必须完整可见、清晰真实、有材质细节，不能被裁切，不能变形，不能糊掉。 四周加入 6-8 个轻质悬浮的信息切片，每个切片包含关键年份、事件标题、小图像和简短说明，用来呈现人物的重要经历、代表成就和时代影响。信息切片要半透明、轻盈、有细线连接，不要厚重卡片感，不要喧宾夺主。 左侧设置人物大标题【人物姓名】，搭配身份说明和一句简短精神概括。底部设置一条轻量时间轴，串联人物一生的重要节点，使用细线、小圆点和简洁年份，不要做成厚重底栏。 整体风格：现实主义人物摄影 + 电影海报 + 人物传记档案 + 现代信息设计。 重点：人物要真实，道具要冲出来，信息要轻，时间线要清楚。\n\n参数组：可以让gpt写\n\n人物姓名\n代表道具： \n核心成就： \n主色调： \n\n示例：\nSam Altman｜ChatGPT / OpenAI\n\n代表道具：一枚悬浮在掌心前方的“AI 神经核心”，由六重交织环形结构、发光节点与流动字符构成，可以借鉴 OpenAI 式几何语言，但避免直接把巨大 Logo 当成唯一主体。\n\n核心成就：推动生成式人工智能走向大众，让自然语言成为人与人工智能交互的重要入口。\n\n人物身份：科技企业家 / AI产业推动者\n\n3D动作：Sam Altman 身穿极简深色针织衫或西装，一只手向镜头伸出，掌心托起正在运转的 AI 神经核心。最前端的核心明显突破画框，内部可见文字、代码、图像、语音等多模态信息汇聚。\n\n信息切片可选：2015 OpenAI成立、2022 ChatGPT发布、2023 GPT-4、2024 多模态模型演进、AI Agents、人工智能基础设施。\n\n主色调：极简黑 / 冷银 / 微弱青白光\n\n视觉关键词：\n黑色无限空间、银色神经网络、白色数据粒子、极简实验室、AGI 概念、悬浮计算核心。\n精神概括：\n「让机器理解人类的语言。」",
+      "prompt_en": "",
+      "url": "https://x.com/XiaoKooeye/status/2098209841311560127",
+      "has_image": true,
+      "image": "/images/x/2098209841311560127.jpg",
+      "models": [
+        "Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    }
+  ],
+  "models": [
+    {
+      "id": "GPT Image 2",
+      "count": 52
+    },
+    {
+      "id": "GPT Image",
+      "count": 2
+    },
+    {
+      "id": "Meta Muse Image",
+      "count": 4
+    },
+    {
+      "id": "Flux",
+      "count": 1
+    },
+    {
+      "id": "Image 2.5",
+      "count": 2
+    },
+    {
+      "id": "Imagine 2.0",
+      "count": 1
+    },
+    {
+      "id": "GPT",
+      "count": 1
+    },
+    {
+      "id": "GPT Image 2.0",
+      "count": 1
+    },
+    {
+      "id": "GPT Image 2.5",
+      "count": 1
+    },
+    {
+      "id": "Grok Imagine V2",
+      "count": 1
+    },
+    {
+      "id": "Krea2 Ultra V1",
+      "count": 1
+    },
+    {
+      "id": "Nano Banana Pro",
+      "count": 1
+    },
+    {
+      "id": "Gemini",
+      "count": 1
+    },
+    {
+      "id": "Grok",
+      "count": 1
+    },
+    {
+      "id": "GPT 2.5 image",
+      "count": 1
+    },
+    {
+      "id": "GPT Images 2.5",
+      "count": 1
+    },
+    {
+      "id": "未注明",
+      "count": 34
+    }
+  ]
+}
