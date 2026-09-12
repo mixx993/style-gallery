@@ -2137,6 +2137,110 @@
       ],
       "model_note": "",
       "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-12-1",
+      "source": "x-public",
+      "name": "杂志封面",
+      "category": "海报与编辑",
+      "tags": [
+        "X",
+        "时尚摄影",
+        "杂志封面",
+        "编辑风",
+        "肖像"
+      ],
+      "suitable": "适合把人物照片转换成高端杂志风格的时尚肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "将我上传的照片转换成高端时尚编辑照片。保持我的身份识别自然清晰。给我精致姿态、'[服装/风格]'、专业工作室或编辑光线、逼真肤质、精心控制的阴影、高级构图、细微景深和精美可信的调色。看起来像真实时尚摄影师为主流杂志拍摄。",
+      "prompt_en": "",
+      "url": "https://x.com/ChrisSlacker/status/2098579107172978898",
+      "has_image": false,
+      "image": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测。",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-12-2",
+      "source": "x-public",
+      "name": "旅行写真",
+      "category": "摄影与写实",
+      "tags": [
+        "X",
+        "旅行摄影",
+        "目的地写真",
+        "环境融合",
+        "人像"
+      ],
+      "suitable": "适合将人物照片自然融入指定目的地，制作真实旅行摄影。",
+      "input": "文字或参考图",
+      "prompt_zh": "将我上传的照片转换成在'[目的地]'拍摄的专业旅行照片。保持我的脸部和身份一致，同时自然融入地点。逼真匹配光线、阴影、视角、天气、服装和环境。使用专业旅行摄影构图，具有逼真景深、自然色彩、细致周围环境和细微背景分离。",
+      "prompt_en": "",
+      "url": "https://x.com/ChrisSlacker/status/2098579105449115764",
+      "has_image": false,
+      "image": "",
+      "models": [
+        "未注明"
+      ],
+      "model_note": "原帖未明确模型，需自测。",
+      "model_confidence": "unspecified"
+    },
+    {
+      "id": "x-2026-09-12-3",
+      "source": "x-public",
+      "name": "低保真嘻哈",
+      "category": "动画与插画",
+      "tags": [
+        "X",
+        "Lo-fi",
+        "嘻哈美学",
+        "线稿插画",
+        "平涂色彩",
+        "奇幻"
+      ],
+      "suitable": "适合制作带奇幻叙事感的低保真嘻哈风角色插画。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "A minimalist line art illustration with vivid, flat colors of intentionally low quality, imbued with a cinematic effect and absurd design. The central subject is a character holding a paper cup of warm coffee, with elements that appear as figments of imagination, rendered in a modern indie aesthetic. The composition should be framed to emphasize the surreal and dreamlike qualities, with a focus on bold, graphic shapes and a limited, high-contrast color palette that enhances the overall artistic vision.",
+      "url": "https://x.com/LANDCASTER_92/status/2098568302469484874",
+      "has_image": true,
+      "image": "/images/x/2098568302469484874.jpg",
+      "models": [
+        "GPT Image-2",
+        "Grok"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-12-4",
+      "source": "x-public",
+      "name": "霓虹武士",
+      "category": "动画与插画",
+      "tags": [
+        "X",
+        "赛博武士",
+        "奇幻插画",
+        "金属质感",
+        "霓虹色",
+        "高对比"
+      ],
+      "suitable": "适合生成高饱和、金属质感强烈的赛博幻想武士角色海报。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "A ferocious anthropomorphic feline samurai crouches forward in a dense forest, The creature has deep crimson fur, piercing eyes, exposed fangs, long white whiskers, and an aggressive snarl. Its elaborate helmet and armor combine glossy black, cobalt blue, silver, and red lacquered metal, with enormous crescent-shaped horns sweeping upward and inward like claws. Bulky silver gauntlets and forearm armor reflect the blade’s bright light, while layered cords, engraved plates, and ornate weapon details add complexity. The background is filled with dark leafy trees under an unnatural saturated magenta sky. Extreme close-up, low-angle close portrait, centered symmetrical composition, dramatic foreshortening, hyper-detailed fantasy illustration, polished metallic reflections, high contrast, neon color grading, dark mythic samurai energy. The armor is coated in a surreal marbled chrome finish, with highly reflective surfaces and intricate engraved details. Heavy silver chains drape across the shoulders and chest, adding weight and aggression. amber eyes stare directly at the viewer with a hostile, battle-ready expression. Maximalist cyber-samurai fantasy, hyper-detailed digital art, glossy metallic rendering, exaggerated symmetry, early-2000s surreal CGI aesthetic, intense saturation, intimidating ornamental design.",
+      "url": "https://x.com/LANDCASTER_92/status/2098548565748646021",
+      "has_image": true,
+      "image": "/images/x/2098548565748646021.jpg",
+      "models": [
+        "GPT Image-2",
+        "Grok"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
     }
   ],
   "models": [
@@ -2157,7 +2261,15 @@
       "count": 1
     },
     {
+      "id": "Grok",
+      "count": 3
+    },
+    {
       "id": "Image 2.5",
+      "count": 2
+    },
+    {
+      "id": "GPT Image-2",
       "count": 2
     },
     {
@@ -2193,10 +2305,6 @@
       "count": 1
     },
     {
-      "id": "Grok",
-      "count": 1
-    },
-    {
       "id": "GPT 2.5 image",
       "count": 1
     },
@@ -2206,7 +2314,7 @@
     },
     {
       "id": "未注明",
-      "count": 34
+      "count": 36
     }
   ]
 }
