@@ -2241,6 +2241,85 @@
       ],
       "model_note": "",
       "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-13-1",
+      "source": "x-public",
+      "name": "古风书卷仕女肖像",
+      "category": "X 收集",
+      "tags": [
+        "X",
+        "古风",
+        "人物肖像",
+        "宋制褙子",
+        "书卷感",
+        "9:16"
+      ],
+      "suitable": "适合生成带宋制服饰、书案与午后静光的古风人物近景肖像。",
+      "input": "文字或参考图",
+      "prompt_zh": "GPT Image 2.5生成古风人像\n\n提示词（欢迎返图）：\n主题风格：古风书卷电影感人像\n身份气质：世家闺秀，知性、内敛、温婉、略带距离感\n妆感目标：秋砚胭脂知性妆\n五官方向：知性温婉脸，眉眼舒展，骨相清秀，眼神平静，唇形自然丰润\n发型与发饰方向：乌发低盘，墨玉发梳、浅金细簪、少量胭脂色珠花\n服装方向：砚灰色宋制褙子，搭配胭脂米色长裙与月白内衫\n场景方向：书案 / 纸卷 / 砚台 / 半掩花窗 / 午后静光\n镜头方向：胸像近景，人物坐于案前，手边有展开书卷\n画幅比例：9:16\n创意自由度：标准\n补充要求：妆容以砚灰棕、柔胭脂粉与低调高光为主，妆后气质像读书久坐后整理妆容的世家闺秀，静而不寡淡，近景必须耐看。胸部饱满自然，胸线明显。",
+      "prompt_en": "",
+      "url": "https://x.com/liyue_ai/status/2098811129044848769",
+      "has_image": true,
+      "image": "/images/x/2098811129044848769.jpg",
+      "models": [
+        "GPT Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-13-2",
+      "source": "x-public",
+      "name": "灰烬巨像巷战",
+      "category": "影视与氛围",
+      "tags": [
+        "X",
+        "电影感",
+        "动作场景",
+        "巨像",
+        "巷道",
+        "低机位"
+      ],
+      "suitable": "适合制作低机位、电影感的巨像踩踏瞬间与生存动作场景。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Prompt: A photorealistic alley action. A woman in a grey coat slides on her hip under the stepping foot of a golem made of packed wood-ash and cinder, the foot a meter across, ash exploding in a ring. Brick walls, one lit window. Palette: ash, brick, the orange of the window, her clenched jaw. No weapons — survival geometry. 24mm, low. 2:3 aspect ratio.",
+      "url": "https://x.com/TraffAlex/status/2098872784474497183",
+      "has_image": true,
+      "image": "/images/x/2098872784474497183.jpg",
+      "models": [
+        "GPT Image 2.5",
+        "MAI-Image-2.6-flash"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
+    },
+    {
+      "id": "x-2026-09-13-3",
+      "source": "x-public",
+      "name": "蓝图人物工程角色表",
+      "category": "潮玩与角色",
+      "tags": [
+        "X",
+        "蓝图",
+        "角色设定",
+        "工程制图",
+        "参考图一致性",
+        "技术分析"
+      ],
+      "suitable": "适合把参考人物转成保留身份特征的工业工程蓝图角色设定页。",
+      "input": "文字或参考图",
+      "prompt_zh": "",
+      "prompt_en": "Create a HIGH-END PROFESSIONAL PHOTOREALISTIC ENGINEERING BLUEPRINT CHARACTER SHEET using the provided reference image as the ABSOLUTE IDENTITY SOURCE.\n\nIDENTITY LOCK:\nUse the uploaded reference image as the exact identity reference.\nPreserve the subject’s recognizable facial identity, facial structure, proportions, hairstyle, hairline, eyes, eyebrows, nose, lips, jawline, skin tone, age appearance, and overall physical characteristics.\nDO NOT redesign, beautify, replace, or reinterpret the person.\nThe final subject must clearly remain the same person from the reference image.\nThis prompt must work equally well for MALE or FEMALE subjects.\n\nBLUEPRINT STYLE:\nTransform the reference into a sophisticated industrial engineering blueprint / technical design presentation.\nUse a deep navy-blue blueprint background with fine white and cyan technical drafting lines, engineering grids, measurement marks, construction guides, geometric annotations, diagrams, sectional drawings, dimension lines, arrows, labels, and technical schematics.\n\nMAIN SUBJECT:\nShow the person in a realistic photographic pose while maintaining their exact identity.\nCreate a professional technical-document presentation rather than a normal portrait.\nThe subject should appear integrated into the blueprint environment, with portions of the body and clothing overlaid with precise engineering construction lines and technical drafting graphics.\n\nLAYOUT:\nCreate a premium multi-panel vertical blueprint sheet inspired by professional engineering documentation.\n\nInclude approximately 3 coordinated vertical panels:\n1. PRIMARY PORTRAIT PANEL:\n   A highly realistic portrait of the subject, preserving exact identity, with technical blueprint overlays, measurement lines, facial construction guides, geometric markers, and engineering annotations.\n\n2. TECHNICAL ANALYSIS PANEL:\n   A second view of the same subject with technical diagrams surrounding and partially overlaying the body, including geometric construction lines, perspective guides, dimension measurements, callouts, and schematic details.\n\n3. ENGINEERING SCHEMATIC PANEL:\n   A more technical presentation containing the subject plus detailed blueprint-style diagrams, front/side/top construction views, mechanical-style geometric layouts, sectional elements, measurement indicators, and technical annotation graphics.\n\nVISUAL LANGUAGE:\nProfessional aerospace / industrial engineering blueprint aesthetic.\nPrecision drafting.\nArchitectural technical drawing.\nMechanical engineering documentation.\nScientific schematic presentation.\nHigh-end concept-development sheet.\nClean technical typography.\nFine drafting lines.\nAccurate perspective grids.\nSubtle measurement numbers.\nTechnical arrows and callout boxes.\nLayered construction geometry.\n\nPHOTOREALISM:\nThe human subject must remain photorealistic and naturally rendered.\nRealistic skin texture.\nNatural facial detail.\nRealistic hair strands.\nAccurate anatomy.\nNatural hands and fingers.\nRealistic clothing materials.\nSubtle photographic depth.\nNo cartoon appearance.\nNo illustration-style face.\n\nBLUEPRINT GRAPHICS:\nUse sophisticated technical overlays around the subject:\n- facial measurement guides\n- body proportion guides\n- construction circles\n- perspective grids\n- dimension arrows\n- cross-section diagrams\n- exploded technical-style diagrams\n- top/front/side views\n- geometric measurements\n- coordinate lines\n- engineering symbols\n- annotation boxes\n- small technical labels\n- schematic components\n- fine white/cyan drafting strokes\n\nCOLOR & LIGHTING:\nDominant deep blueprint navy background.\nWhite and cyan technical linework.\nCool monochromatic blue photographic treatment.\nControlled highlights.\nSubtle glow on technical lines.\nStrong contrast.\nPremium cinematic lighting.\nClean professional presentation.\n\nCOMPOSITION:\nHighly organized.\nSymmetrical and balanced.\nDense but NOT cluttered.\nEvery panel should feel intentionally designed.\nThe reference subject remains the visual focal point.\nTechnical diagrams support the subject rather than covering or destroying the face.\n\nTEXT:\nUse believable small engineering annotations and technical labels such as:\n\"ENGINEERING SCHEMATIC\"\n\"TECHNICAL ANALYSIS\"\n\"ASSEMBLY PROCESS\"\n\"REFERENCE PROFILE\"\n\"STRUCTURAL ANALYSIS\"\n\"DESIGN SPECIFICATION\"\n\"MODEL STUDY\"\n\nText should remain secondary and visually integrated into the blueprint design.\nAvoid large distracting text.\nAvoid meaningless oversized typography.\n\nQUALITY:\nUltra-detailed.\nHigh resolution.\nPhotorealistic.\nProfessional commercial design.\nPremium engineering presentation.\nSharp technical linework.\nCrisp details.\nPrecise geometry.\nRealistic depth.\nClean edges.\nCinematic quality.\n\nCRITICAL NEGATIVE CONSTRAINTS:\nDo not change the person's identity.\nDo not change gender.\nDo not create a different person.\nDo not alter facial proportions.\nDo not make the face generic.\nDo not create duplicate faces.\nDo not distort anatomy.\nDo not create extra fingers or malformed hands.\nDo not turn the subject into a cartoon or 3D character.\nDo not use random futuristic armor or sci-fi costumes unless present in the reference.\nDo not overcrowd the face with diagrams.\nDo not make the blueprint look like a simple blue filter.\nThe result must look like a REAL PROFESSIONAL ENGINEERING BLUEPRINT / TECHNICAL CHARACTER ANALYSIS SHEET built around the exact reference person.\n\nFINAL RESULT:\nA visually striking, premium, photorealistic engineering blueprint sheet where the uploaded reference person is unmistakably preserved and presented as a professionally documented technical subject.",
+      "url": "https://x.com/meAsifAi/status/2098939721007206440",
+      "has_image": true,
+      "image": "/images/x/2098939721007206440.jpg",
+      "models": [
+        "GPT Image 2.5"
+      ],
+      "model_note": "",
+      "model_confidence": "named"
     }
   ],
   "models": [
@@ -2259,6 +2338,10 @@
     {
       "id": "Flux",
       "count": 1
+    },
+    {
+      "id": "GPT Image 2.5",
+      "count": 4
     },
     {
       "id": "Grok",
@@ -2285,10 +2368,6 @@
       "count": 1
     },
     {
-      "id": "GPT Image 2.5",
-      "count": 1
-    },
-    {
       "id": "Grok Imagine V2",
       "count": 1
     },
@@ -2310,6 +2389,10 @@
     },
     {
       "id": "GPT Images 2.5",
+      "count": 1
+    },
+    {
+      "id": "MAI-Image-2.6-flash",
       "count": 1
     },
     {
